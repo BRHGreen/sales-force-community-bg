@@ -1,0 +1,620 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINER;WAVE,INFO;WORKFLOW,FINER
+05:44:17.0 (51358)|USER_INFO|[EXTERNAL]|00524000005uNfK|neela@lightful.com.commundev|Line Is. Time|GMT+14:00
+05:44:17.0 (75655)|EXECUTION_STARTED
+05:44:17.0 (79345)|CODE_UNIT_STARTED|[EXTERNAL]|0669E000000Cv0R|VF: /apex/communityCaseMgmt
+05:44:17.9 (9698676)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex <init>
+05:44:17.9 (9716394)|SYSTEM_MODE_ENTER|true
+05:44:17.9 (9818208)|HEAP_ALLOCATE|[72]|Bytes:3
+05:44:17.9 (9846012)|HEAP_ALLOCATE|[77]|Bytes:152
+05:44:17.9 (9857345)|HEAP_ALLOCATE|[342]|Bytes:408
+05:44:17.9 (9868436)|HEAP_ALLOCATE|[355]|Bytes:408
+05:44:17.9 (9878511)|HEAP_ALLOCATE|[467]|Bytes:48
+05:44:17.10 (10112895)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+05:44:17.10 (10123593)|SYSTEM_MODE_ENTER|true
+05:44:17.10 (10136491)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+05:44:17.10 (10162358)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+05:44:17.10 (10188664)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:17.10 (10195316)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+05:44:17.10 (10227814)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x634c94f1
+05:44:17.10 (10231287)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+05:44:17.10 (10236360)|VARIABLE_ASSIGNMENT|[88]|escape|null
+05:44:17.10 (10408019)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+05:44:17.10 (10415745)|SYSTEM_MODE_ENTER|true
+05:44:17.10 (10425455)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+05:44:17.10 (10441431)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:17.10 (10446025)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+05:44:17.10 (10460103)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x634c94f1
+05:44:17.0 (12172299)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController <init>
+05:44:17.0 (12179422)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (12383183)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:368
+05:44:17.0 (12389259)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:60
+05:44:17.0 (12391901)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:23
+05:44:17.0 (12397562)|METHOD_ENTRY|[1]|01p9E000000Dmpd|communityCaseMgmtController.communityCaseMgmtController()
+05:44:17.0 (12400358)|STATEMENT_EXECUTE|[1]
+05:44:17.0 (12404355)|STATEMENT_EXECUTE|[1]
+05:44:17.0 (12409401)|METHOD_EXIT|[1]|communityCaseMgmtController
+05:44:17.0 (12416157)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:60
+05:44:17.0 (12420932)|VARIABLE_SCOPE_BEGIN|[21]|this|communityCaseMgmtController|true|false
+05:44:17.0 (12463979)|VARIABLE_ASSIGNMENT|[21]|this|{}|0x46497e78
+05:44:17.0 (12470052)|STATEMENT_EXECUTE|[1]
+05:44:17.0 (12471265)|STATEMENT_EXECUTE|[3]
+05:44:17.0 (12472556)|STATEMENT_EXECUTE|[4]
+05:44:17.0 (12473537)|STATEMENT_EXECUTE|[5]
+05:44:17.0 (12474517)|STATEMENT_EXECUTE|[6]
+05:44:17.0 (12475653)|STATEMENT_EXECUTE|[7]
+05:44:17.0 (12476654)|STATEMENT_EXECUTE|[8]
+05:44:17.0 (12477620)|STATEMENT_EXECUTE|[9]
+05:44:17.0 (12478524)|STATEMENT_EXECUTE|[11]
+05:44:17.0 (12479721)|STATEMENT_EXECUTE|[12]
+05:44:17.0 (12480744)|STATEMENT_EXECUTE|[13]
+05:44:17.0 (12481772)|STATEMENT_EXECUTE|[15]
+05:44:17.0 (12482979)|STATEMENT_EXECUTE|[17]
+05:44:17.0 (12483924)|STATEMENT_EXECUTE|[18]
+05:44:17.0 (12484877)|STATEMENT_EXECUTE|[19]
+05:44:17.0 (12496861)|STATEMENT_EXECUTE|[22]
+05:44:17.0 (12498061)|STATEMENT_EXECUTE|[23]
+05:44:17.0 (12529509)|HEAP_ALLOCATE|[23]|Bytes:85
+05:44:17.0 (12537464)|SYSTEM_METHOD_ENTRY|[1]|UserInfo.UserInfo()
+05:44:17.0 (12539764)|STATEMENT_EXECUTE|[1]
+05:44:17.0 (12544447)|SYSTEM_METHOD_EXIT|[1]|UserInfo
+05:44:17.0 (12553870)|METHOD_ENTRY|[23]||System.UserInfo.getUserId()
+05:44:17.0 (12585800)|METHOD_EXIT|[23]||System.UserInfo.getUserId()
+05:44:17.0 (12597215)|HEAP_ALLOCATE|[23]|Bytes:4
+05:44:17.0 (12607539)|SYSTEM_METHOD_ENTRY|[23]|communityCaseMgmtController.__sfdc_currentUserId(Id)
+05:44:17.0 (12633419)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x46497e78
+05:44:17.0 (12817988)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"00524000005uNfKAAU"
+05:44:17.0 (12902893)|VARIABLE_ASSIGNMENT|[11]|this.currentUserId|"00524000005uNfKAAU"|0x46497e78
+05:44:17.0 (12912573)|SYSTEM_METHOD_EXIT|[23]|communityCaseMgmtController.__sfdc_currentUserId(Id)
+05:44:17.0 (12916129)|STATEMENT_EXECUTE|[24]
+05:44:17.0 (12919782)|HEAP_ALLOCATE|[24]|Bytes:105
+05:44:17.0 (12927778)|HEAP_ALLOCATE|[24]|Bytes:4
+05:44:17.0 (12935561)|HEAP_ALLOCATE|[24]|Bytes:7
+05:44:17.0 (12941793)|SYSTEM_METHOD_ENTRY|[24]|communityCaseMgmtController.__sfdc_currentUserId()
+05:44:17.0 (13059635)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"00524000005uNfKAAU"}|0x46497e78
+05:44:17.0 (13069496)|SYSTEM_METHOD_EXIT|[24]|communityCaseMgmtController.__sfdc_currentUserId()
+05:44:17.0 (14021359)|SOQL_EXECUTE_BEGIN|[24]|Aggregations:0|SELECT id, name, firstname, lastname, contactid, fullphotourl, phone, email FROM user WHERE id = :tmpVar1
+05:44:17.0 (14030050)|LIMIT_USAGE|[24]|SOQL|1|100
+05:44:17.0 (14038145)|LIMIT_USAGE|[24]|AGGS|0|300
+05:44:17.0 (16871506)|SOQL_EXECUTE_END|[24]|Rows:1
+05:44:17.0 (16878446)|LIMIT_USAGE|[24]|SOQL_ROWS|1|50000
+05:44:17.0 (16889566)|HEAP_ALLOCATE|[24]|Bytes:8
+05:44:17.0 (16904441)|HEAP_ALLOCATE|[24]|Bytes:183
+05:44:17.0 (16954674)|HEAP_ALLOCATE|[24]|Bytes:8
+05:44:17.0 (16964152)|HEAP_ALLOCATE|[24]|Bytes:30
+05:44:17.0 (17008765)|HEAP_ALLOCATE|[24]|Bytes:28
+05:44:17.0 (17022137)|SYSTEM_METHOD_ENTRY|[24]|communityCaseMgmtController.__sfdc_currentUser(User)
+05:44:17.0 (17150485)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"00524000005uNfKAAU"}|0x46497e78
+05:44:17.0 (17167343)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{"Id":"00524000005uNfKAAU","Name":"Neela SN","FirstName":"Neela","LastName":"SN","FullPhotoUrl":"https://c.cs88.conte (43 more) ...","Email":"neela@lightful.com"}|0x6af9ac9e
+05:44:17.0 (17179735)|VARIABLE_ASSIGNMENT|[12]|this.currentUser|{"Id":"00524000005uNfKAAU","Name":"Neela SN","FirstName":"Neela","LastName":"SN","FullPhotoUrl":"https://c.cs88.conte (43 more) ...","Email":"neela@lightful.com"}|0x46497e78
+05:44:17.0 (17187427)|SYSTEM_METHOD_EXIT|[24]|communityCaseMgmtController.__sfdc_currentUser(User)
+05:44:17.0 (17190952)|STATEMENT_EXECUTE|[25]
+05:44:17.0 (17216214)|HEAP_ALLOCATE|[25]|Bytes:4
+05:44:17.0 (17310066)|SYSTEM_METHOD_ENTRY|[25]|communityCaseMgmtController.__sfdc_newCaseOwner(Contact)
+05:44:17.0 (17433698)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU"}|0x46497e78
+05:44:17.0 (17443710)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x76665267
+05:44:17.0 (17451154)|VARIABLE_ASSIGNMENT|[6]|this.newCaseOwner|{}|0x46497e78
+05:44:17.0 (17456996)|SYSTEM_METHOD_EXIT|[25]|communityCaseMgmtController.__sfdc_newCaseOwner(Contact)
+05:44:17.0 (17460429)|STATEMENT_EXECUTE|[27]
+05:44:17.0 (17468290)|SYSTEM_METHOD_ENTRY|[27]|communityCaseMgmtController.__sfdc_showCreateCase(Boolean)
+05:44:17.0 (17571317)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","newCaseOwner":"0x76665267"}|0x46497e78
+05:44:17.0 (17581619)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|false
+05:44:17.0 (17586396)|HEAP_ALLOCATE|[17]|Bytes:5
+05:44:17.0 (17591579)|VARIABLE_ASSIGNMENT|[17]|this.showCreateCase|false|0x46497e78
+05:44:17.0 (17596935)|SYSTEM_METHOD_EXIT|[27]|communityCaseMgmtController.__sfdc_showCreateCase(Boolean)
+05:44:17.0 (17599864)|STATEMENT_EXECUTE|[29]
+05:44:17.0 (17648863)|HEAP_ALLOCATE|[29]|Bytes:4
+05:44:17.0 (17672790)|SYSTEM_CONSTRUCTOR_ENTRY|[29]|<init>()
+05:44:17.0 (17688554)|SYSTEM_CONSTRUCTOR_EXIT|[29]|<init>()
+05:44:17.0 (17696558)|SYSTEM_METHOD_ENTRY|[29]|communityCaseMgmtController.__sfdc_conRelatedAccsList(List<AccountContactRelation>)
+05:44:17.0 (17800818)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (17808049)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:17.0 (17815844)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x10c5f46e
+05:44:17.0 (17822637)|VARIABLE_ASSIGNMENT|[18]|this.conRelatedAccsList|[]|0x46497e78
+05:44:17.0 (17828263)|SYSTEM_METHOD_EXIT|[29]|communityCaseMgmtController.__sfdc_conRelatedAccsList(List<AccountContactRelation>)
+05:44:17.0 (17831166)|STATEMENT_EXECUTE|[30]
+05:44:17.0 (17873235)|HEAP_ALLOCATE|[30]|Bytes:4
+05:44:17.0 (17899800)|SYSTEM_METHOD_ENTRY|[30]|communityCaseMgmtController.__sfdc_myOrgCases(Map<Id,List<Case>>)
+05:44:17.0 (18014946)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18026519)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x4c56f595
+05:44:17.0 (18033187)|VARIABLE_ASSIGNMENT|[5]|this.myOrgCases|{}|0x46497e78
+05:44:17.0 (18038378)|SYSTEM_METHOD_EXIT|[30]|communityCaseMgmtController.__sfdc_myOrgCases(Map<Id,List<Case>>)
+05:44:17.0 (18041230)|STATEMENT_EXECUTE|[31]
+05:44:17.0 (18046830)|HEAP_ALLOCATE|[31]|Bytes:4
+05:44:17.0 (18059422)|SYSTEM_METHOD_ENTRY|[31]|communityCaseMgmtController.__sfdc_accName(Map<Id,String>)
+05:44:17.0 (18169362)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18177520)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x8e76312
+05:44:17.0 (18183569)|VARIABLE_ASSIGNMENT|[7]|this.accName|{}|0x46497e78
+05:44:17.0 (18188354)|SYSTEM_METHOD_EXIT|[31]|communityCaseMgmtController.__sfdc_accName(Map<Id,String>)
+05:44:17.0 (18190999)|STATEMENT_EXECUTE|[32]
+05:44:17.0 (18196057)|HEAP_ALLOCATE|[32]|Bytes:4
+05:44:17.0 (18206333)|SYSTEM_METHOD_ENTRY|[32]|communityCaseMgmtController.__sfdc_accCaseCount(Map<Id,Integer>)
+05:44:17.0 (18316495)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accName":"0x8e76312","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18324504)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x37be80e4
+05:44:17.0 (18330235)|VARIABLE_ASSIGNMENT|[9]|this.accCaseCount|{}|0x46497e78
+05:44:17.0 (18335681)|SYSTEM_METHOD_EXIT|[32]|communityCaseMgmtController.__sfdc_accCaseCount(Map<Id,Integer>)
+05:44:17.0 (18342548)|SYSTEM_METHOD_ENTRY|[34]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (18457836)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18466854)|SYSTEM_METHOD_EXIT|[34]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (18476686)|STATEMENT_EXECUTE|[44]
+05:44:17.0 (18477961)|STATEMENT_EXECUTE|[45]
+05:44:17.0 (18488435)|HEAP_ALLOCATE|[45]|Bytes:4
+05:44:17.0 (18507471)|SYSTEM_METHOD_ENTRY|[45]|communityCaseMgmtController.__sfdc_con(Contact)
+05:44:17.0 (18622819)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18630864)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x3d115ad0
+05:44:17.0 (18636827)|VARIABLE_ASSIGNMENT|[13]|this.con|{}|0x46497e78
+05:44:17.0 (18641710)|SYSTEM_METHOD_EXIT|[45]|communityCaseMgmtController.__sfdc_con(Contact)
+05:44:17.0 (18644308)|STATEMENT_EXECUTE|[46]
+05:44:17.0 (18648282)|SYSTEM_METHOD_ENTRY|[46]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (18758329)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18767210)|SYSTEM_METHOD_EXIT|[46]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (18796491)|SYSTEM_METHOD_ENTRY|[46]|communityCaseMgmtController.__sfdc_newCaseOwner()
+05:44:17.0 (18902557)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (18911051)|SYSTEM_METHOD_EXIT|[46]|communityCaseMgmtController.__sfdc_newCaseOwner()
+05:44:17.0 (19229126)|VARIABLE_ASSIGNMENT|[46]|this.FirstName|"Neela"|0x76665267
+05:44:17.0 (19232940)|STATEMENT_EXECUTE|[47]
+05:44:17.0 (19240546)|SYSTEM_METHOD_ENTRY|[47]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (19375508)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (19385689)|SYSTEM_METHOD_EXIT|[47]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (19409404)|SYSTEM_METHOD_ENTRY|[47]|communityCaseMgmtController.__sfdc_newCaseOwner()
+05:44:17.0 (19517630)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (19525941)|SYSTEM_METHOD_EXIT|[47]|communityCaseMgmtController.__sfdc_newCaseOwner()
+05:44:17.0 (19555088)|VARIABLE_ASSIGNMENT|[47]|this.LastName|"SN"|0x76665267
+05:44:17.0 (19557600)|STATEMENT_EXECUTE|[48]
+05:44:17.0 (19562654)|SYSTEM_METHOD_ENTRY|[48]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (19678632)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (19686622)|SYSTEM_METHOD_EXIT|[48]|communityCaseMgmtController.__sfdc_currentUser()
+05:44:17.0 (19706391)|SYSTEM_METHOD_ENTRY|[48]|communityCaseMgmtController.__sfdc_newCaseOwner()
+05:44:17.0 (19811483)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (19818879)|SYSTEM_METHOD_EXIT|[48]|communityCaseMgmtController.__sfdc_newCaseOwner()
+05:44:17.0 (19850725)|VARIABLE_ASSIGNMENT|[48]|this.Email|"neela@lightful.com"|0x76665267
+05:44:17.0 (19853220)|STATEMENT_EXECUTE|[50]
+05:44:17.0 (19857078)|HEAP_ALLOCATE|[50]|Bytes:118
+05:44:17.0 (19863340)|HEAP_ALLOCATE|[50]|Bytes:4
+05:44:17.0 (20107965)|SOQL_EXECUTE_BEGIN|[50]|Aggregations:0|SELECT AccountId, ContactId, IsActive, IsDirect, Roles FROM AccountContactRelation WHERE ContactId = '0039E000004AdCP'
+05:44:17.0 (20114433)|LIMIT_USAGE|[50]|SOQL|2|100
+05:44:17.0 (20120888)|LIMIT_USAGE|[50]|AGGS|0|300
+05:44:17.0 (22026588)|SOQL_EXECUTE_END|[50]|Rows:2
+05:44:17.0 (22032585)|LIMIT_USAGE|[50]|SOQL_ROWS|3|50000
+05:44:17.0 (22043064)|HEAP_ALLOCATE|[50]|Bytes:12
+05:44:17.0 (22055941)|HEAP_ALLOCATE|[50]|Bytes:246
+05:44:17.0 (22078520)|HEAP_ALLOCATE|[50]|Bytes:12
+05:44:17.0 (22091511)|SYSTEM_METHOD_ENTRY|[50]|communityCaseMgmtController.__sfdc_conRelatedAccsList(List<AccountContactRelation>)
+05:44:17.0 (22222324)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x10c5f46e","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (22240907)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"AccountId":"0019E000006wqt7QAA","ContactId":"0039E000004AdCPQA0","IsActive":true,"IsDirect":false,"Id":"07k9E000000f4JJQAY"},{"AccountId":"0019E000005FzZJQA0","ContactId":"0039E000004AdCPQA0","IsActive":true,"IsDirect":true,"Id":"07k9E000000f4IpQAI"}]|0x76efe7bb
+05:44:17.0 (22254798)|VARIABLE_ASSIGNMENT|[18]|this.conRelatedAccsList|[{"AccountId":"0019E000006wqt7QAA","ContactId":"0039E000004AdCPQA0","IsActive":true,"IsDirect":false,"Id":"07k9E000000f4JJQAY"},{"AccountId":"0019E000005FzZJQA0","ContactId":"0039E000004AdCPQA0","IsActive":true,"IsDirect":true,"Id":"07k9E000000f4IpQAI"}]|0x46497e78
+05:44:17.0 (22262598)|SYSTEM_METHOD_EXIT|[50]|communityCaseMgmtController.__sfdc_conRelatedAccsList(List<AccountContactRelation>)
+05:44:17.0 (22266222)|STATEMENT_EXECUTE|[54]
+05:44:17.0 (22269835)|HEAP_ALLOCATE|[54]|Bytes:168
+05:44:17.0 (22274908)|HEAP_ALLOCATE|[54]|Bytes:4
+05:44:17.0 (22283392)|SYSTEM_METHOD_ENTRY|[54]|communityCaseMgmtController.__sfdc_currentUserId()
+05:44:17.0 (22410403)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (22420032)|SYSTEM_METHOD_EXIT|[54]|communityCaseMgmtController.__sfdc_currentUserId()
+05:44:17.0 (22852455)|SOQL_EXECUTE_BEGIN|[54]|Aggregations:0|SELECT CaseNumber, ContactEmail, ContactId, CreatedById, Description, Priority, Reason, Subject, Issue_Type__c, accountid, status FROM Case WHERE CreatedById = :tmpVar1
+05:44:17.0 (22858313)|LIMIT_USAGE|[54]|SOQL|3|100
+05:44:17.0 (22864822)|LIMIT_USAGE|[54]|AGGS|0|300
+05:44:17.0 (27339831)|SOQL_EXECUTE_END|[54]|Rows:6
+05:44:17.0 (27346040)|LIMIT_USAGE|[54]|SOQL_ROWS|9|50000
+05:44:17.0 (27356227)|HEAP_ALLOCATE|[54]|Bytes:28
+05:44:17.0 (27384773)|HEAP_ALLOCATE|[54]|Bytes:2224
+05:44:17.0 (27411968)|HEAP_ALLOCATE|[54]|Bytes:28
+05:44:17.0 (27428473)|SYSTEM_METHOD_ENTRY|[54]|communityCaseMgmtController.__sfdc_myCases(List<Case>)
+05:44:17.0 (27563572)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (27574011)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"List of size 6 too large to display"|0x3bab0ffb
+05:44:17.0 (27583203)|VARIABLE_ASSIGNMENT|[4]|this.myCases|"List of size 6 too large to display"|0x46497e78
+05:44:17.0 (27589802)|SYSTEM_METHOD_EXIT|[54]|communityCaseMgmtController.__sfdc_myCases(List<Case>)
+05:44:17.0 (27593431)|STATEMENT_EXECUTE|[56]
+05:44:17.0 (27611940)|HEAP_ALLOCATE|[56]|Bytes:4
+05:44:17.0 (27691400)|SYSTEM_METHOD_ENTRY|[56]|communityCaseMgmtController.__sfdc_newCase(Case)
+05:44:17.0 (27824952)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (27834420)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x53f7a6a7
+05:44:17.0 (27841982)|VARIABLE_ASSIGNMENT|[3]|this.newCase|{}|0x46497e78
+05:44:17.0 (27847909)|SYSTEM_METHOD_EXIT|[56]|communityCaseMgmtController.__sfdc_newCase(Case)
+05:44:17.0 (27851596)|STATEMENT_EXECUTE|[57]
+05:44:17.0 (27858650)|HEAP_ALLOCATE|[57]|Bytes:4
+05:44:17.0 (27867736)|SYSTEM_CONSTRUCTOR_ENTRY|[57]|<init>()
+05:44:17.0 (27881367)|SYSTEM_CONSTRUCTOR_EXIT|[57]|<init>()
+05:44:17.0 (27887940)|SYSTEM_METHOD_ENTRY|[57]|communityCaseMgmtController.__sfdc_relatedAccId(List<Id>)
+05:44:17.0 (28003918)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","showCreateCase":false}|0x46497e78
+05:44:17.0 (28029091)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:17.0 (28035991)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x29b5a4a3
+05:44:17.0 (28043138)|VARIABLE_ASSIGNMENT|[8]|this.relatedAccId|[]|0x46497e78
+05:44:17.0 (28049011)|SYSTEM_METHOD_EXIT|[57]|communityCaseMgmtController.__sfdc_relatedAccId(List<Id>)
+05:44:17.0 (28052136)|STATEMENT_EXECUTE|[59]
+05:44:17.0 (28055635)|HEAP_ALLOCATE|[59]|Bytes:21
+05:44:17.0 (28062705)|SYSTEM_METHOD_ENTRY|[59]|communityCaseMgmtController.__sfdc_newCase()
+05:44:17.0 (28189332)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (28199241)|SYSTEM_METHOD_EXIT|[59]|communityCaseMgmtController.__sfdc_newCase()
+05:44:17.0 (28228820)|SYSTEM_METHOD_ENTRY|[59]|String.valueOf(Object)
+05:44:17.0 (28238021)|SYSTEM_METHOD_EXIT|[59]|String.valueOf(Object)
+05:44:17.0 (28242489)|SYSTEM_METHOD_ENTRY|[59]|communityCaseMgmtController.__sfdc_newCase()
+05:44:17.0 (28357379)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (28372052)|SYSTEM_METHOD_EXIT|[59]|communityCaseMgmtController.__sfdc_newCase()
+05:44:17.0 (28384334)|HEAP_ALLOCATE|[59]|Bytes:29
+05:44:17.0 (28401967)|SYSTEM_METHOD_ENTRY|[59]|System.debug(ANY)
+05:44:17.0 (28408485)|USER_DEBUG|[59]|DEBUG|contact of case is : nullnull
+05:44:17.0 (28412030)|SYSTEM_METHOD_EXIT|[59]|System.debug(ANY)
+05:44:17.0 (28414536)|STATEMENT_EXECUTE|[60]
+05:44:17.0 (28417039)|HEAP_ALLOCATE|[60]|Bytes:37
+05:44:17.0 (28424020)|SYSTEM_METHOD_ENTRY|[60]|communityCaseMgmtController.__sfdc_conRelatedAccsList()
+05:44:17.0 (28548722)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (28558559)|SYSTEM_METHOD_EXIT|[60]|communityCaseMgmtController.__sfdc_conRelatedAccsList()
+05:44:17.0 (28573280)|SYSTEM_METHOD_ENTRY|[60]|String.valueOf(Object)
+05:44:17.0 (28624073)|HEAP_ALLOCATE|[60]|Bytes:277
+05:44:17.0 (28634356)|SYSTEM_METHOD_EXIT|[60]|String.valueOf(Object)
+05:44:17.0 (28642398)|HEAP_ALLOCATE|[60]|Bytes:314
+05:44:17.0 (28649580)|SYSTEM_METHOD_ENTRY|[60]|System.debug(ANY)
+05:44:17.0 (28653489)|USER_DEBUG|[60]|DEBUG|Related accounts of the contact is : (AccountContactRelation:{AccountId=0019E000006wqt7QAA, ContactId=0039E000004AdCPQA0, IsActive=true, IsDirect=false, Id=07k9E000000f4JJQAY}, AccountContactRelation:{AccountId=0019E000005FzZJQA0, ContactId=0039E000004AdCPQA0, IsActive=true, IsDirect=true, Id=07k9E000000f4IpQAI})
+05:44:17.0 (28657623)|SYSTEM_METHOD_EXIT|[60]|System.debug(ANY)
+05:44:17.0 (28661908)|SYSTEM_METHOD_ENTRY|[63]|communityCaseMgmtController.__sfdc_conRelatedAccsList()
+05:44:17.0 (28799796)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (28808748)|SYSTEM_METHOD_EXIT|[63]|communityCaseMgmtController.__sfdc_conRelatedAccsList()
+05:44:17.0 (28818438)|SYSTEM_METHOD_ENTRY|[63]|List<AccountContactRelation>.size()
+05:44:17.0 (28822906)|SYSTEM_METHOD_EXIT|[63]|List<AccountContactRelation>.size()
+05:44:17.0 (28828053)|STATEMENT_EXECUTE|[64]
+05:44:17.0 (28832408)|SYSTEM_METHOD_ENTRY|[66]|communityCaseMgmtController.__sfdc_conRelatedAccsList()
+05:44:17.0 (28947359)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (28955770)|SYSTEM_METHOD_EXIT|[66]|communityCaseMgmtController.__sfdc_conRelatedAccsList()
+05:44:17.0 (28962205)|SYSTEM_METHOD_ENTRY|[66]|List<AccountContactRelation>.iterator()
+05:44:17.0 (29059064)|SYSTEM_METHOD_EXIT|[66]|List<AccountContactRelation>.iterator()
+05:44:17.0 (29074420)|SYSTEM_METHOD_ENTRY|[66]|system.ListIterator.hasNext()
+05:44:17.0 (29082536)|HEAP_ALLOCATE|[66]|Bytes:5
+05:44:17.0 (29088415)|SYSTEM_METHOD_EXIT|[66]|system.ListIterator.hasNext()
+05:44:17.0 (29114714)|HEAP_ALLOCATE|[66]|Bytes:24
+05:44:17.0 (29121981)|VARIABLE_SCOPE_BEGIN|[66]|a|AccountContactRelation|true|false
+05:44:17.0 (29135526)|VARIABLE_ASSIGNMENT|[66]|a|{"AccountId":"0019E000006wqt7QAA","ContactId":"0039E000004AdCPQA0","IsActive":true,"IsDirect":false,"Id":"07k9E000000f4JJQAY"}|0x7e373e75
+05:44:17.0 (29138605)|STATEMENT_EXECUTE|[66]
+05:44:17.0 (29140207)|STATEMENT_EXECUTE|[67]
+05:44:17.0 (29147672)|SYSTEM_METHOD_ENTRY|[67]|communityCaseMgmtController.__sfdc_relatedAccId()
+05:44:17.0 (29271722)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (29280945)|SYSTEM_METHOD_EXIT|[67]|communityCaseMgmtController.__sfdc_relatedAccId()
+05:44:17.0 (29329645)|SYSTEM_METHOD_ENTRY|[67]|List<Id>.add(Object)
+05:44:17.0 (29336891)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:17.0 (29344102)|SYSTEM_METHOD_EXIT|[67]|List<Id>.add(Object)
+05:44:17.0 (29346744)|STATEMENT_EXECUTE|[68]
+05:44:17.0 (29349637)|HEAP_ALLOCATE|[68]|Bytes:48
+05:44:17.0 (29357001)|HEAP_ALLOCATE|[68]|Bytes:4
+05:44:17.0 (29747006)|SOQL_EXECUTE_BEGIN|[68]|Aggregations:0|SELECT id, name FROM account WHERE id = :tmpVar1
+05:44:17.0 (29752933)|LIMIT_USAGE|[68]|SOQL|4|100
+05:44:17.0 (29759694)|LIMIT_USAGE|[68]|AGGS|0|300
+05:44:17.0 (33038237)|SOQL_EXECUTE_END|[68]|Rows:1
+05:44:17.0 (33044070)|LIMIT_USAGE|[68]|SOQL_ROWS|10|50000
+05:44:17.0 (33053633)|HEAP_ALLOCATE|[68]|Bytes:8
+05:44:17.0 (33063858)|HEAP_ALLOCATE|[68]|Bytes:83
+05:44:17.0 (33108733)|HEAP_ALLOCATE|[68]|Bytes:8
+05:44:17.0 (33117487)|HEAP_ALLOCATE|[68]|Bytes:33
+05:44:17.0 (33160405)|HEAP_ALLOCATE|[68]|Bytes:16
+05:44:17.0 (33165814)|VARIABLE_SCOPE_BEGIN|[68]|acc|Account|true|false
+05:44:17.0 (33179470)|VARIABLE_ASSIGNMENT|[68]|acc|{"Id":"0019E000006wqt7QAA","Name":"LightfulTest","RecordTypeId":"01224000000gEQBAA2"}|0xc4500b1
+05:44:17.0 (33182373)|STATEMENT_EXECUTE|[69]
+05:44:17.0 (33191373)|SYSTEM_METHOD_ENTRY|[69]|communityCaseMgmtController.__sfdc_accName()
+05:44:17.0 (33333931)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (33345404)|SYSTEM_METHOD_EXIT|[69]|communityCaseMgmtController.__sfdc_accName()
+05:44:17.0 (33400920)|SYSTEM_METHOD_ENTRY|[69]|Map<Id,String>.put(Object, Object)
+05:44:17.0 (33407659)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+05:44:17.0 (33416345)|SYSTEM_METHOD_EXIT|[69]|Map<Id,String>.put(Object, Object)
+05:44:17.0 (33419146)|STATEMENT_EXECUTE|[70]
+05:44:17.0 (33422111)|HEAP_ALLOCATE|[70]|Bytes:174
+05:44:17.0 (33427133)|HEAP_ALLOCATE|[70]|Bytes:4
+05:44:17.0 (33651531)|SOQL_EXECUTE_BEGIN|[70]|Aggregations:0|SELECT CaseNumber, ContactEmail, ContactId, CreatedById, Description, Priority, Reason, Subject, origin, Issue_Type__c, accountid, status FROM Case WHERE accountid = :tmpVar1
+05:44:17.0 (33657265)|LIMIT_USAGE|[70]|SOQL|5|100
+05:44:17.0 (33663770)|LIMIT_USAGE|[70]|AGGS|0|300
+05:44:17.0 (37158493)|SOQL_EXECUTE_END|[70]|Rows:1
+05:44:17.0 (37164440)|LIMIT_USAGE|[70]|SOQL_ROWS|11|50000
+05:44:17.0 (37173979)|HEAP_ALLOCATE|[70]|Bytes:8
+05:44:17.0 (37183840)|HEAP_ALLOCATE|[70]|Bytes:335
+05:44:17.0 (37196866)|HEAP_ALLOCATE|[70]|Bytes:8
+05:44:17.0 (37204912)|VARIABLE_SCOPE_BEGIN|[70]|ocase|List<Case>|true|false
+05:44:17.0 (37230013)|VARIABLE_ASSIGNMENT|[70]|ocase|[{"CaseNumber":"00001214","ContactEmail":"services@lightful.co (1 more) ...","ContactId":"0039E0000037h4mQAA","CreatedById":"00524000005uNfKAAU","Description":"testing related acc  (4 more) ...","Priority":"Medium","Subject":"testing related acc  (4 more) ...","Origin":"Web","AccountId":"0019E000006wqt7QAA","Status":"New","Id":"5009E00000206zGQAQ","RecordTypeId":"012240000002nYhAAI"}]|0x6ad859ba
+05:44:17.0 (37234389)|STATEMENT_EXECUTE|[72]
+05:44:17.0 (37245360)|SYSTEM_METHOD_ENTRY|[72]|communityCaseMgmtController.__sfdc_myOrgCases()
+05:44:17.0 (37391410)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (37402481)|SYSTEM_METHOD_EXIT|[72]|communityCaseMgmtController.__sfdc_myOrgCases()
+05:44:17.0 (37431653)|SYSTEM_METHOD_ENTRY|[72]|Map<Id,List<Case>>.put(Object, Object)
+05:44:17.0 (37437781)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+05:44:17.0 (37446596)|SYSTEM_METHOD_EXIT|[72]|Map<Id,List<Case>>.put(Object, Object)
+05:44:17.0 (37449426)|STATEMENT_EXECUTE|[75]
+05:44:17.0 (37456834)|SYSTEM_METHOD_ENTRY|[75]|communityCaseMgmtController.__sfdc_accCaseCount()
+05:44:17.0 (37580716)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (37590311)|SYSTEM_METHOD_EXIT|[75]|communityCaseMgmtController.__sfdc_accCaseCount()
+05:44:17.0 (37619207)|SYSTEM_METHOD_ENTRY|[75]|List<Case>.size()
+05:44:17.0 (37624929)|SYSTEM_METHOD_EXIT|[75]|List<Case>.size()
+05:44:17.0 (37638322)|SYSTEM_METHOD_ENTRY|[75]|Map<Id,Integer>.put(Object, Object)
+05:44:17.0 (37643111)|HEAP_ALLOCATE|[75]|Bytes:4
+05:44:17.0 (37647975)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+05:44:17.0 (37655482)|SYSTEM_METHOD_EXIT|[75]|Map<Id,Integer>.put(Object, Object)
+05:44:17.0 (37661956)|SYSTEM_METHOD_ENTRY|[66]|system.ListIterator.hasNext()
+05:44:17.0 (37668570)|HEAP_ALLOCATE|[66]|Bytes:5
+05:44:17.0 (37673034)|SYSTEM_METHOD_EXIT|[66]|system.ListIterator.hasNext()
+05:44:17.0 (37693399)|HEAP_ALLOCATE|[66]|Bytes:24
+05:44:17.0 (37700043)|VARIABLE_SCOPE_BEGIN|[66]|a|AccountContactRelation|true|false
+05:44:17.0 (37712655)|VARIABLE_ASSIGNMENT|[66]|a|{"AccountId":"0019E000005FzZJQA0","ContactId":"0039E000004AdCPQA0","IsActive":true,"IsDirect":true,"Id":"07k9E000000f4IpQAI"}|0x5337d51a
+05:44:17.0 (37716136)|STATEMENT_EXECUTE|[66]
+05:44:17.0 (37717558)|STATEMENT_EXECUTE|[67]
+05:44:17.0 (37721786)|SYSTEM_METHOD_ENTRY|[67]|communityCaseMgmtController.__sfdc_relatedAccId()
+05:44:17.0 (37839430)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (37848556)|SYSTEM_METHOD_EXIT|[67]|communityCaseMgmtController.__sfdc_relatedAccId()
+05:44:17.0 (37865340)|SYSTEM_METHOD_ENTRY|[67]|List<Id>.add(Object)
+05:44:17.0 (37869639)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:17.0 (37875613)|SYSTEM_METHOD_EXIT|[67]|List<Id>.add(Object)
+05:44:17.0 (37878141)|STATEMENT_EXECUTE|[68]
+05:44:17.0 (37882187)|HEAP_ALLOCATE|[68]|Bytes:4
+05:44:17.0 (38001351)|SOQL_EXECUTE_BEGIN|[68]|Aggregations:0|SELECT id, name FROM account WHERE id = :tmpVar1
+05:44:17.0 (38007243)|LIMIT_USAGE|[68]|SOQL|6|100
+05:44:17.0 (38013737)|LIMIT_USAGE|[68]|AGGS|0|300
+05:44:17.0 (39414866)|SOQL_EXECUTE_END|[68]|Rows:1
+05:44:17.0 (39420554)|LIMIT_USAGE|[68]|SOQL_ROWS|12|50000
+05:44:17.0 (39429679)|HEAP_ALLOCATE|[68]|Bytes:8
+05:44:17.0 (39439502)|HEAP_ALLOCATE|[68]|Bytes:89
+05:44:17.0 (39451757)|HEAP_ALLOCATE|[68]|Bytes:8
+05:44:17.0 (39472354)|HEAP_ALLOCATE|[68]|Bytes:16
+05:44:17.0 (39477694)|VARIABLE_SCOPE_BEGIN|[68]|acc|Account|true|false
+05:44:17.0 (39491524)|VARIABLE_ASSIGNMENT|[68]|acc|{"Id":"0019E000005FzZJQA0","Name":"neela@lightful.xyz","RecordTypeId":"01224000000gEQBAA2"}|0xaae1b76
+05:44:17.0 (39494453)|STATEMENT_EXECUTE|[69]
+05:44:17.0 (39500807)|SYSTEM_METHOD_ENTRY|[69]|communityCaseMgmtController.__sfdc_accName()
+05:44:17.0 (39631662)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (39641912)|SYSTEM_METHOD_EXIT|[69]|communityCaseMgmtController.__sfdc_accName()
+05:44:17.0 (39666755)|SYSTEM_METHOD_ENTRY|[69]|Map<Id,String>.put(Object, Object)
+05:44:17.0 (39671124)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+05:44:17.0 (39679300)|SYSTEM_METHOD_EXIT|[69]|Map<Id,String>.put(Object, Object)
+05:44:17.0 (39682192)|STATEMENT_EXECUTE|[70]
+05:44:17.0 (39686545)|HEAP_ALLOCATE|[70]|Bytes:4
+05:44:17.0 (39890633)|SOQL_EXECUTE_BEGIN|[70]|Aggregations:0|SELECT CaseNumber, ContactEmail, ContactId, CreatedById, Description, Priority, Reason, Subject, origin, Issue_Type__c, accountid, status FROM Case WHERE accountid = :tmpVar1
+05:44:17.0 (39896545)|LIMIT_USAGE|[70]|SOQL|7|100
+05:44:17.0 (39902768)|LIMIT_USAGE|[70]|AGGS|0|300
+05:44:17.0 (43267136)|SOQL_EXECUTE_END|[70]|Rows:5
+05:44:17.0 (43273320)|LIMIT_USAGE|[70]|SOQL_ROWS|17|50000
+05:44:17.0 (43282825)|HEAP_ALLOCATE|[70]|Bytes:24
+05:44:17.0 (43304645)|HEAP_ALLOCATE|[70]|Bytes:2007
+05:44:17.0 (43317421)|HEAP_ALLOCATE|[70]|Bytes:24
+05:44:17.0 (43325320)|VARIABLE_SCOPE_BEGIN|[70]|ocase|List<Case>|true|false
+05:44:17.0 (43387933)|VARIABLE_ASSIGNMENT|[70]|ocase|[{"CaseNumber":"00001207","ContactEmail":"neela@lightful.xyz","ContactId":"0039E000004AdCPQA0","CreatedById":"00524000005uNfKAAU","Description":"test community type  (9 more) ...","Priority":"Medium","Reason":"Lightful Community","Subject":"test community type  (4 more) ...","Origin":"Communities","Issue_Type__c":"Community issue","AccountId":"0019E000005FzZJQA0","Status":"New","Id":"5009E000001w1IMQAY","RecordTypeId":"012240000002nYhAAI"},{"CaseNumber":"00001206","ContactEmail":"neela@lightful.xyz","ContactId":"0039E000004AdCPQA0","CreatedById":"00524000005uNfKAAU","Description":"dummy test values\r\n\r (24 more) ...","Priority":"Medium","Reason":"Lightful Community","Subject":"Testing Vfpage case  (8 more) ...","Origin":"Communities","Issue_Type__c":"Community question","AccountId":"0019E000005FzZJQA0","Status":"New","Id":"5009E000001w1I2QAI","RecordTypeId":"012240000002nYhAAI"},{"CaseNumber":"00001205","ContactEmail":"neela@lightful.xyz","ContactId":"0039E000004AdCPQA0","CreatedById":"00524000005uNfKAAU","Description":"test case creation f (10 more) ...","Priority":"Medium","Reason":"Lightful Community","Subject":"Testing Vfpage","Origin":"Communities","Issue_Type__c":"Community issue","AccountId":"0019E000005FzZJQA0","Status":"New","Id":"5009E000001w1HiQAI","RecordTypeId":"012240000002nYhAAI"},{"CaseNumber":"00001204","ContactEmail":"neela@lightful.xyz","ContactId":"0039E000004AdCPQA0","CreatedById":"00524000005uNfKAAU","Description":"Testing community ca (15 more) ...","Priority":"Medium","Reason":"My Lightful Account","Subject":"Test","Origin":"Communities","Issue_Type__c":"Problems logging in","AccountId":"0019E000005FzZJQA0","Status":"New","Id":"5009E000001vvt0QAA","RecordTypeId":"012240000002nYhAAI"},{"CaseNumber":"00001203","ContactEmail":"neela@lightful.xyz","ContactId":"0039E000004AdCPQA0","CreatedById":"00524000005uNfKAAU","Description":"Testing community ca (2 more) ...","Priority":"Medium","Reason":"My Lightful Account","Subject":"Test","Origin":"Communities","Issue_Type__c":"Problems logging in","AccountId":"0019E000005FzZJQA0","Status":"New","Id":"5009E000001vvsbQAA","RecordTypeId":"012240000002nYhAAI"}]|0x749c3b4d
+05:44:17.0 (43400780)|STATEMENT_EXECUTE|[72]
+05:44:17.0 (43408119)|SYSTEM_METHOD_ENTRY|[72]|communityCaseMgmtController.__sfdc_myOrgCases()
+05:44:17.0 (43540882)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (43551121)|SYSTEM_METHOD_EXIT|[72]|communityCaseMgmtController.__sfdc_myOrgCases()
+05:44:17.0 (43572620)|SYSTEM_METHOD_ENTRY|[72]|Map<Id,List<Case>>.put(Object, Object)
+05:44:17.0 (43577906)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+05:44:17.0 (43586715)|SYSTEM_METHOD_EXIT|[72]|Map<Id,List<Case>>.put(Object, Object)
+05:44:17.0 (43589402)|STATEMENT_EXECUTE|[75]
+05:44:17.0 (43592912)|SYSTEM_METHOD_ENTRY|[75]|communityCaseMgmtController.__sfdc_accCaseCount()
+05:44:17.0 (43706842)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (43715971)|SYSTEM_METHOD_EXIT|[75]|communityCaseMgmtController.__sfdc_accCaseCount()
+05:44:17.0 (43725316)|SYSTEM_METHOD_ENTRY|[75]|List<Case>.size()
+05:44:17.0 (43729021)|SYSTEM_METHOD_EXIT|[75]|List<Case>.size()
+05:44:17.0 (43739337)|SYSTEM_METHOD_ENTRY|[75]|Map<Id,Integer>.put(Object, Object)
+05:44:17.0 (43742795)|HEAP_ALLOCATE|[75]|Bytes:4
+05:44:17.0 (43746901)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+05:44:17.0 (43754100)|SYSTEM_METHOD_EXIT|[75]|Map<Id,Integer>.put(Object, Object)
+05:44:17.0 (43759353)|SYSTEM_METHOD_ENTRY|[66]|system.ListIterator.hasNext()
+05:44:17.0 (43765165)|HEAP_ALLOCATE|[66]|Bytes:5
+05:44:17.0 (43769439)|SYSTEM_METHOD_EXIT|[66]|system.ListIterator.hasNext()
+05:44:17.0 (43778173)|VARIABLE_ASSIGNMENT|[66]|a|null|
+05:44:17.0 (43780951)|STATEMENT_EXECUTE|[77]
+05:44:17.0 (43783675)|HEAP_ALLOCATE|[77]|Bytes:12
+05:44:17.0 (43789351)|SYSTEM_METHOD_ENTRY|[77]|communityCaseMgmtController.__sfdc_myOrgCases()
+05:44:17.0 (43914192)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (43922867)|SYSTEM_METHOD_EXIT|[77]|communityCaseMgmtController.__sfdc_myOrgCases()
+05:44:17.0 (43939226)|SYSTEM_METHOD_ENTRY|[77]|String.valueOf(Object)
+05:44:17.0 (44140566)|HEAP_ALLOCATE|[77]|Bytes:2314
+05:44:17.0 (44153696)|SYSTEM_METHOD_EXIT|[77]|String.valueOf(Object)
+05:44:17.0 (44160962)|HEAP_ALLOCATE|[77]|Bytes:2326
+05:44:17.0 (44170471)|SYSTEM_METHOD_ENTRY|[77]|System.debug(ANY)
+05:44:17.0 (44176215)|USER_DEBUG|[77]|DEBUG|Org cases : {0019E000005FzZJQA0=(Case:{CaseNumber=00001207, ContactEmail=neela@lightful.xyz, ContactId=0039E000004AdCPQA0, CreatedById=00524000005uNfKAAU, Description=test community type case desc, Priority=Medium, Reason=Lightful Community, Subject=test community type case, Origin=Communities, Issue_Type__c=Community issue, AccountId=0019E000005FzZJQA0, Status=New, Id=5009E000001w1IMQAY, RecordTypeId=012240000002nYhAAI}, Case:{CaseNumber=00001206, ContactEmail=neela@lightful.xyz, ContactId=0039E000004AdCPQA0, CreatedById=00524000005uNfKAAU, Description=dummy test values
+
+jhbn nkll;,;
+cn nm m k, Priority=Medium, Reason=Lightful Community, Subject=Testing Vfpage case creation, Origin=Communities, Issue_Type__c=Community question, AccountId=0019E000005FzZJQA0, Status=New, Id=5009E000001w1I2QAI, RecordTypeId=012240000002nYhAAI}, Case:{CaseNumber=00001205, ContactEmail=neela@lightful.xyz, ContactId=0039E000004AdCPQA0, CreatedById=00524000005uNfKAAU, Description=test case creation from vfpage, Priority=Medium, Reason=Lightful Community, Subject=Testing Vfpage, Origin=Communities, Issue_Type__c=Community issue, AccountId=0019E000005FzZJQA0, Status=New, Id=5009E000001w1HiQAI, RecordTypeId=012240000002nYhAAI}, Case:{CaseNumber=00001204, ContactEmail=neela@lightful.xyz, ContactId=0039E000004AdCPQA0, CreatedById=00524000005uNfKAAU, Description=Testing community case dummy values, Priority=Medium, Reason=My Lightful Account, Subject=Test, Origin=Communities, Issue_Type__c=Problems logging in, AccountId=0019E000005FzZJQA0, Status=New, Id=5009E000001vvt0QAA, RecordTypeId=012240000002nYhAAI}, Case:{CaseNumber=00001203, ContactEmail=neela@lightful.xyz, ContactId=0039E000004AdCPQA0, CreatedById=00524000005uNfKAAU, Description=Testing community case, Priority=Medium, Reason=My Lightful Account, Subject=Test, Origin=Communities, Issue_Type__c=Problems logging in, AccountId=0019E000005FzZJQA0, Status=New, Id=5009E000001vvsbQAA, RecordTypeId=012240000002nYhAAI}), 0019E000006wqt7QAA=(Case:{CaseNumber=00001214, ContactEmail=services@lightful.com, ContactId=0039E0000037h4mQAA, CreatedById=00524000005uNfKAAU, Description=testing related acc case, Priority=Medium, Subject=testing related acc case, Origin=Web, AccountId=0019E000006wqt7QAA, Status=New, Id=5009E00000206zGQAQ, RecordTypeId=012240000002nYhAAI})}
+05:44:17.0 (44187843)|SYSTEM_METHOD_EXIT|[77]|System.debug(ANY)
+05:44:17.0 (44190744)|STATEMENT_EXECUTE|[80]
+05:44:17.0 (44193167)|HEAP_ALLOCATE|[80]|Bytes:18
+05:44:17.0 (44198282)|SYSTEM_METHOD_ENTRY|[80]|communityCaseMgmtController.__sfdc_accName()
+05:44:17.0 (44327721)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (44336984)|SYSTEM_METHOD_EXIT|[80]|communityCaseMgmtController.__sfdc_accName()
+05:44:17.0 (44351169)|SYSTEM_METHOD_ENTRY|[80]|String.valueOf(Object)
+05:44:17.0 (44357450)|HEAP_ALLOCATE|[80]|Bytes:72
+05:44:17.0 (44370201)|SYSTEM_METHOD_EXIT|[80]|String.valueOf(Object)
+05:44:17.0 (44375019)|SYSTEM_METHOD_ENTRY|[80]|communityCaseMgmtController.__sfdc_accCaseCount()
+05:44:17.0 (44487298)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x37be80e4","accName":"0x8e76312","con":"0x3d115ad0","conRelatedAccsList":"0x76efe7bb","currentUser":"0x6af9ac9e","currentUserId":"00524000005uNfKAAU","myCases":"0x3bab0ffb","myOrgCases":"0x4c56f595","newCase":"0x53f7a6a7","newCaseOwner":"0x76665267","relatedAccId":"0x29b5a4a3","showCreateCase":false}|0x46497e78
+05:44:17.0 (44495580)|SYSTEM_METHOD_EXIT|[80]|communityCaseMgmtController.__sfdc_accCaseCount()
+05:44:17.0 (44508675)|SYSTEM_METHOD_ENTRY|[80]|String.valueOf(Object)
+05:44:17.0 (44514262)|HEAP_ALLOCATE|[80]|Bytes:44
+05:44:17.0 (44521197)|SYSTEM_METHOD_EXIT|[80]|String.valueOf(Object)
+05:44:17.0 (44525887)|HEAP_ALLOCATE|[80]|Bytes:134
+05:44:17.0 (44532514)|SYSTEM_METHOD_ENTRY|[80]|System.debug(ANY)
+05:44:17.0 (44536408)|USER_DEBUG|[80]|DEBUG|Acc name and size {0019E000005FzZJQA0=neela@lightful.xyz, 0019E000006wqt7QAA=LightfulTest}{0019E000005FzZJQA0=5, 0019E000006wqt7QAA=1}
+05:44:17.0 (44540006)|SYSTEM_METHOD_EXIT|[80]|System.debug(ANY)
+05:44:17.0 (44551611)|VF_APEX_CALL_END|communityCaseMgmtController <init>
+05:44:17.0 (44592984)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(myCases)
+05:44:17.0 (44598892)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (44608258)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|myCases
+05:44:17.0 (44616008)|VF_APEX_CALL_END|myCases
+05:44:17.0 (44623928)|VF_APEX_CALL_END|communityCaseMgmtController get(myCases)
+05:44:17.0 (45823154)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(relatedAccId)
+05:44:17.0 (45831801)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (45840891)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|relatedAccId
+05:44:17.0 (45852792)|VF_APEX_CALL_END|relatedAccId
+05:44:17.0 (45870850)|VF_APEX_CALL_END|communityCaseMgmtController get(relatedAccId)
+05:44:17.0 (45987938)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46066095)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(myOrgCases)
+05:44:17.0 (46073258)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (46081413)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|myOrgCases
+05:44:17.0 (46092141)|VF_APEX_CALL_END|myOrgCases
+05:44:17.0 (46106938)|VF_APEX_CALL_END|communityCaseMgmtController get(myOrgCases)
+05:44:17.0 (46148452)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46164818)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46187154)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46195545)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46213355)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46241066)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46265210)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46271527)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46296518)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46450354)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46483579)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46496802)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46516245)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46522796)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46540159)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46566776)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46590665)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (46598063)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (46618598)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (47191300)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(newcaseOwner)
+05:44:17.0 (47199897)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (47209654)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|newcaseOwner
+05:44:17.0 (47220821)|VF_APEX_CALL_END|newcaseOwner
+05:44:17.0 (47237601)|VF_APEX_CALL_END|communityCaseMgmtController get(newcaseOwner)
+05:44:17.0 (48767981)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(newCase)
+05:44:17.0 (48775342)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (48782818)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|newCase
+05:44:17.0 (48792470)|VF_APEX_CALL_END|newCase
+05:44:17.0 (48805326)|VF_APEX_CALL_END|communityCaseMgmtController get(newCase)
+05:44:17.0 (50296835)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}
+05:44:17.0 (50371038)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (50388300)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}
+05:44:17.0 (50403817)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (50413483)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/js/bootstrap.min.js')}
+05:44:17.0 (50429560)|VF_EVALUATE_FORMULA_END
+05:44:17.50 (50545082)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+05:44:17.50 (50554617)|SYSTEM_MODE_ENTER|true
+05:44:17.50 (50562840)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+05:44:17.50 (50582918)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+05:44:17.50 (50608525)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:17.50 (50615657)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+05:44:17.50 (50636759)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x634c94f1
+05:44:17.50 (50639780)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+05:44:17.50 (50643497)|VARIABLE_ASSIGNMENT|[88]|escape|null
+05:44:17.50 (50744650)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+05:44:17.50 (50751791)|SYSTEM_MODE_ENTER|true
+05:44:17.50 (50760283)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+05:44:17.50 (50777199)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:17.50 (50781905)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+05:44:17.50 (50795007)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x634c94f1
+05:44:17.0 (51209073)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(showCreateCase == false,  "block", "none")}
+05:44:17.0 (51249341)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(showCreateCase)
+05:44:17.0 (51254404)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (51260588)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|showCreateCase
+05:44:17.0 (51269193)|VF_APEX_CALL_END|showCreateCase
+05:44:17.0 (51280215)|VF_APEX_CALL_END|communityCaseMgmtController get(showCreateCase)
+05:44:17.0 (51296096)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (51934572)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(showCreateCase == true,  "block", "none")}
+05:44:17.0 (51961299)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (52158612)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(showCreateCase == false,  "block", "none")}
+05:44:17.0 (52178534)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (58430366)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(showCreateCase == false,  "block", "none")}
+05:44:17.0 (58460416)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (58540881)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(accCaseCount[accid] > 0,  "block", "none")}
+05:44:17.0 (58606306)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(accCaseCount)
+05:44:17.0 (58613860)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (58622711)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|accCaseCount
+05:44:17.0 (58635450)|VF_APEX_CALL_END|accCaseCount
+05:44:17.0 (58652479)|VF_APEX_CALL_END|communityCaseMgmtController get(accCaseCount)
+05:44:17.0 (58681422)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (58695796)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{accName[accid]}
+05:44:17.0 (58743445)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(accName)
+05:44:17.0 (58749486)|SYSTEM_MODE_ENTER|true
+05:44:17.0 (58756953)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|accName
+05:44:17.0 (58766980)|VF_APEX_CALL_END|accName
+05:44:17.0 (58779952)|VF_APEX_CALL_END|communityCaseMgmtController get(accName)
+05:44:17.0 (58804498)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (58844942)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (58869954)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (58877210)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (58892799)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (60313012)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(accCaseCount[accid] > 0,  "block", "none")}
+05:44:17.0 (60341944)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (60349487)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{accName[accid]}
+05:44:17.0 (60361322)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (60380962)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (60398286)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (60403041)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (60414674)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (65342758)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{if(showCreateCase == true,  "block", "none")}
+05:44:17.0 (65366239)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (69273689)|VF_SERIALIZE_VIEWSTATE_BEGIN|0669E000000Cv0R
+05:44:17.0 (72953499)|VF_SERIALIZE_VIEWSTATE_END
+05:44:17.0 (74090566)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (74114489)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (74119470)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (74129622)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (74166833)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (74181266)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (74184907)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (74195449)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (74208745)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (74220754)|VF_EVALUATE_FORMULA_END
+05:44:17.0 (74224190)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:17.0 (74234482)|VF_EVALUATE_FORMULA_END
+05:44:17.75 (75434364)|CUMULATIVE_LIMIT_USAGE
+05:44:17.75 (75434364)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 7 out of 100
+  Number of query rows: 17 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:44:17.75 (75434364)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+05:44:17.75 (75434364)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:__sfdcInnerTypes:0
+  String:_sfdcSuppressedCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  String:_sfdcAdditionalCodeLocations:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  int:MAX_EXPONENT:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:__sfdcProperties:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+05:44:17.75 (75434364)|CUMULATIVE_LIMIT_USAGE_END
+
+05:44:17.0 (75563921)|CODE_UNIT_FINISHED|VF: /apex/communityCaseMgmt
+05:44:17.0 (76538758)|EXECUTION_FINISHED
+05:44:17.77 (77978504)|CUMULATIVE_PROFILING_BEGIN
+05:44:17.77 (77978504)|CUMULATIVE_PROFILING|SOQL operations|
+Class.communityCaseMgmtController.<init>: line 68, column 1: [select id,name from account where id =:a.accountid]: executed 2 times in 6 ms
+Class.communityCaseMgmtController.<init>: line 70, column 1: [SELECT CaseNumber,ContactEmail,ContactId,CreatedById,Description,Priority,Reason,Subject,origin,Issue_Type__c,accountid,status FROM Case where accountid= :a.accountid]: executed 2 times in 6 ms
+Class.communityCaseMgmtController.<init>: line 50, column 1: [SELECT AccountId,ContactId,IsActive,IsDirect,Roles FROM AccountContactRelation WHERE ContactId = '0039E000004AdCP']: executed 2 times in 2 ms
+
+05:44:17.77 (77978504)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+05:44:17.77 (77978504)|CUMULATIVE_PROFILING|No profiling information for DML operations
+05:44:17.77 (77978504)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public void <init>(): executed 1 time in 33 ms
+Class.communityCaseMgmtController.<init>: line 24, column 1: public Id __sfdc_currentUserId(): executed 3 times in 4 ms
+Class.communityCaseMgmtController.<init>: line 54, column 1: public Id __sfdc_currentUserId(): executed 3 times in 4 ms
+Class.communityCaseMgmtController.<init>: line 72, column 1: public Map<Id,List<Case>> __sfdc_myOrgCases(): executed 4 times in 1 ms
+Class.communityCaseMgmtController.<init>: line 80, column 1: public Map<Id,String> __sfdc_accName(): executed 5 times in 1 ms
+Class.communityCaseMgmtController.<init>: line 25, column 1: public void __sfdc_newCaseOwner(Contact): executed 1 time in 1 ms
+Class.communityCaseMgmtController.<init>: line 34, column 1: public User __sfdc_currentUser(): executed 1 time in 1 ms
+Class.communityCaseMgmtController.<init>: line 47, column 1: public User __sfdc_currentUser(): executed 2 times in 1 ms
+Class.communityCaseMgmtController.<init>: line 66, column 1: public List<AccountContactRelation> __sfdc_conRelatedAccsList(): executed 5 times in 0 ms
+Class.communityCaseMgmtController.<init>: line 67, column 1: public List<Id> __sfdc_relatedAccId(): executed 4 times in 0 ms
+Class.communityCaseMgmtController.<init>: line 69, column 1: public Map<Id,String> __sfdc_accName(): executed 4 times in 0 ms
+
+05:44:17.77 (77978504)|CUMULATIVE_PROFILING_END

@@ -1,0 +1,377 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINER;WAVE,INFO;WORKFLOW,FINER
+11:25:31.0 (50855)|USER_INFO|[EXTERNAL]|0059E000000SwHR|services@lightful.com|Greenwich Mean Time|GMTZ
+11:25:31.0 (73898)|EXECUTION_STARTED
+11:25:31.0 (78951)|CODE_UNIT_STARTED|[EXTERNAL]|0669E000000CrjN|VF: /apex/ViewArticleDetails
+11:25:31.0 (1941622)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000DXs3|viewArticleDetailController <init>
+11:25:31.0 (1952706)|SYSTEM_MODE_ENTER|true
+11:25:31.0 (2237424)|HEAP_ALLOCATE|[72]|Bytes:3
+11:25:31.0 (2277346)|HEAP_ALLOCATE|[77]|Bytes:152
+11:25:31.0 (2289380)|HEAP_ALLOCATE|[342]|Bytes:408
+11:25:31.0 (2301393)|HEAP_ALLOCATE|[355]|Bytes:408
+11:25:31.0 (2311573)|HEAP_ALLOCATE|[467]|Bytes:48
+11:25:31.0 (2335189)|HEAP_ALLOCATE|[139]|Bytes:6
+11:25:31.0 (2347045)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:248
+11:25:31.0 (2350567)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:21
+11:25:31.0 (2352835)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:25:31.0 (2361209)|METHOD_ENTRY|[1]|01p9E000000DXs3|viewArticleDetailController.viewArticleDetailController()
+11:25:31.0 (2365168)|STATEMENT_EXECUTE|[1]
+11:25:31.0 (2369336)|STATEMENT_EXECUTE|[1]
+11:25:31.0 (2372797)|METHOD_EXIT|[1]|viewArticleDetailController
+11:25:31.0 (2497062)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+11:25:31.0 (2504505)|VARIABLE_SCOPE_BEGIN|[13]|this|viewArticleDetailController|true|false
+11:25:31.0 (2567677)|VARIABLE_ASSIGNMENT|[13]|this|{}|0x289f1a25
+11:25:31.0 (2573789)|STATEMENT_EXECUTE|[1]
+11:25:31.0 (2575447)|STATEMENT_EXECUTE|[4]
+11:25:31.0 (2576561)|STATEMENT_EXECUTE|[5]
+11:25:31.0 (2577738)|STATEMENT_EXECUTE|[6]
+11:25:31.0 (2578841)|STATEMENT_EXECUTE|[8]
+11:25:31.0 (2579720)|STATEMENT_EXECUTE|[9]
+11:25:31.0 (2580657)|STATEMENT_EXECUTE|[10]
+11:25:31.0 (2581737)|STATEMENT_EXECUTE|[11]
+11:25:31.0 (2589151)|HEAP_ALLOCATE|[16]|Bytes:6
+11:25:31.0 (2625278)|STATEMENT_EXECUTE|[14]
+11:25:31.0 (2626648)|STATEMENT_EXECUTE|[16]
+11:25:31.0 (2651401)|HEAP_ALLOCATE|[16]|Bytes:85
+11:25:31.0 (2657494)|SYSTEM_METHOD_ENTRY|[1]|UserInfo.UserInfo()
+11:25:31.0 (2659645)|STATEMENT_EXECUTE|[1]
+11:25:31.0 (2662890)|SYSTEM_METHOD_EXIT|[1]|UserInfo
+11:25:31.0 (2673541)|METHOD_ENTRY|[16]||System.UserInfo.getUserId()
+11:25:31.0 (2745066)|METHOD_EXIT|[16]||System.UserInfo.getUserId()
+11:25:31.0 (2758942)|HEAP_ALLOCATE|[16]|Bytes:4
+11:25:31.0 (2773785)|SYSTEM_METHOD_ENTRY|[16]|viewArticleDetailController.__sfdc_currentUserId(Id)
+11:25:31.0 (2792508)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x289f1a25
+11:25:31.0 (2911923)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"0059E000000SwHRQA0"
+11:25:31.0 (2973953)|VARIABLE_ASSIGNMENT|[11]|this.currentUserId|"0059E000000SwHRQA0"|0x289f1a25
+11:25:31.0 (2985337)|SYSTEM_METHOD_EXIT|[16]|viewArticleDetailController.__sfdc_currentUserId(Id)
+11:25:31.0 (2989117)|STATEMENT_EXECUTE|[18]
+11:25:31.0 (3008381)|HEAP_ALLOCATE|[18]|Bytes:4
+11:25:31.0 (3122855)|SYSTEM_METHOD_ENTRY|[18]|viewArticleDetailController.__sfdc_toolBoxArticles(Tool_Box__kav)
+11:25:31.0 (3232375)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"0059E000000SwHRQA0"}|0x289f1a25
+11:25:31.0 (3243863)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x5f5da466
+11:25:31.0 (3251711)|VARIABLE_ASSIGNMENT|[4]|this.toolBoxArticles|{}|0x289f1a25
+11:25:31.0 (3258268)|SYSTEM_METHOD_EXIT|[18]|viewArticleDetailController.__sfdc_toolBoxArticles(Tool_Box__kav)
+11:25:31.0 (3261487)|STATEMENT_EXECUTE|[19]
+11:25:31.0 (3273125)|HEAP_ALLOCATE|[19]|Bytes:4
+11:25:31.0 (3325689)|SYSTEM_METHOD_ENTRY|[19]|viewArticleDetailController.__sfdc_helpArticle(Help__kav)
+11:25:31.0 (3424418)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"0059E000000SwHRQA0","toolBoxArticles":"0x5f5da466"}|0x289f1a25
+11:25:31.0 (3433322)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x6ffaee11
+11:25:31.0 (3440518)|VARIABLE_ASSIGNMENT|[5]|this.helpArticle|{}|0x289f1a25
+11:25:31.0 (3446429)|SYSTEM_METHOD_EXIT|[19]|viewArticleDetailController.__sfdc_helpArticle(Help__kav)
+11:25:31.0 (3449480)|STATEMENT_EXECUTE|[21]
+11:25:31.0 (3460679)|HEAP_ALLOCATE|[21]|Bytes:4
+11:25:31.0 (3509363)|SYSTEM_METHOD_ENTRY|[21]|viewArticleDetailController.__sfdc_updateViewCount(CommunityArticleView__c)
+11:25:31.0 (3607153)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466"}|0x289f1a25
+11:25:31.0 (3615875)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x33904e7e
+11:25:31.0 (3622812)|VARIABLE_ASSIGNMENT|[8]|this.updateViewCount|{}|0x289f1a25
+11:25:31.0 (3628114)|SYSTEM_METHOD_EXIT|[21]|viewArticleDetailController.__sfdc_updateViewCount(CommunityArticleView__c)
+11:25:31.0 (3631108)|STATEMENT_EXECUTE|[22]
+11:25:31.0 (3637078)|HEAP_ALLOCATE|[22]|Bytes:4
+11:25:31.0 (3678617)|SYSTEM_CONSTRUCTOR_ENTRY|[22]|<init>()
+11:25:31.0 (3698233)|SYSTEM_CONSTRUCTOR_EXIT|[22]|<init>()
+11:25:31.0 (3711528)|SYSTEM_METHOD_ENTRY|[22]|viewArticleDetailController.__sfdc_viewsCount(List<CommunityArticleView__c>)
+11:25:31.0 (3795265)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e"}|0x289f1a25
+11:25:31.0 (3805474)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:25:31.0 (3813395)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x1a6cfcb9
+11:25:31.0 (3820354)|VARIABLE_ASSIGNMENT|[9]|this.viewsCount|[]|0x289f1a25
+11:25:31.0 (3826048)|SYSTEM_METHOD_EXIT|[22]|viewArticleDetailController.__sfdc_viewsCount(List<CommunityArticleView__c>)
+11:25:31.0 (3829287)|STATEMENT_EXECUTE|[24]
+11:25:31.0 (3844143)|SYSTEM_METHOD_ENTRY|[24]|ApexPages.currentPage()
+11:25:31.0 (3890991)|HEAP_ALLOCATE|[24]|Bytes:65
+11:25:31.0 (3896261)|SYSTEM_METHOD_EXIT|[24]|ApexPages.currentPage()
+11:25:31.0 (3912606)|SYSTEM_METHOD_ENTRY|[24]|System.PageReference.getParameters()
+11:25:31.0 (3929721)|HEAP_ALLOCATE|[24]|Bytes:37
+11:25:31.0 (3941740)|SYSTEM_METHOD_EXIT|[24]|System.PageReference.getParameters()
+11:25:31.0 (3945184)|HEAP_ALLOCATE|[24]|Bytes:2
+11:25:31.0 (3966059)|SYSTEM_METHOD_ENTRY|[24]|Map<String,String>.get(Object)
+11:25:31.0 (3976970)|SYSTEM_METHOD_EXIT|[24]|Map<String,String>.get(Object)
+11:25:31.0 (3983968)|HEAP_ALLOCATE|[24]|Bytes:4
+11:25:31.0 (3996844)|SYSTEM_METHOD_ENTRY|[24]|viewArticleDetailController.__sfdc_articleId(Id)
+11:25:31.0 (4086480)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (4144375)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"ka19E00000000sgQAA"
+11:25:31.0 (4194966)|VARIABLE_ASSIGNMENT|[6]|this.articleId|"ka19E00000000sgQAA"|0x289f1a25
+11:25:31.0 (4202086)|SYSTEM_METHOD_EXIT|[24]|viewArticleDetailController.__sfdc_articleId(Id)
+11:25:31.0 (4205136)|STATEMENT_EXECUTE|[25]
+11:25:31.0 (4210975)|SYSTEM_METHOD_ENTRY|[25]|ApexPages.currentPage()
+11:25:31.0 (4227615)|HEAP_ALLOCATE|[25]|Bytes:65
+11:25:31.0 (4231153)|SYSTEM_METHOD_EXIT|[25]|ApexPages.currentPage()
+11:25:31.0 (4238472)|SYSTEM_METHOD_ENTRY|[25]|System.PageReference.getParameters()
+11:25:31.0 (4245575)|HEAP_ALLOCATE|[25]|Bytes:37
+11:25:31.0 (4252762)|SYSTEM_METHOD_EXIT|[25]|System.PageReference.getParameters()
+11:25:31.0 (4255606)|HEAP_ALLOCATE|[25]|Bytes:4
+11:25:31.0 (4267067)|SYSTEM_METHOD_ENTRY|[25]|Map<String,String>.get(Object)
+11:25:31.0 (4274454)|SYSTEM_METHOD_EXIT|[25]|Map<String,String>.get(Object)
+11:25:31.0 (4287012)|SYSTEM_METHOD_ENTRY|[25]|viewArticleDetailController.__sfdc_articleType(String)
+11:25:31.0 (4375579)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (4383191)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"Tool_Box__kav"
+11:25:31.0 (4389714)|VARIABLE_ASSIGNMENT|[10]|this.articleType|"Tool_Box__kav"|0x289f1a25
+11:25:31.0 (4394885)|SYSTEM_METHOD_EXIT|[25]|viewArticleDetailController.__sfdc_articleType(String)
+11:25:31.0 (4397867)|STATEMENT_EXECUTE|[26]
+11:25:31.0 (4400689)|HEAP_ALLOCATE|[26]|Bytes:11
+11:25:31.0 (4407070)|SYSTEM_METHOD_ENTRY|[26]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (4497639)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (4507390)|SYSTEM_METHOD_EXIT|[26]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (4531806)|SYSTEM_METHOD_ENTRY|[26]|String.valueOf(Object)
+11:25:31.0 (4536983)|HEAP_ALLOCATE|[26]|Bytes:18
+11:25:31.0 (4544254)|SYSTEM_METHOD_EXIT|[26]|String.valueOf(Object)
+11:25:31.0 (4549502)|SYSTEM_METHOD_ENTRY|[26]|viewArticleDetailController.__sfdc_articleType()
+11:25:31.0 (4631849)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (4640462)|SYSTEM_METHOD_EXIT|[26]|viewArticleDetailController.__sfdc_articleType()
+11:25:31.0 (4650192)|HEAP_ALLOCATE|[26]|Bytes:42
+11:25:31.0 (4664472)|SYSTEM_METHOD_ENTRY|[26]|System.debug(ANY)
+11:25:31.0 (4672009)|USER_DEBUG|[26]|DEBUG|Article ID ka19E00000000sgQAATool_Box__kav
+11:25:31.0 (4675785)|SYSTEM_METHOD_EXIT|[26]|System.debug(ANY)
+11:25:31.0 (4679366)|SYSTEM_METHOD_ENTRY|[28]|viewArticleDetailController.__sfdc_articleType()
+11:25:31.0 (4769253)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (4776636)|SYSTEM_METHOD_EXIT|[28]|viewArticleDetailController.__sfdc_articleType()
+11:25:31.0 (4781611)|HEAP_ALLOCATE|[28]|Bytes:13
+11:25:31.0 (4806049)|STATEMENT_EXECUTE|[29]
+11:25:31.0 (4807600)|STATEMENT_EXECUTE|[30]
+11:25:31.0 (4809419)|HEAP_ALLOCATE|[30]|Bytes:274
+11:25:31.0 (4817142)|HEAP_ALLOCATE|[30]|Bytes:4
+11:25:31.0 (4824163)|HEAP_ALLOCATE|[30]|Bytes:7
+11:25:31.0 (4828607)|SYSTEM_METHOD_ENTRY|[30]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (4917022)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (4924702)|SYSTEM_METHOD_EXIT|[30]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (5529352)|SOQL_EXECUTE_BEGIN|[30]|Aggregations:0|SELECT ArticleNumber, VersionNumber, ArticleType, Article_Link_Title__c, Featured_Article__c, Filter_Page_Image__c, Filter_Page_Summary__c, Id, IsVisibleInCsp, KnowledgeArticleId, PublishStatus, Step_by_step__c, Summary, Title, UrlName FROM Tool_Box__kav WHERE id = :tmpVar1
+11:25:31.0 (5539665)|LIMIT_USAGE|[30]|SOQL|1|100
+11:25:31.0 (5548092)|LIMIT_USAGE|[30]|AGGS|0|300
+11:25:31.0 (11159698)|SOQL_EXECUTE_END|[30]|Rows:1
+11:25:31.0 (11166681)|LIMIT_USAGE|[30]|SOQL_ROWS|1|50000
+11:25:31.0 (11181450)|HEAP_ALLOCATE|[30]|Bytes:8
+11:25:31.0 (11193537)|HEAP_ALLOCATE|[30]|Bytes:883
+11:25:31.0 (11237018)|HEAP_ALLOCATE|[30]|Bytes:8
+11:25:31.0 (11246205)|HEAP_ALLOCATE|[30]|Bytes:39
+11:25:31.0 (11290919)|HEAP_ALLOCATE|[30]|Bytes:64
+11:25:31.0 (11301477)|SYSTEM_METHOD_ENTRY|[30]|viewArticleDetailController.__sfdc_toolBoxArticles(Tool_Box__kav)
+11:25:31.0 (11405360)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x5f5da466","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (11431352)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{"ArticleNumber":"000001030","VersionNumber":2,"ArticleType":"Tool_Box__kav","Article_Link_Title__ (1 more) ...":"Title 1","Featured_Article__c":true,"Filter_Page_Image__c":"http://i.imgur.com/s (10 more) ...","Filter_Page_Summary_ (2 more) ...":"Lorem ipsum dolor si (437 more) ...","Id":"ka19E00000000sgQAA","IsVisibleInCsp":true,"KnowledgeArticleId":"kA19E00000000WcSAI","PublishStatus":"Online","Summary":"test summary","Title":"Title 1","UrlName":"Title-1","(__KnowledgeArticleP (13 more) ...":2}|0x129b0a0a
+11:25:31.0 (11451467)|VARIABLE_ASSIGNMENT|[4]|this.toolBoxArticles|{"ArticleNumber":"000001030","VersionNumber":2,"ArticleType":"Tool_Box__kav","Article_Link_Title__ (1 more) ...":"Title 1","Featured_Article__c":true,"Filter_Page_Image__c":"http://i.imgur.com/s (10 more) ...","Filter_Page_Summary_ (2 more) ...":"Lorem ipsum dolor si (437 more) ...","Id":"ka19E00000000sgQAA","IsVisibleInCsp":true,"KnowledgeArticleId":"kA19E00000000WcSAI","PublishStatus":"Online","Summary":"test summary","Title":"Title 1","UrlName":"Title-1","(__KnowledgeArticleP (13 more) ...":2}|0x289f1a25
+11:25:31.0 (11460477)|SYSTEM_METHOD_EXIT|[30]|viewArticleDetailController.__sfdc_toolBoxArticles(Tool_Box__kav)
+11:25:31.0 (11464338)|STATEMENT_EXECUTE|[33]
+11:25:31.0 (11467789)|HEAP_ALLOCATE|[33]|Bytes:185
+11:25:31.0 (11473032)|HEAP_ALLOCATE|[33]|Bytes:4
+11:25:31.0 (11481086)|SYSTEM_METHOD_ENTRY|[33]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (11577408)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (11586179)|SYSTEM_METHOD_EXIT|[33]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (11597223)|HEAP_ALLOCATE|[33]|Bytes:7
+11:25:31.0 (11604896)|SYSTEM_METHOD_ENTRY|[33]|viewArticleDetailController.__sfdc_toolBoxArticles()
+11:25:31.0 (11690702)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (11700012)|SYSTEM_METHOD_EXIT|[33]|viewArticleDetailController.__sfdc_toolBoxArticles()
+11:25:31.0 (11750100)|HEAP_ALLOCATE|[33]|Bytes:7
+11:25:31.0 (11759263)|SYSTEM_METHOD_ENTRY|[33]|viewArticleDetailController.__sfdc_currentUserId()
+11:25:31.0 (11849286)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (11858219)|SYSTEM_METHOD_EXIT|[33]|viewArticleDetailController.__sfdc_currentUserId()
+11:25:31.0 (13022072)|SOQL_EXECUTE_BEGIN|[33]|Aggregations:0|SELECT id, ArticleID__c, ViewsCount__c, Version__c, User__c, ArticleType__c FROM CommunityArticleView__c WHERE (ArticleID__c = :tmpVar1 AND Version__c = :tmpVar2 AND User__c = :tmpVar3)
+11:25:31.0 (13029114)|LIMIT_USAGE|[33]|SOQL|2|100
+11:25:31.0 (13035652)|LIMIT_USAGE|[33]|AGGS|0|300
+11:25:31.0 (15466100)|SOQL_EXECUTE_END|[33]|Rows:1
+11:25:31.0 (15471963)|LIMIT_USAGE|[33]|SOQL_ROWS|2|50000
+11:25:31.0 (15482090)|HEAP_ALLOCATE|[33]|Bytes:8
+11:25:31.0 (15498836)|HEAP_ALLOCATE|[33]|Bytes:226
+11:25:31.0 (15520776)|HEAP_ALLOCATE|[33]|Bytes:8
+11:25:31.0 (15534178)|SYSTEM_METHOD_ENTRY|[33]|viewArticleDetailController.__sfdc_viewsCount(List<CommunityArticleView__c>)
+11:25:31.0 (15636850)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1a6cfcb9"}|0x289f1a25
+11:25:31.0 (15657742)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"a2Q9E0000004F04UAE","ArticleID__c":"ka19E00000000sgQAA","ViewsCount__c":5,"Version__c":2.00,"User__c":"0059E000000SwHRQA0","ArticleType__c":"Tool_Box__kav"}]|0x1891fcdf
+11:25:31.0 (15670179)|VARIABLE_ASSIGNMENT|[9]|this.viewsCount|[{"Id":"a2Q9E0000004F04UAE","ArticleID__c":"ka19E00000000sgQAA","ViewsCount__c":5,"Version__c":2.00,"User__c":"0059E000000SwHRQA0","ArticleType__c":"Tool_Box__kav"}]|0x289f1a25
+11:25:31.0 (15677262)|SYSTEM_METHOD_EXIT|[33]|viewArticleDetailController.__sfdc_viewsCount(List<CommunityArticleView__c>)
+11:25:31.0 (15685826)|SYSTEM_METHOD_ENTRY|[35]|viewArticleDetailController.__sfdc_viewsCount()
+11:25:31.0 (15786825)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (15796987)|SYSTEM_METHOD_EXIT|[35]|viewArticleDetailController.__sfdc_viewsCount()
+11:25:31.0 (15805487)|SYSTEM_METHOD_ENTRY|[35]|List<CommunityArticleView__c>.size()
+11:25:31.0 (15810075)|SYSTEM_METHOD_EXIT|[35]|List<CommunityArticleView__c>.size()
+11:25:31.0 (15814820)|STATEMENT_EXECUTE|[35]
+11:25:31.0 (15820568)|SYSTEM_METHOD_ENTRY|[36]|viewArticleDetailController.__sfdc_viewsCount()
+11:25:31.0 (15907395)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (15915100)|SYSTEM_METHOD_EXIT|[36]|viewArticleDetailController.__sfdc_viewsCount()
+11:25:31.0 (15921142)|SYSTEM_METHOD_ENTRY|[36]|List<CommunityArticleView__c>.iterator()
+11:25:31.0 (16025981)|SYSTEM_METHOD_EXIT|[36]|List<CommunityArticleView__c>.iterator()
+11:25:31.0 (16043276)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+11:25:31.0 (16056319)|HEAP_ALLOCATE|[36]|Bytes:5
+11:25:31.0 (16062303)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+11:25:31.0 (16090909)|HEAP_ALLOCATE|[36]|Bytes:28
+11:25:31.0 (16102496)|VARIABLE_SCOPE_BEGIN|[36]|v|CommunityArticleView__c|true|false
+11:25:31.0 (16115937)|VARIABLE_ASSIGNMENT|[36]|v|{"Id":"a2Q9E0000004F04UAE","ArticleID__c":"ka19E00000000sgQAA","ViewsCount__c":5,"Version__c":2.00,"User__c":"0059E000000SwHRQA0","ArticleType__c":"Tool_Box__kav"}|0x9edc9d0
+11:25:31.0 (16122014)|STATEMENT_EXECUTE|[37]
+11:25:31.0 (16123495)|STATEMENT_EXECUTE|[39]
+11:25:31.0 (16150384)|SYSTEM_METHOD_ENTRY|[39]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (16254216)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (16264155)|SYSTEM_METHOD_EXIT|[39]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (16298886)|VARIABLE_ASSIGNMENT|[39]|this.Id|"a2Q9E0000004F04UAE"|0x33904e7e
+11:25:31.0 (16301354)|STATEMENT_EXECUTE|[40]
+11:25:31.0 (16342527)|HEAP_ALLOCATE|[40]|Bytes:28
+11:25:31.0 (16345917)|HEAP_ALLOCATE|[40]|Bytes:28
+11:25:31.0 (16368285)|SYSTEM_METHOD_ENTRY|[40]|Decimal.add(Decimal)
+11:25:31.0 (16397375)|HEAP_ALLOCATE|[40]|Bytes:28
+11:25:31.0 (16399420)|HEAP_ALLOCATE|[40]|Bytes:28
+11:25:31.0 (16407262)|SYSTEM_METHOD_EXIT|[40]|Decimal.add(Decimal)
+11:25:31.0 (16412994)|SYSTEM_METHOD_ENTRY|[40]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (16500359)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (16508511)|SYSTEM_METHOD_EXIT|[40]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (16556323)|VARIABLE_ASSIGNMENT|[40]|this.ViewsCount__c|6|0x33904e7e
+11:25:31.0 (16564795)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+11:25:31.0 (16571156)|HEAP_ALLOCATE|[36]|Bytes:5
+11:25:31.0 (16575461)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+11:25:31.0 (16582990)|VARIABLE_ASSIGNMENT|[36]|v|null|
+11:25:31.0 (16586164)|STATEMENT_EXECUTE|[81]
+11:25:31.0 (16589078)|HEAP_ALLOCATE|[81]|Bytes:12
+11:25:31.0 (16594342)|SYSTEM_METHOD_ENTRY|[81]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (16694554)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (16702408)|SYSTEM_METHOD_EXIT|[81]|viewArticleDetailController.__sfdc_articleId()
+11:25:31.0 (16718076)|SYSTEM_METHOD_ENTRY|[81]|String.valueOf(Object)
+11:25:31.0 (16722869)|HEAP_ALLOCATE|[81]|Bytes:18
+11:25:31.0 (16730017)|SYSTEM_METHOD_EXIT|[81]|String.valueOf(Object)
+11:25:31.0 (16737738)|HEAP_ALLOCATE|[81]|Bytes:30
+11:25:31.0 (16746519)|SYSTEM_METHOD_ENTRY|[81]|System.debug(ANY)
+11:25:31.0 (16751682)|USER_DEBUG|[81]|DEBUG|Article Id: ka19E00000000sgQAA
+11:25:31.0 (16754934)|SYSTEM_METHOD_EXIT|[81]|System.debug(ANY)
+11:25:31.0 (17091045)|VF_APEX_CALL_END|viewArticleDetailController <init>
+11:25:31.0 (17152899)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000DXs3|viewArticleDetailController invoke(updateViewCounts)
+11:25:31.0 (17181264)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:32
+11:25:31.0 (17188280)|VARIABLE_SCOPE_BEGIN|[83]|this|viewArticleDetailController|true|false
+11:25:31.0 (17285684)|VARIABLE_ASSIGNMENT|[83]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (17293816)|STATEMENT_EXECUTE|[84]
+11:25:31.0 (17301490)|SYSTEM_METHOD_ENTRY|[85]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (17388718)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (17397022)|SYSTEM_METHOD_EXIT|[85]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (17404550)|STATEMENT_EXECUTE|[88]
+11:25:31.0 (17408665)|SYSTEM_METHOD_ENTRY|[88]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (17491446)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (17498448)|SYSTEM_METHOD_EXIT|[88]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (17521553)|HEAP_ALLOCATE|[88]|Bytes:8
+11:25:31.0 (17527949)|DML_BEGIN|[88]|Op:Update|Type:CommunityArticleView__c|Rows:1
+11:25:31.0 (17535028)|LIMIT_USAGE|[88]|DML|1|150
+11:25:31.0 (17541270)|LIMIT_USAGE|[88]|DML_ROWS|1|10000
+11:25:31.0 (17551934)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:25:31.0 (74794019)|DML_END|[88]
+11:25:31.0 (74815359)|STATEMENT_EXECUTE|[90]
+11:25:31.0 (74824303)|HEAP_ALLOCATE|[90]|Bytes:48
+11:25:31.0 (74842986)|SYSTEM_METHOD_ENTRY|[90]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (74993066)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"articleId":"ka19E00000000sgQAA","articleType":"Tool_Box__kav","currentUserId":"0059E000000SwHRQA0","helpArticle":"0x6ffaee11","toolBoxArticles":"0x129b0a0a","updateViewCount":"0x33904e7e","viewsCount":"0x1891fcdf"}|0x289f1a25
+11:25:31.0 (75004603)|SYSTEM_METHOD_EXIT|[90]|viewArticleDetailController.__sfdc_updateViewCount()
+11:25:31.0 (75042239)|SYSTEM_METHOD_ENTRY|[90]|String.valueOf(Object)
+11:25:31.0 (75081185)|HEAP_ALLOCATE|[90]|Bytes:64
+11:25:31.0 (75092937)|SYSTEM_METHOD_EXIT|[90]|String.valueOf(Object)
+11:25:31.0 (75101665)|HEAP_ALLOCATE|[90]|Bytes:112
+11:25:31.0 (75118001)|SYSTEM_METHOD_ENTRY|[90]|System.debug(ANY)
+11:25:31.0 (75125616)|USER_DEBUG|[90]|DEBUG|CommunityArticleView__c updateViewCount values: CommunityArticleView__c:{Id=a2Q9E0000004F04UAE, ViewsCount__c=6}
+11:25:31.0 (75129855)|SYSTEM_METHOD_EXIT|[90]|System.debug(ANY)
+11:25:31.0 (78658365)|VF_APEX_CALL_END|viewArticleDetailController invoke(updateViewCounts)
+11:25:31.79 (79407113)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex <init>
+11:25:31.79 (79418754)|SYSTEM_MODE_ENTER|true
+11:25:31.79 (79454595)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:38
+11:25:31.79 (79461032)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+11:25:31.79 (79469438)|SYSTEM_METHOD_ENTRY|[1]|PageMessagesComponentController.PageMessagesComponentController()
+11:25:31.79 (79471686)|STATEMENT_EXECUTE|[1]
+11:25:31.79 (79608890)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+11:25:31.79 (79616415)|SYSTEM_MODE_ENTER|true
+11:25:31.79 (79624606)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+11:25:31.79 (79642346)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+11:25:31.79 (79665114)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:25:31.79 (79670063)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+11:25:31.79 (79689017)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x643425eb
+11:25:31.79 (79691631)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+11:25:31.79 (79695371)|VARIABLE_ASSIGNMENT|[88]|escape|null
+11:25:31.79 (79847051)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+11:25:31.79 (79854213)|SYSTEM_MODE_ENTER|true
+11:25:31.79 (79864085)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+11:25:31.79 (79879335)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:25:31.79 (79883802)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+11:25:31.79 (79897345)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x643425eb
+11:25:31.0 (80896833)|VF_EVALUATE_FORMULA_BEGIN|0669E000000CrjN|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}
+11:25:31.0 (80951608)|VF_EVALUATE_FORMULA_END
+11:25:31.0 (80962497)|VF_EVALUATE_FORMULA_BEGIN|0669E000000CrjN|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}
+11:25:31.0 (80975616)|VF_EVALUATE_FORMULA_END
+11:25:31.0 (80983646)|VF_EVALUATE_FORMULA_BEGIN|0669E000000CrjN|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/js/bootstrap.min.js')}
+11:25:31.0 (80998251)|VF_EVALUATE_FORMULA_END
+11:25:31.81 (81118891)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+11:25:31.81 (81127198)|SYSTEM_MODE_ENTER|true
+11:25:31.81 (81134701)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+11:25:31.81 (81153121)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+11:25:31.81 (81171276)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:25:31.81 (81176024)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+11:25:31.81 (81191659)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x643425eb
+11:25:31.81 (81194022)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+11:25:31.81 (81197191)|VARIABLE_ASSIGNMENT|[88]|escape|null
+11:25:31.81 (81293035)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+11:25:31.81 (81299964)|SYSTEM_MODE_ENTER|true
+11:25:31.81 (81307903)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+11:25:31.81 (81321706)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:25:31.81 (81325582)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+11:25:31.81 (81338195)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x643425eb
+11:25:31.0 (81884303)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000DXs3|viewArticleDetailController get(toolBoxArticles)
+11:25:31.0 (81891127)|SYSTEM_MODE_ENTER|true
+11:25:31.0 (81897874)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000DXs3|toolBoxArticles
+11:25:31.0 (81906705)|VF_APEX_CALL_END|toolBoxArticles
+11:25:31.0 (81915798)|VF_APEX_CALL_END|viewArticleDetailController get(toolBoxArticles)
+11:25:31.0 (83548388)|VF_SERIALIZE_VIEWSTATE_BEGIN|0669E000000CrjN
+11:25:31.0 (85952890)|VF_SERIALIZE_VIEWSTATE_END
+11:25:31.90 (90577349)|CUMULATIVE_LIMIT_USAGE
+11:25:31.90 (90577349)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:25:31.90 (90577349)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+11:25:31.90 (90577349)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:__sfdcInnerTypes:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  String:_sfdcSuppressedCodeLocations:0
+  int:MAX_EXPONENT:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  String:__sfdcProperties:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+11:25:31.90 (90577349)|CUMULATIVE_LIMIT_USAGE_END
+
+11:25:31.0 (90693293)|CODE_UNIT_FINISHED|VF: /apex/ViewArticleDetails
+11:25:31.0 (91465129)|EXECUTION_FINISHED
+11:25:31.92 (92911094)|CUMULATIVE_PROFILING_BEGIN
+11:25:31.92 (92911094)|CUMULATIVE_PROFILING|No profiling information for SOQL operations
+11:25:31.92 (92911094)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+11:25:31.92 (92911094)|CUMULATIVE_PROFILING|No profiling information for DML operations
+11:25:31.92 (92911094)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public void updateViewCounts(): executed 1 time in 57 ms
+Class.viewArticleDetailController.updateViewCounts: line 88, column 1: public CommunityArticleView__c __sfdc_updateViewCount(): executed 2 times in 57 ms
+Class.viewArticleDetailController.<init>: line 30, column 1: public Id __sfdc_articleId(): executed 3 times in 7 ms
+Class.viewArticleDetailController.<init>: line 33, column 1: public Id __sfdc_articleId(): executed 5 times in 4 ms
+Class.viewArticleDetailController.<init>: line 39, column 1: public CommunityArticleView__c __sfdc_updateViewCount(): executed 1 time in 1 ms
+Class.viewArticleDetailController.<init>: line 18, column 1: public void __sfdc_toolBoxArticles(Tool_Box__kav): executed 1 time in 1 ms
+Class.viewArticleDetailController.<init>: line 24, column 1: global public static System.PageReference currentPage(): executed 4 times in 1 ms
+Class.viewArticleDetailController.<init>: line 35, column 1: public List<CommunityArticleView__c> __sfdc_viewsCount(): executed 2 times in 0 ms
+Class.viewArticleDetailController.<init>: line 36, column 1: public List<CommunityArticleView__c> __sfdc_viewsCount(): executed 4 times in 0 ms
+Class.viewArticleDetailController.<init>: line 40, column 1: public Decimal add(Decimal): executed 2 times in 0 ms
+Class.viewArticleDetailController.<init>: line 16, column 1: global static String getUserId(): executed 2 times in 0 ms
+
+11:25:31.92 (92911094)|CUMULATIVE_PROFILING_END

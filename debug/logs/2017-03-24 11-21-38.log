@@ -1,0 +1,765 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINER;WAVE,INFO;WORKFLOW,FINER
+01:21:38.0 (287710)|USER_INFO|[EXTERNAL]|00524000005uNfK|neela@lightful.com.commundev|Line Is. Time|GMT+14:00
+01:21:38.0 (309973)|EXECUTION_STARTED
+01:21:38.0 (313374)|CODE_UNIT_STARTED|[EXTERNAL]|0669E000000CvHr|VF: /apex/communityCheckout
+01:21:38.2 (2379333)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex <init>
+01:21:38.2 (2392540)|SYSTEM_MODE_ENTER|true
+01:21:38.2 (2456825)|HEAP_ALLOCATE|[72]|Bytes:3
+01:21:38.2 (2478340)|HEAP_ALLOCATE|[77]|Bytes:152
+01:21:38.2 (2489744)|HEAP_ALLOCATE|[342]|Bytes:408
+01:21:38.2 (2509209)|HEAP_ALLOCATE|[355]|Bytes:408
+01:21:38.2 (2527141)|HEAP_ALLOCATE|[467]|Bytes:48
+01:21:38.2 (2746963)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+01:21:38.2 (2756053)|SYSTEM_MODE_ENTER|true
+01:21:38.2 (2764928)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+01:21:38.2 (2782505)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+01:21:38.2 (2806824)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+01:21:38.2 (2812073)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+01:21:38.2 (2840341)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x1d8487d8
+01:21:38.2 (2843267)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+01:21:38.2 (2847461)|VARIABLE_ASSIGNMENT|[88]|escape|null
+01:21:38.2 (2968043)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+01:21:38.2 (2976161)|SYSTEM_MODE_ENTER|true
+01:21:38.2 (2985642)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+01:21:38.2 (3001231)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+01:21:38.2 (3006057)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+01:21:38.2 (3021562)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x1d8487d8
+01:21:38.0 (3925534)|VF_EVALUATE_FORMULA_BEGIN|0669E000000CvHr|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}
+01:21:38.0 (3967552)|VF_EVALUATE_FORMULA_END
+01:21:38.0 (3978521)|VF_EVALUATE_FORMULA_BEGIN|0669E000000CvHr|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}
+01:21:38.0 (3996228)|VF_EVALUATE_FORMULA_END
+01:21:38.0 (4004740)|VF_EVALUATE_FORMULA_BEGIN|0669E000000CvHr|#{URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/js/bootstrap.min.js')}
+01:21:38.0 (4020509)|VF_EVALUATE_FORMULA_END
+01:21:38.4 (4103186)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+01:21:38.4 (4111961)|SYSTEM_MODE_ENTER|true
+01:21:38.4 (4119427)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+01:21:38.4 (4136916)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+01:21:38.4 (4155006)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+01:21:38.4 (4159642)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+01:21:38.4 (4176975)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x1d8487d8
+01:21:38.4 (4179339)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+01:21:38.4 (4185444)|VARIABLE_ASSIGNMENT|[88]|escape|null
+01:21:38.4 (4275112)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+01:21:38.4 (4282607)|SYSTEM_MODE_ENTER|true
+01:21:38.4 (4290649)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+01:21:38.4 (4305084)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+01:21:38.4 (4309008)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+01:21:38.4 (4323187)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x1d8487d8
+01:21:38.0 (4587321)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController <init>
+01:21:38.0 (4593087)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (4767831)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:496
+01:21:38.0 (4773875)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:81
+01:21:38.0 (4776260)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:20
+01:21:38.0 (4785344)|METHOD_ENTRY|[1]|01p9E000000Dmea|CommunityProdController.CommunityProdController()
+01:21:38.0 (4788244)|STATEMENT_EXECUTE|[1]
+01:21:38.0 (4791277)|STATEMENT_EXECUTE|[1]
+01:21:38.0 (4795275)|METHOD_EXIT|[1]|CommunityProdController
+01:21:38.0 (4923941)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:92
+01:21:38.0 (4929349)|VARIABLE_SCOPE_BEGIN|[19]|this|CommunityProdController|true|false
+01:21:38.0 (5004303)|VARIABLE_ASSIGNMENT|[19]|this|{}|0x37387d8
+01:21:38.0 (5010726)|STATEMENT_EXECUTE|[1]
+01:21:38.0 (5012031)|STATEMENT_EXECUTE|[4]
+01:21:38.0 (5013239)|STATEMENT_EXECUTE|[5]
+01:21:38.0 (5014475)|STATEMENT_EXECUTE|[6]
+01:21:38.0 (5015605)|STATEMENT_EXECUTE|[7]
+01:21:38.0 (5016590)|STATEMENT_EXECUTE|[11]
+01:21:38.0 (5017592)|STATEMENT_EXECUTE|[12]
+01:21:38.0 (5018515)|STATEMENT_EXECUTE|[13]
+01:21:38.0 (5019478)|STATEMENT_EXECUTE|[15]
+01:21:38.0 (5020376)|STATEMENT_EXECUTE|[16]
+01:21:38.0 (5021295)|STATEMENT_EXECUTE|[17]
+01:21:38.0 (5022271)|STATEMENT_EXECUTE|[79]
+01:21:38.0 (5023220)|STATEMENT_EXECUTE|[80]
+01:21:38.0 (5024243)|STATEMENT_EXECUTE|[134]
+01:21:38.0 (5025335)|STATEMENT_EXECUTE|[135]
+01:21:38.0 (5026241)|STATEMENT_EXECUTE|[136]
+01:21:38.0 (5027216)|STATEMENT_EXECUTE|[137]
+01:21:38.0 (5028185)|STATEMENT_EXECUTE|[138]
+01:21:38.0 (5029131)|STATEMENT_EXECUTE|[140]
+01:21:38.0 (5030019)|STATEMENT_EXECUTE|[141]
+01:21:38.0 (5030930)|STATEMENT_EXECUTE|[142]
+01:21:38.0 (5031830)|STATEMENT_EXECUTE|[143]
+01:21:38.0 (5032718)|STATEMENT_EXECUTE|[144]
+01:21:38.0 (5044527)|STATEMENT_EXECUTE|[20]
+01:21:38.0 (5045730)|STATEMENT_EXECUTE|[21]
+01:21:38.0 (5077017)|HEAP_ALLOCATE|[21]|Bytes:85
+01:21:38.0 (5084575)|SYSTEM_METHOD_ENTRY|[1]|UserInfo.UserInfo()
+01:21:38.0 (5086674)|STATEMENT_EXECUTE|[1]
+01:21:38.0 (5091120)|SYSTEM_METHOD_EXIT|[1]|UserInfo
+01:21:38.0 (5103960)|METHOD_ENTRY|[21]||System.UserInfo.getUserId()
+01:21:38.0 (5134953)|METHOD_EXIT|[21]||System.UserInfo.getUserId()
+01:21:38.0 (5148282)|HEAP_ALLOCATE|[21]|Bytes:4
+01:21:38.0 (5164057)|SYSTEM_METHOD_ENTRY|[21]|CommunityProdController.__sfdc_currentUserId(Id)
+01:21:38.0 (5199351)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{}|0x37387d8
+01:21:38.0 (5349425)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"00524000005uNfKAAU"
+01:21:38.0 (5419992)|VARIABLE_ASSIGNMENT|[15]|this.currentUserId|"00524000005uNfKAAU"|0x37387d8
+01:21:38.0 (5429325)|SYSTEM_METHOD_EXIT|[21]|CommunityProdController.__sfdc_currentUserId(Id)
+01:21:38.0 (5433737)|STATEMENT_EXECUTE|[22]
+01:21:38.0 (5437262)|HEAP_ALLOCATE|[22]|Bytes:105
+01:21:38.0 (5445347)|HEAP_ALLOCATE|[22]|Bytes:4
+01:21:38.0 (5452173)|HEAP_ALLOCATE|[22]|Bytes:7
+01:21:38.0 (5460365)|SYSTEM_METHOD_ENTRY|[22]|CommunityProdController.__sfdc_currentUserId()
+01:21:38.0 (5597166)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"00524000005uNfKAAU"}|0x37387d8
+01:21:38.0 (5607411)|SYSTEM_METHOD_EXIT|[22]|CommunityProdController.__sfdc_currentUserId()
+01:21:38.0 (8080361)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT id, name, firstname, lastname, contactid, fullphotourl, phone, email FROM user WHERE id = :tmpVar1
+01:21:38.0 (8088311)|LIMIT_USAGE|[22]|SOQL|1|100
+01:21:38.0 (8095608)|LIMIT_USAGE|[22]|AGGS|0|300
+01:21:38.0 (11668571)|SOQL_EXECUTE_END|[22]|Rows:1
+01:21:38.0 (11675204)|LIMIT_USAGE|[22]|SOQL_ROWS|1|50000
+01:21:38.0 (11685105)|HEAP_ALLOCATE|[22]|Bytes:8
+01:21:38.0 (11697409)|HEAP_ALLOCATE|[22]|Bytes:183
+01:21:38.0 (11730771)|HEAP_ALLOCATE|[22]|Bytes:8
+01:21:38.0 (11744493)|HEAP_ALLOCATE|[22]|Bytes:30
+01:21:38.0 (11780251)|HEAP_ALLOCATE|[22]|Bytes:28
+01:21:38.0 (11801945)|SYSTEM_METHOD_ENTRY|[22]|CommunityProdController.__sfdc_currentUser(User)
+01:21:38.0 (11937390)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUserId":"00524000005uNfKAAU"}|0x37387d8
+01:21:38.0 (11955261)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{"Id":"00524000005uNfKAAU","Name":"Neela SN","FirstName":"Neela","LastName":"SN","FullPhotoUrl":"https://c.cs88.conte (43 more) ...","Email":"neela@lightful.com"}|0x6302c138
+01:21:38.0 (11970077)|VARIABLE_ASSIGNMENT|[16]|this.currentUser|{"Id":"00524000005uNfKAAU","Name":"Neela SN","FirstName":"Neela","LastName":"SN","FullPhotoUrl":"https://c.cs88.conte (43 more) ...","Email":"neela@lightful.com"}|0x37387d8
+01:21:38.0 (11978068)|SYSTEM_METHOD_EXIT|[22]|CommunityProdController.__sfdc_currentUser(User)
+01:21:38.0 (11987814)|SYSTEM_METHOD_ENTRY|[25]|CommunityProdController.__sfdc_currentUser()
+01:21:38.0 (12114243)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU"}|0x37387d8
+01:21:38.0 (12124094)|SYSTEM_METHOD_EXIT|[25]|CommunityProdController.__sfdc_currentUser()
+01:21:38.0 (12135242)|STATEMENT_EXECUTE|[28]
+01:21:38.0 (12148687)|HEAP_ALLOCATE|[28]|Bytes:4
+01:21:38.0 (12244628)|SYSTEM_METHOD_ENTRY|[28]|CommunityProdController.__sfdc_con(Contact)
+01:21:38.0 (12376692)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU"}|0x37387d8
+01:21:38.0 (12386368)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x44e166c8
+01:21:38.0 (12394328)|VARIABLE_ASSIGNMENT|[17]|this.con|{}|0x37387d8
+01:21:38.0 (12400497)|SYSTEM_METHOD_EXIT|[28]|CommunityProdController.__sfdc_con(Contact)
+01:21:38.0 (12404689)|STATEMENT_EXECUTE|[30]
+01:21:38.0 (12408100)|HEAP_ALLOCATE|[30]|Bytes:220
+01:21:38.0 (12413965)|HEAP_ALLOCATE|[30]|Bytes:4
+01:21:38.0 (13219857)|SOQL_EXECUTE_BEGIN|[30]|Aggregations:0|SELECT Description, Id, IsActive, Name, DisplayUrl, ProductCode, CommunityProdDetail__c, DisplayOnCommunity__c FROM Product2 WHERE (isActive = TRUE AND DisplayOnCommunity__c = TRUE) ORDER BY name ASC NULLS FIRST LIMIT 10
+01:21:38.0 (13227154)|LIMIT_USAGE|[30]|SOQL|2|100
+01:21:38.0 (13233701)|LIMIT_USAGE|[30]|AGGS|0|300
+01:21:38.0 (16929219)|SOQL_EXECUTE_END|[30]|Rows:8
+01:21:38.0 (16935782)|LIMIT_USAGE|[30]|SOQL_ROWS|9|50000
+01:21:38.0 (16946062)|HEAP_ALLOCATE|[30]|Bytes:36
+01:21:38.0 (16964104)|HEAP_ALLOCATE|[30]|Bytes:1616
+01:21:38.0 (16985635)|HEAP_ALLOCATE|[30]|Bytes:36
+01:21:38.0 (17011251)|SYSTEM_METHOD_ENTRY|[30]|CommunityProdController.__sfdc_prodList(List<Product2>)
+01:21:38.0 (17147636)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU"}|0x37387d8
+01:21:38.0 (17160553)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|"List of size 8 too large to display"|0xc75aea1
+01:21:38.0 (17170704)|VARIABLE_ASSIGNMENT|[4]|this.prodList|"List of size 8 too large to display"|0x37387d8
+01:21:38.0 (17177977)|SYSTEM_METHOD_EXIT|[30]|CommunityProdController.__sfdc_prodList(List<Product2>)
+01:21:38.0 (17182328)|STATEMENT_EXECUTE|[32]
+01:21:38.0 (17187397)|HEAP_ALLOCATE|[32]|Bytes:4
+01:21:38.0 (17227084)|SYSTEM_METHOD_ENTRY|[32]|CommunityProdController.__sfdc_prod_pbEntry(Map<Id,PricebookEntry>)
+01:21:38.0 (17365632)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","prodList":"0xc75aea1"}|0x37387d8
+01:21:38.0 (17376868)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x51bf4f89
+01:21:38.0 (17385831)|VARIABLE_ASSIGNMENT|[6]|this.prod_pbEntry|{}|0x37387d8
+01:21:38.0 (17391982)|SYSTEM_METHOD_EXIT|[32]|CommunityProdController.__sfdc_prod_pbEntry(Map<Id,PricebookEntry>)
+01:21:38.0 (17395567)|STATEMENT_EXECUTE|[33]
+01:21:38.0 (17399760)|HEAP_ALLOCATE|[33]|Bytes:4
+01:21:38.0 (17424037)|SYSTEM_CONSTRUCTOR_ENTRY|[33]|<init>()
+01:21:38.0 (17438593)|SYSTEM_CONSTRUCTOR_EXIT|[33]|<init>()
+01:21:38.0 (17454464)|SYSTEM_METHOD_ENTRY|[33]|CommunityProdController.__sfdc_prodListDisp(List<Product2>)
+01:21:38.0 (17582292)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1"}|0x37387d8
+01:21:38.0 (17589300)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (17595028)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x718806b7
+01:21:38.0 (17602958)|VARIABLE_ASSIGNMENT|[5]|this.prodListDisp|[]|0x37387d8
+01:21:38.0 (17608650)|SYSTEM_METHOD_EXIT|[33]|CommunityProdController.__sfdc_prodListDisp(List<Product2>)
+01:21:38.0 (17618029)|SYSTEM_METHOD_ENTRY|[36]|CommunityProdController.__sfdc_prodList()
+01:21:38.0 (17752411)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (17762397)|SYSTEM_METHOD_EXIT|[36]|CommunityProdController.__sfdc_prodList()
+01:21:38.0 (17771163)|SYSTEM_METHOD_ENTRY|[36]|List<Product2>.iterator()
+01:21:38.0 (17829913)|SYSTEM_METHOD_EXIT|[36]|List<Product2>.iterator()
+01:21:38.0 (17842702)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (17850628)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (17855925)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (17883929)|HEAP_ALLOCATE|[36]|Bytes:28
+01:21:38.0 (17891766)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (17911819)|VARIABLE_ASSIGNMENT|[36]|p|{"Id":"01t24000002t81MAAQ","IsActive":true,"Name":"First Partners - Don (5 more) ...","ProductCode":"FPD3D200","CommunityProdDetail_ (2 more) ...":"\u003Ca href=\"http://test (80 more) ...","DisplayOnCommunity__ (1 more) ...":true}|0xff550a3
+01:21:38.0 (17916432)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (17917775)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (17920885)|HEAP_ALLOCATE|[38]|Bytes:182
+01:21:38.0 (17926294)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (18580195)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (18587389)|LIMIT_USAGE|[38]|SOQL|3|100
+01:21:38.0 (18593746)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (21326591)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (21334588)|LIMIT_USAGE|[38]|SOQL_ROWS|10|50000
+01:21:38.0 (21347708)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (21363086)|HEAP_ALLOCATE|[38]|Bytes:257
+01:21:38.0 (21389752)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (21422621)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (21620966)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (21649194)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VVBTAA4","IsActive":true,"IsDeleted":false,"Name":"First Partners - Don (5 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t81MAAQ","ProductCode":"FPD3D200","UnitPrice":200.00,"UseStandardPrice":false}]|0x7ad7fff9
+01:21:38.0 (21673142)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VVBTAA4","IsActive":true,"IsDeleted":false,"Name":"First Partners - Don (5 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t81MAAQ","ProductCode":"FPD3D200","UnitPrice":200.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (21684291)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (21696339)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (21897452)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7ad7fff9","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (21910841)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (21946175)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (21953948)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (21961103)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (21963357)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (21971526)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (22162411)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7ad7fff9","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (22176082)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (22191321)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (22361339)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7ad7fff9","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (22371408)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (22406054)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (22435052)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (22444486)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (22456633)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (22460936)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (22470604)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (22660870)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7ad7fff9","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (22673307)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (22689209)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (22695636)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (22704573)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (22708736)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (22714738)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (22900093)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7ad7fff9","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (22910741)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (22919767)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (22925382)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (22932963)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (22941433)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (22947898)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (22972245)|HEAP_ALLOCATE|[36]|Bytes:28
+01:21:38.0 (22981219)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (23002357)|VARIABLE_ASSIGNMENT|[36]|p|{"Description":"This is for First Pa (75 more) ...","Id":"01t24000002t6w2AAA","IsActive":true,"Name":"First Partners - Ful (9 more) ...","ProductCode":"FPFL12000","DisplayOnCommunity__ (1 more) ...":true}|0x2b02b2ed
+01:21:38.0 (23007758)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (23009708)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (23015100)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (23324262)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (23332261)|LIMIT_USAGE|[38]|SOQL|4|100
+01:21:38.0 (23340039)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (25669455)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (25675304)|LIMIT_USAGE|[38]|SOQL_ROWS|11|50000
+01:21:38.0 (25684592)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (25696441)|HEAP_ALLOCATE|[38]|Bytes:262
+01:21:38.0 (25709050)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (25722354)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (25872346)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7ad7fff9","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (25892594)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VUygAAG","IsActive":true,"IsDeleted":false,"Name":"First Partners - Ful (9 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t6w2AAA","ProductCode":"FPFL12000","UnitPrice":1200.00,"UseStandardPrice":false}]|0x2b9e7219
+01:21:38.0 (25908737)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VUygAAG","IsActive":true,"IsDeleted":false,"Name":"First Partners - Ful (9 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t6w2AAA","ProductCode":"FPFL12000","UnitPrice":1200.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (25917068)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (25923725)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (26050586)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x2b9e7219","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (26060034)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (26066731)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (26071026)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (26075163)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (26076702)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (26080273)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (26197375)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x2b9e7219","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (26205123)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (26214829)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (26330068)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x2b9e7219","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (26337420)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (26356936)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (26375383)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (26380825)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (26388697)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (26391494)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (26394874)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (26515131)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x2b9e7219","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (26523602)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (26534462)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (26538142)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (26543649)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (26546368)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (26552375)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (26669192)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x2b9e7219","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (26676791)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (26682133)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (26685600)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (26690555)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (26696768)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (26700946)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (26720480)|HEAP_ALLOCATE|[36]|Bytes:24
+01:21:38.0 (26727447)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (26745411)|VARIABLE_ASSIGNMENT|[36]|p|{"Id":"01t24000002t7sxAAA","IsActive":true,"Name":"First Partners - Ini (36 more) ...","ProductCode":"FPSFHC-PB","DisplayOnCommunity__ (1 more) ...":true}|0x51a36d22
+01:21:38.0 (26748957)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (26750527)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (26755139)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (26968606)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (26975188)|LIMIT_USAGE|[38]|SOQL|5|100
+01:21:38.0 (26981378)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (29110489)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (29116390)|LIMIT_USAGE|[38]|SOQL_ROWS|12|50000
+01:21:38.0 (29124992)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (29137339)|HEAP_ALLOCATE|[38]|Bytes:289
+01:21:38.0 (29149736)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (29163087)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (29307972)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x2b9e7219","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (29328033)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VVAuAAO","IsActive":true,"IsDeleted":false,"Name":"First Partners - Ini (36 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7sxAAA","ProductCode":"FPSFHC-PB","UnitPrice":0.00,"UseStandardPrice":false}]|0x7a5bca3a
+01:21:38.0 (29343862)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VVAuAAO","IsActive":true,"IsDeleted":false,"Name":"First Partners - Ini (36 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7sxAAA","ProductCode":"FPSFHC-PB","UnitPrice":0.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (29351472)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (29357363)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (29477309)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7a5bca3a","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (29485776)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (29492325)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (29496634)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (29501025)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (29502520)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (29505519)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (29626671)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7a5bca3a","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (29634616)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (29644431)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (29765063)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7a5bca3a","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (29772721)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (29792060)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (29810897)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (29815586)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (29823779)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (29826838)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (29830125)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (29954985)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7a5bca3a","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (29962875)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (29973917)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (29977537)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (29983205)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (29985949)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (29988939)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (30105136)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7a5bca3a","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (30112943)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (30118174)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (30121775)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (30126725)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (30132908)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (30137339)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (30156060)|HEAP_ALLOCATE|[36]|Bytes:24
+01:21:38.0 (30163036)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (30176696)|VARIABLE_ASSIGNMENT|[36]|p|{"Id":"01t24000002t7s9AAA","IsActive":true,"Name":"First Partners - Ini (33 more) ...","ProductCode":"FPSMI-PB","DisplayOnCommunity__ (1 more) ...":true}|0x3e57cc3f
+01:21:38.0 (30179993)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (30181334)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (30185492)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (30396617)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (30402901)|LIMIT_USAGE|[38]|SOQL|6|100
+01:21:38.0 (30408967)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (32490294)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (32496311)|LIMIT_USAGE|[38]|SOQL_ROWS|13|50000
+01:21:38.0 (32505222)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (32517400)|HEAP_ALLOCATE|[38]|Bytes:285
+01:21:38.0 (32532671)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (32546139)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (32690764)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7a5bca3a","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (32710376)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VVAQAA4","IsActive":true,"IsDeleted":false,"Name":"First Partners - Ini (33 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7s9AAA","ProductCode":"FPSMI-PB","UnitPrice":0.00,"UseStandardPrice":false}]|0x4e5e20d0
+01:21:38.0 (32727023)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VVAQAA4","IsActive":true,"IsDeleted":false,"Name":"First Partners - Ini (33 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7s9AAA","ProductCode":"FPSMI-PB","UnitPrice":0.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (32734689)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (32745963)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (32868047)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4e5e20d0","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (32876990)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (32883601)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (32887904)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (32891854)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (32893312)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (32896571)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (33017422)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4e5e20d0","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (33025924)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (33035886)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (33151156)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4e5e20d0","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (33158533)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (33178372)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (33196939)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (33201578)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (33209519)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (33212317)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (33215695)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (33336380)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4e5e20d0","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (33343888)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (33354453)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (33357917)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (33363403)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (33366339)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (33369205)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (33484318)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4e5e20d0","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (33491340)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (33496694)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (33500094)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (33505020)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (33511171)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (33515338)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (33534370)|HEAP_ALLOCATE|[36]|Bytes:24
+01:21:38.0 (33541367)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (33554856)|VARIABLE_ASSIGNMENT|[36]|p|{"Id":"01t24000002t7rpAAA","IsActive":true,"Name":"First Partners - Mon (23 more) ...","ProductCode":"FPMWS-PB","DisplayOnCommunity__ (1 more) ...":true}|0x1b82f31e
+01:21:38.0 (33558403)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (33559694)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (33563852)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (33776182)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (33782385)|LIMIT_USAGE|[38]|SOQL|7|100
+01:21:38.0 (33788537)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (35883155)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (35888971)|LIMIT_USAGE|[38]|SOQL_ROWS|14|50000
+01:21:38.0 (35897746)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (35909788)|HEAP_ALLOCATE|[38]|Bytes:275
+01:21:38.0 (35921825)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (35934821)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (36079725)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4e5e20d0","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (36099245)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VVALAA4","IsActive":true,"IsDeleted":false,"Name":"First Partners - Mon (23 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7rpAAA","ProductCode":"FPMWS-PB","UnitPrice":0.00,"UseStandardPrice":false}]|0x4d048fc3
+01:21:38.0 (36114994)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VVALAA4","IsActive":true,"IsDeleted":false,"Name":"First Partners - Mon (23 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7rpAAA","ProductCode":"FPMWS-PB","UnitPrice":0.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (36123094)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (36129119)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (36249119)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4d048fc3","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (36258113)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (36264630)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (36268706)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (36272709)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (36274131)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (36277114)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (36394068)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4d048fc3","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (36402257)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (36412020)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (36526743)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4d048fc3","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (36534500)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (36553558)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (36571862)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (36576485)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (36584502)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (36587173)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (36590567)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (36711898)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4d048fc3","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (36719576)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (36730252)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (36733860)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (36746186)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (36749424)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (36752266)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (36870659)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4d048fc3","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (36877814)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (36883076)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (36886401)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (36891204)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (36897239)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (36901847)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (36920745)|HEAP_ALLOCATE|[36]|Bytes:28
+01:21:38.0 (36927407)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (36942471)|VARIABLE_ASSIGNMENT|[36]|p|{"Description":"This is for First Pa (75 more) ...","Id":"01t24000002t7jvAAA","IsActive":true,"Name":"First Partners - Mul (23 more) ...","ProductCode":"FPMSO600","DisplayOnCommunity__ (1 more) ...":true}|0x2529af59
+01:21:38.0 (36945448)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (36946675)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (36950904)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (37154976)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (37161338)|LIMIT_USAGE|[38]|SOQL|8|100
+01:21:38.0 (37167331)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (39205553)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (39211626)|LIMIT_USAGE|[38]|SOQL_ROWS|15|50000
+01:21:38.0 (39220687)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (39232522)|HEAP_ALLOCATE|[38]|Bytes:275
+01:21:38.0 (39244664)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (39257847)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (39403104)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x4d048fc3","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (39423314)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VV8yAAG","IsActive":true,"IsDeleted":false,"Name":"First Partners - Mul (23 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7jvAAA","ProductCode":"FPMSO600","UnitPrice":600.00,"UseStandardPrice":false}]|0x5270e9d6
+01:21:38.0 (39439882)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VV8yAAG","IsActive":true,"IsDeleted":false,"Name":"First Partners - Mul (23 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7jvAAA","ProductCode":"FPMSO600","UnitPrice":600.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (39447842)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (39453685)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (39573884)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x5270e9d6","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (39582706)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (39589592)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (39594045)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (39598254)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (39599670)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (39602914)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (39719181)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x5270e9d6","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (39745843)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (39757428)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (39877759)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x5270e9d6","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (39885587)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (39905610)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (39924063)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (39928940)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (39937044)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (39940004)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (39943621)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (40064708)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x5270e9d6","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (40073397)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (40084518)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (40087974)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (40093429)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (40096234)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (40099036)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (40215086)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x5270e9d6","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (40222394)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (40228023)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (40231424)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (40236431)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (40242657)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (40247465)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (40266656)|HEAP_ALLOCATE|[36]|Bytes:24
+01:21:38.0 (40273347)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (40287632)|VARIABLE_ASSIGNMENT|[36]|p|{"Id":"01t24000002t7ssAAA","IsActive":true,"Name":"First Partners - Soc (21 more) ...","ProductCode":"FPSMC400","DisplayOnCommunity__ (1 more) ...":true}|0x6fa90ca3
+01:21:38.0 (40290715)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (40291914)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (40296478)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (40502775)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (40508958)|LIMIT_USAGE|[38]|SOQL|9|100
+01:21:38.0 (40514969)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (42619171)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (42625050)|LIMIT_USAGE|[38]|SOQL_ROWS|16|50000
+01:21:38.0 (42633763)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (42645061)|HEAP_ALLOCATE|[38]|Bytes:273
+01:21:38.0 (42657449)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (42670453)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (42819452)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x5270e9d6","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (42839301)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000002VVAkAAO","IsActive":true,"IsDeleted":false,"Name":"First Partners - Soc (21 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7ssAAA","ProductCode":"FPSMC400","UnitPrice":400.00,"UseStandardPrice":false}]|0x994427d
+01:21:38.0 (42854648)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000002VVAkAAO","IsActive":true,"IsDeleted":false,"Name":"First Partners - Soc (21 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002t7ssAAA","ProductCode":"FPSMC400","UnitPrice":400.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (42862373)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (42868444)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (42989979)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x994427d","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (42998533)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (43005386)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (43010159)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (43014337)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (43015853)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (43018716)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (43135504)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x994427d","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (43143628)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (43153287)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (43268446)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x994427d","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (43275657)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (43294699)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (43312752)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (43318161)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (43325995)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (43328987)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (43332607)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (43454041)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x994427d","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (43461925)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (43472327)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (43475993)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (43481439)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (43484297)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (43487252)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (43602920)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x994427d","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (43610362)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (43615668)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (43619138)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (43624176)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (43630826)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (43635282)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (43654408)|HEAP_ALLOCATE|[36]|Bytes:28
+01:21:38.0 (43661354)|VARIABLE_SCOPE_BEGIN|[36]|p|Product2|true|false
+01:21:38.0 (43677078)|VARIABLE_ASSIGNMENT|[36]|p|{"Description":"This is for First Pa (75 more) ...","Id":"01t24000002rJluAAE","IsActive":true,"Name":"First Partners - Soc (8 more) ...","ProductCode":"FPSO1200","DisplayOnCommunity__ (1 more) ...":true}|0x6f1f135d
+01:21:38.0 (43680444)|STATEMENT_EXECUTE|[37]
+01:21:38.0 (43681644)|STATEMENT_EXECUTE|[38]
+01:21:38.0 (43685783)|HEAP_ALLOCATE|[38]|Bytes:4
+01:21:38.0 (43895927)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id, IsActive, IsDeleted, Name, Pricebook2Id, Product2Id, ProductCode, UnitPrice, UseStandardPrice FROM PricebookEntry WHERE (Product2Id = :tmpVar1 AND isActive = TRUE) LIMIT 1
+01:21:38.0 (43902079)|LIMIT_USAGE|[38]|SOQL|10|100
+01:21:38.0 (43908173)|LIMIT_USAGE|[38]|AGGS|0|300
+01:21:38.0 (46005003)|SOQL_EXECUTE_END|[38]|Rows:1
+01:21:38.0 (46011224)|LIMIT_USAGE|[38]|SOQL_ROWS|17|50000
+01:21:38.0 (46020018)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (46032257)|HEAP_ALLOCATE|[38]|Bytes:260
+01:21:38.0 (46044462)|HEAP_ALLOCATE|[38]|Bytes:8
+01:21:38.0 (46057792)|SYSTEM_METHOD_ENTRY|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (46203382)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x994427d","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (46223198)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[{"Id":"01u24000001whHLAAY","IsActive":true,"IsDeleted":false,"Name":"First Partners - Soc (8 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002rJluAAE","ProductCode":"FPSO1200","UnitPrice":1200.00,"UseStandardPrice":false}]|0x7f9a6aac
+01:21:38.0 (46238550)|VARIABLE_ASSIGNMENT|[7]|this.pbEntry|[{"Id":"01u24000001whHLAAY","IsActive":true,"IsDeleted":false,"Name":"First Partners - Soc (8 more) ...","Pricebook2Id":"01s24000003Olw1AAC","Product2Id":"01t24000002rJluAAE","ProductCode":"FPSO1200","UnitPrice":1200.00,"UseStandardPrice":false}]|0x37387d8
+01:21:38.0 (46246678)|SYSTEM_METHOD_EXIT|[38]|CommunityProdController.__sfdc_pbEntry(List<PricebookEntry>)
+01:21:38.0 (46253241)|SYSTEM_METHOD_ENTRY|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (46374538)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (46383388)|SYSTEM_METHOD_EXIT|[40]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (46390269)|SYSTEM_METHOD_ENTRY|[40]|List<PricebookEntry>.size()
+01:21:38.0 (46394235)|SYSTEM_METHOD_EXIT|[40]|List<PricebookEntry>.size()
+01:21:38.0 (46398316)|STATEMENT_EXECUTE|[41]
+01:21:38.0 (46399739)|STATEMENT_EXECUTE|[42]
+01:21:38.0 (46402725)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (46519156)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (46526983)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (46536336)|SYSTEM_METHOD_ENTRY|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (46651005)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (46658315)|SYSTEM_METHOD_EXIT|[42]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (46688127)|HEAP_ALLOCATE|[42]|Bytes:40
+01:21:38.0 (46707492)|SYSTEM_METHOD_ENTRY|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (46712660)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:-4
+01:21:38.0 (46720662)|SYSTEM_METHOD_EXIT|[42]|Map<Id,PricebookEntry>.put(Object, Object)
+01:21:38.0 (46723604)|STATEMENT_EXECUTE|[43]
+01:21:38.0 (46727323)|SYSTEM_METHOD_ENTRY|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (46856019)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (46864495)|SYSTEM_METHOD_EXIT|[43]|CommunityProdController.__sfdc_prodListDisp()
+01:21:38.0 (46875580)|SYSTEM_METHOD_ENTRY|[43]|List<Product2>.add(Object)
+01:21:38.0 (46879159)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+01:21:38.0 (46884654)|SYSTEM_METHOD_EXIT|[43]|List<Product2>.add(Object)
+01:21:38.0 (46887463)|STATEMENT_EXECUTE|[58]
+01:21:38.0 (46890508)|SYSTEM_METHOD_ENTRY|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (47006676)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (47014469)|SYSTEM_METHOD_EXIT|[58]|CommunityProdController.__sfdc_pbEntry()
+01:21:38.0 (47019646)|SYSTEM_METHOD_ENTRY|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (47023440)|SYSTEM_METHOD_EXIT|[58]|List<PricebookEntry>.clear()
+01:21:38.0 (47028628)|SYSTEM_METHOD_ENTRY|[36]|system.ListIterator.hasNext()
+01:21:38.0 (47035148)|HEAP_ALLOCATE|[36]|Bytes:5
+01:21:38.0 (47039881)|SYSTEM_METHOD_EXIT|[36]|system.ListIterator.hasNext()
+01:21:38.0 (47047828)|VARIABLE_ASSIGNMENT|[36]|p|null|
+01:21:38.0 (47051114)|STATEMENT_EXECUTE|[61]
+01:21:38.0 (47054215)|HEAP_ALLOCATE|[61]|Bytes:11
+01:21:38.0 (47061298)|SYSTEM_METHOD_ENTRY|[61]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (47193382)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (47201281)|SYSTEM_METHOD_EXIT|[61]|CommunityProdController.__sfdc_prod_pbEntry()
+01:21:38.0 (47233035)|SYSTEM_METHOD_ENTRY|[61]|String.valueOf(Object)
+01:21:38.0 (47413764)|HEAP_ALLOCATE|[61]|Bytes:2124
+01:21:38.0 (47426739)|SYSTEM_METHOD_EXIT|[61]|String.valueOf(Object)
+01:21:38.0 (47438694)|HEAP_ALLOCATE|[61]|Bytes:2135
+01:21:38.0 (47457169)|SYSTEM_METHOD_ENTRY|[61]|System.debug(ANY)
+01:21:38.0 (47464965)|USER_DEBUG|[61]|DEBUG|PB Entry : {01t24000002rJluAAE=PricebookEntry:{Id=01u24000001whHLAAY, IsActive=true, IsDeleted=false, Name=First Partners - Social Only, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002rJluAAE, ProductCode=FPSO1200, UnitPrice=1200.00, UseStandardPrice=false}, 01t24000002t6w2AAA=PricebookEntry:{Id=01u24000002VUygAAG, IsActive=true, IsDeleted=false, Name=First Partners - Full Licence, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t6w2AAA, ProductCode=FPFL12000, UnitPrice=1200.00, UseStandardPrice=false}, 01t24000002t7jvAAA=PricebookEntry:{Id=01u24000002VV8yAAG, IsActive=true, IsDeleted=false, Name=First Partners - Multiple Seats Social Only, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t7jvAAA, ProductCode=FPMSO600, UnitPrice=600.00, UseStandardPrice=false}, 01t24000002t7rpAAA=PricebookEntry:{Id=01u24000002VVALAA4, IsActive=true, IsDeleted=false, Name=First Partners - Monthly Pro-bono Workshops, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t7rpAAA, ProductCode=FPMWS-PB, UnitPrice=0.00, UseStandardPrice=false}, 01t24000002t7s9AAA=PricebookEntry:{Id=01u24000002VVAQAA4, IsActive=true, IsDeleted=false, Name=First Partners - Initial Pro-bono Social Media Impact, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t7s9AAA, ProductCode=FPSMI-PB, UnitPrice=0.00, UseStandardPrice=false}, 01t24000002t7ssAAA=PricebookEntry:{Id=01u24000002VVAkAAO, IsActive=true, IsDeleted=false, Name=First Partners - Social Media Consultancy, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t7ssAAA, ProductCode=FPSMC400, UnitPrice=400.00, UseStandardPrice=false}, 01t24000002t7sxAAA=PricebookEntry:{Id=01u24000002VVAuAAO, IsActive=true, IsDeleted=false, Name=First Partners - Initial Pro-bono Salesforce Healthcheck, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t7sxAAA, ProductCode=FPSFHC-PB, UnitPrice=0.00, UseStandardPrice=false}, 01t24000002t81MAAQ=PricebookEntry:{Id=01u24000002VVBTAA4, IsActive=true, IsDeleted=false, Name=First Partners - Donor 3D, Pricebook2Id=01s24000003Olw1AAC, Product2Id=01t24000002t81MAAQ, ProductCode=FPD3D200, UnitPrice=200.00, UseStandardPrice=false}}
+01:21:38.0 (47477970)|SYSTEM_METHOD_EXIT|[61]|System.debug(ANY)
+01:21:38.0 (47480664)|STATEMENT_EXECUTE|[63]
+01:21:38.0 (47488955)|SYSTEM_METHOD_ENTRY|[63]|ApexPages.currentPage()
+01:21:38.0 (47533325)|HEAP_ALLOCATE|[63]|Bytes:27
+01:21:38.0 (47537831)|SYSTEM_METHOD_EXIT|[63]|ApexPages.currentPage()
+01:21:38.0 (47555408)|SYSTEM_METHOD_ENTRY|[63]|System.PageReference.getCookies()
+01:21:38.0 (47574943)|HEAP_ALLOCATE|[63]|Bytes:40
+01:21:38.0 (47609202)|SYSTEM_METHOD_EXIT|[63]|System.PageReference.getCookies()
+01:21:38.0 (47613056)|HEAP_ALLOCATE|[63]|Bytes:11
+01:21:38.0 (47627759)|SYSTEM_METHOD_ENTRY|[63]|Map<String,System.Cookie>.get(Object)
+01:21:38.0 (47639599)|SYSTEM_METHOD_EXIT|[63]|Map<String,System.Cookie>.get(Object)
+01:21:38.0 (47645415)|VARIABLE_SCOPE_BEGIN|[63]|goppIdCookie|System.Cookie|true|false
+01:21:38.0 (47712509)|VARIABLE_ASSIGNMENT|[63]|goppIdCookie|"common.apex.api.net.CookieValue@1b83f784"|0x1b83f784
+01:21:38.0 (47716583)|STATEMENT_EXECUTE|[64]
+01:21:38.0 (47719871)|HEAP_ALLOCATE|[64]|Bytes:25
+01:21:38.0 (47756091)|SYSTEM_METHOD_ENTRY|[64]|String.valueOf(Object)
+01:21:38.0 (47935851)|HEAP_ALLOCATE|[64]|Bytes:78
+01:21:38.0 (47950505)|SYSTEM_METHOD_EXIT|[64]|String.valueOf(Object)
+01:21:38.0 (47957485)|HEAP_ALLOCATE|[64]|Bytes:103
+01:21:38.0 (47965873)|SYSTEM_METHOD_ENTRY|[64]|System.debug(ANY)
+01:21:38.0 (47969911)|USER_DEBUG|[64]|DEBUG|get cookie opp id value: System.Cookie[oppIdCookie=0069E000002l5KVQAY;path=/;expires=-1;isSecure=false]
+01:21:38.0 (47973759)|SYSTEM_METHOD_EXIT|[64]|System.debug(ANY)
+01:21:38.0 (47976196)|STATEMENT_EXECUTE|[65]
+01:21:38.0 (47990000)|HEAP_ALLOCATE|[65]|Bytes:4
+01:21:38.0 (48074230)|SYSTEM_METHOD_ENTRY|[65]|CommunityProdController.__sfdc_newOpp(Opportunity)
+01:21:38.0 (48228296)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (48238866)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|{}|0x6426b2dd
+01:21:38.0 (48248618)|VARIABLE_ASSIGNMENT|[79]|this.newOpp|{}|0x37387d8
+01:21:38.0 (48254811)|SYSTEM_METHOD_EXIT|[65]|CommunityProdController.__sfdc_newOpp(Opportunity)
+01:21:38.0 (48259183)|STATEMENT_EXECUTE|[75]
+01:21:38.0 (48268575)|SYSTEM_METHOD_ENTRY|[75]|System.Cookie.getValue()
+01:21:38.0 (48283627)|HEAP_ALLOCATE|[75]|Bytes:18
+01:21:38.0 (48287203)|SYSTEM_METHOD_EXIT|[75]|System.Cookie.getValue()
+01:21:38.0 (48294536)|HEAP_ALLOCATE|[75]|Bytes:4
+01:21:38.0 (48302566)|SYSTEM_METHOD_ENTRY|[75]|CommunityProdController.__sfdc_newOpp()
+01:21:38.0 (48429164)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x44e166c8","currentUser":"0x6302c138","currentUserId":"00524000005uNfKAAU","newOpp":"0x6426b2dd","pbEntry":"0x7f9a6aac","prod_pbEntry":"0x51bf4f89","prodList":"0xc75aea1","prodListDisp":"0x718806b7"}|0x37387d8
+01:21:38.0 (48439154)|SYSTEM_METHOD_EXIT|[75]|CommunityProdController.__sfdc_newOpp()
+01:21:38.0 (49247400)|VARIABLE_ASSIGNMENT|[75]|this.Id|"0069E000002l5KVQAY"|0x6426b2dd
+01:21:38.0 (49265040)|VF_APEX_CALL_END|CommunityProdController <init>
+01:21:38.0 (49312234)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(billingAddrLine1)
+01:21:38.0 (49318456)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (49327246)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|billingAddrLine1
+01:21:38.0 (49335300)|VF_APEX_CALL_END|billingAddrLine1
+01:21:38.0 (49342945)|VF_APEX_CALL_END|CommunityProdController get(billingAddrLine1)
+01:21:38.0 (49855469)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(billingAddrLine2)
+01:21:38.0 (49861783)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (49868300)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|billingAddrLine2
+01:21:38.0 (49875458)|VF_APEX_CALL_END|billingAddrLine2
+01:21:38.0 (49886416)|VF_APEX_CALL_END|CommunityProdController get(billingAddrLine2)
+01:21:38.0 (49926271)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(billingCity)
+01:21:38.0 (49930145)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (49934822)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|billingCity
+01:21:38.0 (49940197)|VF_APEX_CALL_END|billingCity
+01:21:38.0 (49946742)|VF_APEX_CALL_END|CommunityProdController get(billingCity)
+01:21:38.0 (49983726)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(billingPostalCode)
+01:21:38.0 (49987219)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (49991494)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|billingPostalCode
+01:21:38.0 (49995923)|VF_APEX_CALL_END|billingPostalCode
+01:21:38.0 (50002759)|VF_APEX_CALL_END|CommunityProdController get(billingPostalCode)
+01:21:38.0 (50035578)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(billingCountry)
+01:21:38.0 (50038851)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50042888)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|billingCountry
+01:21:38.0 (50047352)|VF_APEX_CALL_END|billingCountry
+01:21:38.0 (50053935)|VF_APEX_CALL_END|CommunityProdController get(billingCountry)
+01:21:38.0 (50106910)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(cardNum)
+01:21:38.0 (50110616)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50114919)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|cardNum
+01:21:38.0 (50119216)|VF_APEX_CALL_END|cardNum
+01:21:38.0 (50125699)|VF_APEX_CALL_END|CommunityProdController get(cardNum)
+01:21:38.0 (50157841)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(cvv)
+01:21:38.0 (50160914)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50164961)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|cvv
+01:21:38.0 (50169407)|VF_APEX_CALL_END|cvv
+01:21:38.0 (50176116)|VF_APEX_CALL_END|CommunityProdController get(cvv)
+01:21:38.0 (50207730)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(expirationDate)
+01:21:38.0 (50210752)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50214699)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|expirationDate
+01:21:38.0 (50218917)|VF_APEX_CALL_END|expirationDate
+01:21:38.0 (50225205)|VF_APEX_CALL_END|CommunityProdController get(expirationDate)
+01:21:38.0 (50260716)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(accountNo)
+01:21:38.0 (50264048)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50268084)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|accountNo
+01:21:38.0 (50272427)|VF_APEX_CALL_END|accountNo
+01:21:38.0 (50278827)|VF_APEX_CALL_END|CommunityProdController get(accountNo)
+01:21:38.0 (50310048)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(sortCode)
+01:21:38.0 (50312914)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50316895)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|sortCode
+01:21:38.0 (50321082)|VF_APEX_CALL_END|sortCode
+01:21:38.0 (50327357)|VF_APEX_CALL_END|CommunityProdController get(sortCode)
+01:21:38.0 (50362498)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(discountCode)
+01:21:38.0 (50365769)|SYSTEM_MODE_ENTER|true
+01:21:38.0 (50369696)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|discountCode
+01:21:38.0 (50373916)|VF_APEX_CALL_END|discountCode
+01:21:38.0 (50380306)|VF_APEX_CALL_END|CommunityProdController get(discountCode)
+01:21:38.52 (52760228)|CUMULATIVE_LIMIT_USAGE
+01:21:38.52 (52760228)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 10 out of 100
+  Number of query rows: 17 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+01:21:38.52 (52760228)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+01:21:38.52 (52760228)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:__sfdcInnerTypes:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:BYTES:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  int:MAX_EXPONENT:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:_sfdcSuppressedCodeLocations:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  String:__sfdcProperties:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+01:21:38.52 (52760228)|CUMULATIVE_LIMIT_USAGE_END
+
+01:21:38.0 (52879708)|CODE_UNIT_FINISHED|VF: /apex/communityCheckout
+01:21:38.0 (54017530)|EXECUTION_FINISHED
+01:21:38.56 (56203978)|CUMULATIVE_PROFILING_BEGIN
+01:21:38.56 (56203978)|CUMULATIVE_PROFILING|SOQL operations|
+Class.CommunityProdController.<init>: line 38, column 1: [SELECT Id,IsActive,IsDeleted,Name,Pricebook2Id,Product2Id,ProductCode,UnitPrice,UseStandardPrice FROM PricebookEntry WHERE Product2Id = :p.id and isActive = true limit 1]: executed 16 times in 23 ms
+Class.CommunityProdController.<init>: line 30, column 1: [SELECT Description,Id,IsActive,Name,DisplayUrl,ProductCode,CommunityProdDetail__c,DisplayOnCommunity__c   FROM Product2 where isActive = true and DisplayOnCommunity__c =true order by name Limit 10 ]: executed 2 times in 4 ms
+
+01:21:38.56 (56203978)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+01:21:38.56 (56203978)|CUMULATIVE_PROFILING|No profiling information for DML operations
+01:21:38.56 (56203978)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public void <init>(): executed 1 time in 45 ms
+Class.CommunityProdController.<init>: line 22, column 1: public Id __sfdc_currentUserId(): executed 3 times in 6 ms
+Class.CommunityProdController.<init>: line 42, column 1: public Map<Id,PricebookEntry> __sfdc_prod_pbEntry(): executed 24 times in 3 ms
+Class.CommunityProdController.<init>: line 65, column 1: public void __sfdc_newOpp(Opportunity): executed 1 time in 1 ms
+Class.CommunityProdController.<init>: line 40, column 1: public List<PricebookEntry> __sfdc_pbEntry(): executed 16 times in 1 ms
+Class.CommunityProdController.<init>: line 43, column 1: public List<Product2> __sfdc_prodListDisp(): executed 16 times in 1 ms
+Class.CommunityProdController.<init>: line 21, column 1: global static String getUserId(): executed 2 times in 1 ms
+Class.CommunityProdController.<init>: line 58, column 1: public List<PricebookEntry> __sfdc_pbEntry(): executed 16 times in 1 ms
+Class.CommunityProdController.<init>: line 32, column 1: public void __sfdc_prod_pbEntry(Map<Id,PricebookEntry>): executed 1 time in 0 ms
+Class.CommunityProdController.<init>: line 64, column 1: public static String valueOf(Object): executed 2 times in 0 ms
+Class.CommunityProdController.<init>: line 33, column 1: global public List<Product2>(): executed 2 times in 0 ms
+
+01:21:38.56 (56203978)|CUMULATIVE_PROFILING_END

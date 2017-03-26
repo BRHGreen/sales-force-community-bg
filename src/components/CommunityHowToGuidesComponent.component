@@ -1,0 +1,100 @@
+<apex:component controller="CommunityHowToGuidesController" >
+<br/><br/>
+ <apex:form >
+
+<style type="text/css">
+
+.faq-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.faq-heading, .card {
+  margin: 0 auto;
+}
+.faq-heading {
+  margin: 170px 0 70px 40px;
+  width: 100%;
+  text-align: left;
+}
+.faq-text-container {
+
+}
+.card {
+  margin-left: 110px;
+  margin-bottom: 30px;
+}
+.faq-link {
+  color: #8800ff;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+p, span {
+  font-size: .9em;
+  font-weight: 200;
+  line-height: 2em;
+}
+
+</style>
+
+<div class="container">
+    <br/>
+    <div class="col-lg-12">
+<div class="faq-container">
+  <div class="faq-text-container">
+  <div class="faq-heading">
+    <img class="homepage-heading-logo" src="https://c.cs88.visual.force.com/resource/1490282350000/homepageHeadingLogo"></img>
+    <h1>Getting Started</h1>
+  </div>
+    	<div style="display:{!if(viewGettingStarted == true, "block", "none")};">
+              <apex:repeat value="{!helpArticlesOddList}" var="fList" >
+               <div id="accordion" role="tablist" aria-multiselectable="true">
+	               <div class="card">
+                    <div class="card-header" role="tab" id="header{!fList.id}">
+                        <h4 class="mb-0">
+
+                           <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordion" href="#{!fList.id}" aria-expanded="false" aria-controls="{!fList.id}">  {!fList.Title} </a>
+                        </h4>
+                    </div>
+
+                    <div id="{!fList.id}" class="collapse" role="tabpanel" aria-labelledby="header{!fList.id}" >
+                      <div class="card-block">
+	                     <br/>
+	        	            <apex:outputField value="{!fList.Answer__c}" styleClass="card-text"/>
+                      </div>
+                    </div>&nbsp;
+                  </div>
+                </div>
+	            </apex:repeat>
+
+
+               <apex:repeat value="{!helpArticlesEvenList}" var="fList" >
+               <div id="accordion" role="tablist" aria-multiselectable="true">
+                 <div class="card">
+                    <div class="card-header" role="tab" id="header{!fList.id}">
+                        <h4 class="mb-0">
+
+                           <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordion" href="#{!fList.id}" aria-expanded="false" aria-controls="{!fList.id}">  {!fList.Title} </a>
+                        </h4>
+                    </div>
+
+                    <div id="{!fList.id}" class="collapse" role="tabpanel" aria-labelledby="header{!fList.id}" >
+                      <div class="card-block">
+                       <br/>
+                        <apex:outputField value="{!fList.Answer__c}" styleClass="card-text"/>
+                      </div>
+                    </div>&nbsp;
+                  </div>
+                </div>
+              </apex:repeat>
+        </div>
+  </div>
+</div> <!--faq text-->
+  </div> <!--faq container-->
+
+
+    </div>
+
+
+ </apex:form>
+</apex:component>

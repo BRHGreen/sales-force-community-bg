@@ -1,0 +1,263 @@
+13.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINER;WAVE,INFO;WORKFLOW,FINER
+05:44:04.0 (281666)|USER_INFO|[EXTERNAL]|00524000005uNfK|neela@lightful.com.commundev|Line Is. Time|GMT+14:00
+05:44:04.0 (302924)|EXECUTION_STARTED
+05:44:04.0 (306697)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+05:44:04.0 (334018)|CODE_UNIT_STARTED|[EXTERNAL]|01q9E000000CfOI|CalculateBusinessHoursAges on Case trigger event BeforeUpdate for [5009E00000206zG]
+05:44:04.0 (380179)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:04.0 (549237)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:04.0 (834967)|HEAP_ALLOCATE|[72]|Bytes:3
+05:44:04.0 (866892)|HEAP_ALLOCATE|[77]|Bytes:152
+05:44:04.0 (880783)|HEAP_ALLOCATE|[342]|Bytes:408
+05:44:04.0 (898703)|HEAP_ALLOCATE|[355]|Bytes:408
+05:44:04.0 (911485)|HEAP_ALLOCATE|[467]|Bytes:48
+05:44:04.0 (936706)|HEAP_ALLOCATE|[139]|Bytes:6
+05:44:04.0 (950994)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:2
+05:44:04.0 (957097)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:04.0 (962202)|VARIABLE_SCOPE_BEGIN|[1]|this|CalculateBusinessHoursAges|true|false
+05:44:04.0 (993161)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x191b149f
+05:44:04.0 (1023200)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:04.0 (1029088)|VARIABLE_SCOPE_BEGIN|[1]|this|CalculateBusinessHoursAges|true|false
+05:44:04.0 (1035928)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x191b149f
+05:44:04.0 (1040771)|STATEMENT_EXECUTE|[1]
+05:44:04.0 (1071118)|HEAP_ALLOCATE|[50]|Bytes:5
+05:44:04.0 (1090551)|HEAP_ALLOCATE|[56]|Bytes:5
+05:44:04.0 (1096637)|HEAP_ALLOCATE|[64]|Bytes:7
+05:44:04.0 (1120608)|STATEMENT_EXECUTE|[8]
+05:44:04.0 (1122099)|STATEMENT_EXECUTE|[10]
+05:44:04.0 (1168566)|HEAP_ALLOCATE|[10]|Bytes:4
+05:44:04.0 (1187569)|SYSTEM_CONSTRUCTOR_ENTRY|[10]|<init>(Integer)
+05:44:04.0 (1206867)|SYSTEM_CONSTRUCTOR_EXIT|[10]|<init>(Integer)
+05:44:04.0 (1210021)|VARIABLE_SCOPE_BEGIN|[10]|stopStatusSet|Set<String>|true|false
+05:44:04.0 (1241755)|VARIABLE_ASSIGNMENT|[10]|stopStatusSet|[]|0x3f4454f8
+05:44:04.0 (1247003)|HEAP_ALLOCATE|[11]|Bytes:31
+05:44:04.0 (1255450)|HEAP_ALLOCATE|[11]|Bytes:4
+05:44:04.0 (2016919)|SOQL_EXECUTE_BEGIN|[11]|Aggregations:0|SELECT Name FROM Stop_Status__c
+05:44:04.0 (2027140)|LIMIT_USAGE|[11]|SOQL|1|100
+05:44:04.0 (2037831)|LIMIT_USAGE|[11]|AGGS|0|300
+05:44:04.0 (15291486)|SOQL_EXECUTE_END|[11]|Rows:0
+05:44:04.0 (15347350)|SYSTEM_METHOD_ENTRY|[11]|Database.QueryLocator.iterator()
+05:44:04.0 (15509171)|HEAP_ALLOCATE|[11]|Bytes:49
+05:44:04.0 (15516755)|HEAP_ALLOCATE|[11]|Bytes:8
+05:44:04.0 (15527237)|SYSTEM_METHOD_ENTRY|[7]|QueryLocatorIterator.QueryLocatorIterator()
+05:44:04.0 (15529808)|STATEMENT_EXECUTE|[7]
+05:44:04.0 (15537875)|SYSTEM_METHOD_EXIT|[7]|QueryLocatorIterator
+05:44:04.0 (15543204)|HEAP_ALLOCATE|[11]|Bytes:28
+05:44:04.0 (15557718)|HEAP_ALLOCATE|[11]|Bytes:8
+05:44:04.0 (15559692)|HEAP_ALLOCATE|[11]|Bytes:8
+05:44:04.0 (15563357)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+05:44:04.0 (15589622)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x353c7dc9
+05:44:04.0 (15592129)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+05:44:04.0 (15596241)|VARIABLE_ASSIGNMENT|[15]|values|null|
+05:44:04.0 (15597784)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+05:44:04.0 (15610689)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT Name FROM Sto (11 more) ..."}|0xa419903
+05:44:04.0 (15613235)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+05:44:04.0 (15616860)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|0
+05:44:04.0 (15618358)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+05:44:04.0 (15620554)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|50000
+05:44:04.0 (15684056)|HEAP_ALLOCATE|[11]|Bytes:28
+05:44:04.0 (15690310)|SYSTEM_METHOD_EXIT|[11]|Database.QueryLocator.iterator()
+05:44:04.0 (15704231)|METHOD_ENTRY|[11]||Database.QueryLocatorIterator.hasNext()
+05:44:04.0 (15719927)|METHOD_EXIT|[11]||Database.QueryLocatorIterator.hasNext()
+05:44:04.0 (15756119)|VARIABLE_ASSIGNMENT|[11]|stopStatus|null|
+05:44:04.0 (15759559)|STATEMENT_EXECUTE|[11]
+05:44:04.0 (15773056)|STATEMENT_EXECUTE|[16]
+05:44:04.0 (15775902)|HEAP_ALLOCATE|[16]|Bytes:51
+05:44:04.0 (15781938)|HEAP_ALLOCATE|[16]|Bytes:4
+05:44:04.0 (15986192)|SOQL_EXECUTE_BEGIN|[16]|Aggregations:0|SELECT Id FROM BusinessHours WHERE IsDefault = TRUE
+05:44:04.0 (15992969)|LIMIT_USAGE|[16]|SOQL|2|100
+05:44:04.0 (15999356)|LIMIT_USAGE|[16]|AGGS|0|300
+05:44:04.0 (19193574)|SOQL_EXECUTE_END|[16]|Rows:1
+05:44:04.0 (19198998)|LIMIT_USAGE|[16]|SOQL_ROWS|1|50000
+05:44:04.0 (19208969)|HEAP_ALLOCATE|[16]|Bytes:8
+05:44:04.0 (19217775)|HEAP_ALLOCATE|[16]|Bytes:29
+05:44:04.0 (19265809)|HEAP_ALLOCATE|[16]|Bytes:8
+05:44:04.0 (19280515)|HEAP_ALLOCATE|[16]|Bytes:39
+05:44:04.0 (19319433)|HEAP_ALLOCATE|[16]|Bytes:8
+05:44:04.0 (19325164)|VARIABLE_SCOPE_BEGIN|[16]|defaultHours|BusinessHours|true|false
+05:44:04.0 (19338628)|VARIABLE_ASSIGNMENT|[16]|defaultHours|{"Id":"01m24000000KOgMAAW"}|0x4d1551c6
+05:44:04.0 (19341803)|STATEMENT_EXECUTE|[19]
+05:44:04.0 (19348213)|HEAP_ALLOCATE|[19]|Bytes:4
+05:44:04.0 (19361648)|SYSTEM_CONSTRUCTOR_ENTRY|[19]|<init>(Integer)
+05:44:04.0 (19379380)|SYSTEM_CONSTRUCTOR_EXIT|[19]|<init>(Integer)
+05:44:04.0 (19382634)|VARIABLE_SCOPE_BEGIN|[19]|closedStatusSet|Set<String>|true|false
+05:44:04.0 (19399969)|VARIABLE_ASSIGNMENT|[19]|closedStatusSet|[]|0x1d7483bf
+05:44:04.0 (19404651)|HEAP_ALLOCATE|[20]|Bytes:56
+05:44:04.0 (19409509)|HEAP_ALLOCATE|[20]|Bytes:4
+05:44:04.0 (19577052)|SOQL_EXECUTE_BEGIN|[20]|Aggregations:0|SELECT MasterLabel FROM CaseStatus 
+05:44:04.0 (19582990)|LIMIT_USAGE|[20]|SOQL|3|100
+05:44:04.0 (19588850)|LIMIT_USAGE|[20]|AGGS|0|300
+05:44:04.0 (21219200)|SOQL_EXECUTE_END|[20]|Rows:1
+05:44:04.0 (21225111)|LIMIT_USAGE|[20]|SOQL_ROWS|2|50000
+05:44:04.0 (21233154)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:04.0 (21265789)|SYSTEM_METHOD_ENTRY|[20]|Database.QueryLocator.iterator()
+05:44:04.0 (21346407)|HEAP_ALLOCATE|[20]|Bytes:28
+05:44:04.0 (21391297)|HEAP_ALLOCATE|[20]|Bytes:8
+05:44:04.0 (21403373)|HEAP_ALLOCATE|[20]|Bytes:8
+05:44:04.0 (21405105)|HEAP_ALLOCATE|[20]|Bytes:8
+05:44:04.0 (21408242)|VARIABLE_SCOPE_BEGIN|[15]|this|Database.QueryLocatorIterator|true|false
+05:44:04.0 (21428332)|VARIABLE_ASSIGNMENT|[15]|this|{}|0x46f3bef2
+05:44:04.0 (21431016)|VARIABLE_SCOPE_BEGIN|[15]|values|List<SObject>|true|false
+05:44:04.0 (21442717)|VARIABLE_ASSIGNMENT|[15]|values|[{"MasterLabel":"Closed","Id":"01J2400000BO5EeEAL"}]|0x4b06d9b6
+05:44:04.0 (21444594)|VARIABLE_SCOPE_BEGIN|[15]|ql|Database.QueryLocator|true|false
+05:44:04.0 (21452195)|VARIABLE_ASSIGNMENT|[15]|ql|{"query":"SELECT MasterLabel F (36 more) ..."}|0x66f4e9c
+05:44:04.0 (21454147)|VARIABLE_SCOPE_BEGIN|[15]|totalNumRecords|Integer|false|false
+05:44:04.0 (21457259)|VARIABLE_ASSIGNMENT|[15]|totalNumRecords|1
+05:44:04.0 (21458853)|VARIABLE_SCOPE_BEGIN|[15]|queryMoreSize|Integer|false|false
+05:44:04.0 (21461060)|VARIABLE_ASSIGNMENT|[15]|queryMoreSize|49998
+05:44:04.0 (21499447)|HEAP_ALLOCATE|[20]|Bytes:28
+05:44:04.0 (21505284)|SYSTEM_METHOD_EXIT|[20]|Database.QueryLocator.iterator()
+05:44:04.0 (21514818)|METHOD_ENTRY|[20]||Database.QueryLocatorIterator.hasNext()
+05:44:04.0 (21566206)|METHOD_EXIT|[20]||Database.QueryLocatorIterator.hasNext()
+05:44:04.0 (21572549)|METHOD_ENTRY|[20]||Database.QueryLocatorIterator.next()
+05:44:04.0 (21643663)|METHOD_EXIT|[20]||Database.QueryLocatorIterator.next()
+05:44:04.0 (21649769)|VARIABLE_SCOPE_BEGIN|[20]|status|CaseStatus|true|false
+05:44:04.0 (21660241)|VARIABLE_ASSIGNMENT|[20]|status|{"MasterLabel":"Closed","Id":"01J2400000BO5EeEAL"}|0x7147bde9
+05:44:04.0 (21663449)|STATEMENT_EXECUTE|[20]
+05:44:04.0 (21665104)|STATEMENT_EXECUTE|[21]
+05:44:04.0 (21702081)|SYSTEM_METHOD_ENTRY|[21]|Set<String>.add(Object)
+05:44:04.0 (21715742)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:04.0 (21723654)|SYSTEM_METHOD_EXIT|[21]|Set<String>.add(Object)
+05:44:04.0 (21729880)|METHOD_ENTRY|[20]||Database.QueryLocatorIterator.hasNext()
+05:44:04.0 (21739521)|METHOD_EXIT|[20]||Database.QueryLocatorIterator.hasNext()
+05:44:04.0 (21745670)|VARIABLE_ASSIGNMENT|[20]|status|null|
+05:44:04.0 (21817512)|SYSTEM_METHOD_ENTRY|[25]|List<Case>.iterator()
+05:44:04.0 (21892829)|SYSTEM_METHOD_EXIT|[25]|List<Case>.iterator()
+05:44:04.0 (21906428)|SYSTEM_METHOD_ENTRY|[25]|system.ListIterator.hasNext()
+05:44:04.0 (21916253)|HEAP_ALLOCATE|[25]|Bytes:5
+05:44:04.0 (21921026)|SYSTEM_METHOD_EXIT|[25]|system.ListIterator.hasNext()
+05:44:04.0 (21942395)|HEAP_ALLOCATE|[25]|Bytes:4
+05:44:04.0 (21948685)|VARIABLE_SCOPE_BEGIN|[25]|updatedCase|Case|true|false
+05:44:04.0 (23949833)|VARIABLE_ASSIGNMENT|[25]|updatedCase|{"Origin":"Web","LastModifiedDate":"2017-03-23T15:34:57.000Z","AccountId":"0019E000006wqt7QAA","Description":"testing related acc  (4 more) ...","No_Days_Since_no_Res (8 more) ...":0,"Time_With_Customer__ (1 more) ...":0.000,"Last_Status_Change__ (1 more) ...":"2017-03-23T15:34:57.000Z","ContactId":"0039E0000037h4mQAA","IsClosed":false,"BusinessHoursId":"01m24000000KOgMAAW","CreatedById":"00524000005uNfKAAU","OwnerId":"00524000005uNfKAAU","RecordTypeId":"012240000002nYhAAI","Date_Last_Email_Rece (7 more) ...":"2017-03-24T00:00:00.000Z","IsClosedOnCreate":false,"CaseNumber":"00001214","Status":"New","IsDeleted":false,"Priority":"Medium","Subject":"testing related acc  (4 more) ...","SystemModstamp":"2017-03-23T15:34:57.000Z","Time_With_Support__c":0.000,"IsEscalated":false,"CreatedDate":"2017-03-23T15:34:57.000Z","Id":"5009E00000206zGQAQ","LastModifiedById":"00524000005uNfKAAU","P1__c":false}|0x7d768131
+05:44:04.0 (23960468)|STATEMENT_EXECUTE|[25]
+05:44:04.0 (23962131)|STATEMENT_EXECUTE|[26]
+05:44:04.0 (24050679)|SYSTEM_METHOD_ENTRY|[26]|Map<Id,Case>.get(Object)
+05:44:04.0 (24076039)|SYSTEM_METHOD_EXIT|[26]|Map<Id,Case>.get(Object)
+05:44:04.0 (24081553)|VARIABLE_SCOPE_BEGIN|[26]|oldCase|Case|true|false
+05:44:04.0 (24663065)|VARIABLE_ASSIGNMENT|[26]|oldCase|{"Origin":"Web","LastModifiedDate":"2017-03-23T15:34:57.000Z","AccountId":"0019E000006wqt7QAA","Description":"testing related acc  (4 more) ...","No_Days_Since_no_Res (8 more) ...":0,"Time_With_Customer__ (1 more) ...":0.000,"Last_Status_Change__ (1 more) ...":"2017-03-23T15:34:57.000Z","IsClosed":false,"BusinessHoursId":"01m24000000KOgMAAW","CreatedById":"00524000005uNfKAAU","OwnerId":"00524000005uNfKAAU","RecordTypeId":"012240000002nYhAAI","Date_Last_Email_Rece (7 more) ...":"2017-03-24T00:00:00.000Z","IsClosedOnCreate":false,"CaseNumber":"00001214","Status":"New","IsDeleted":false,"Priority":"Medium","Subject":"testing related acc  (4 more) ...","SystemModstamp":"2017-03-23T15:34:57.000Z","Time_With_Support__c":0.000,"IsEscalated":false,"CreatedDate":"2017-03-23T15:34:57.000Z","Id":"5009E00000206zGQAQ","LastModifiedById":"00524000005uNfKAAU","P1__c":false}|0x6da1a44f
+05:44:04.0 (24708796)|STATEMENT_EXECUTE|[28]
+05:44:04.0 (24717410)|SYSTEM_METHOD_ENTRY|[25]|system.ListIterator.hasNext()
+05:44:04.0 (24724976)|HEAP_ALLOCATE|[25]|Bytes:5
+05:44:04.0 (24730197)|SYSTEM_METHOD_EXIT|[25]|system.ListIterator.hasNext()
+05:44:04.0 (24738010)|VARIABLE_ASSIGNMENT|[25]|updatedCase|null|
+05:44:04.24 (24746312)|CUMULATIVE_LIMIT_USAGE
+05:44:04.24 (24746312)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:44:04.24 (24746312)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+05:44:04.24 (24746312)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  String:__sfdcParameterizedTypes:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  String:_sfdcSuppressedCodeLocations:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  int:MAX_EXPONENT:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+05:44:04.24 (24746312)|CUMULATIVE_LIMIT_USAGE_END
+
+05:44:04.0 (25623484)|CODE_UNIT_FINISHED|CalculateBusinessHoursAges on Case trigger event BeforeUpdate for [5009E00000206zG]
+05:44:04.0 (60334110)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Case
+05:44:04.0 (74641751)|WF_RULE_EVAL_BEGIN|Workflow
+05:44:04.0 (74670001)|WF_CRITERIA_BEGIN|[Case: 00001214 5009E00000206zG]|Slack_Case_Publisher3019E0000008pi0|01Q9E000000CvJc|ON_ALL_CHANGES|0
+05:44:04.0 (74728476)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]true|Values:
+05:44:04.0 (74732032)|WF_CRITERIA_END|true
+05:44:04.0 (75382123)|WF_CRITERIA_BEGIN|[Case: 00001214 5009E00000206zG]|Cases Overdue|01Q9E000000CuuD|ON_ALL_CHANGES|0
+05:44:04.0 (75700035)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]TEXT({!ID:Status}) ="Customer Awaiting Response" && 
+ {!ID:00N9E000000ZfCX}  > 2|Values:Status=New, No_Days_Since_no_Response__c=0
+05:44:04.0 (75705305)|WF_CRITERIA_END|false
+05:44:04.0 (75720080)|WF_CRITERIA_BEGIN|[Case: 00001214 5009E00000206zG]|Communities Case Email auto response to WebContact|01Q9E000000CvrP|ON_ALL_CHANGES|0
+05:44:04.0 (76982629)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]TEXT( {!ID:Origin} ) ="Communities" && 
+ ISBLANK( {!ID:Contact} )|Values:Origin=Web, ContactId=0039E0000037h4m
+05:44:04.0 (76987084)|WF_CRITERIA_END|false
+05:44:04.0 (77001282)|WF_CRITERIA_BEGIN|[Case: 00001214 5009E00000206zG]|Communities Case Email auto response to Contact|01Q9E000000CvzY|ON_ALL_CHANGES|0
+05:44:04.0 (77102699)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]TEXT( {!ID:Origin} ) ="Communities"|Values:Origin=Web
+05:44:04.0 (77105951)|WF_CRITERIA_END|false
+05:44:04.0 (77117205)|WF_CRITERIA_BEGIN|[Case: 00001214 5009E00000206zG]|Update Case Platform to Lightful|01Q9E000000Cu9q|ON_ALL_CHANGES|0
+05:44:04.0 (83208058)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]{!ID:RecordType.DeveloperName} ="Product Support" && 
+TEXT( {!ID:Type} ) ="Problem" &#124;&#124; 
+ TEXT( {!ID:Type} ) ="Feature Request"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Compose"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Media Library"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Social Contacts"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Listen"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Engage"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Dashboard"&#124;&#124;
+ TEXT( {!ID:Type} ) ="UI"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Settings"&#124;&#124;
+ TEXT( {!ID:Type} ) ="Ease of Use"|Values:Type=null, RecordType.DeveloperName=Product_Support
+05:44:04.0 (83216920)|WF_CRITERIA_END|false
+05:44:04.0 (83229597)|WF_SPOOL_ACTION_BEGIN|Workflow
+05:44:04.0 (83248032)|WF_ACTION| Flow Trigger: 1;
+05:44:04.0 (83250153)|WF_RULE_EVAL_END
+05:44:04.0 (83671826)|WF_FLOW_ACTION_BEGIN|09L9E0000008UiO
+05:44:04.0 (83691986)|WF_FLOW_ACTION_DETAIL|09L9E0000008UiO|[Case: 00001214 5009E00000206zG]|Id=09L9E0000008UiO|CurrentRule:Update Case Platform to Lightful (Id=01Q9E000000Cu9q)
+05:44:04.83 (83730865)|FLOW_CREATE_INTERVIEW_BEGIN|00D9E000000Cvym|3009E0000008UCd|3019E0000008pi0
+05:44:04.83 (85027689)|FLOW_CREATE_INTERVIEW_END|439326d1716daf37912c63ae736e15afbc5883d-2c0b|Slack Case Publisher
+05:44:04.0 (85204411)|WF_FLOW_ACTION_DETAIL|Param Name: myVariable_current, Param Value: ENCODED:{![treatNullAsNull]{!ID:this}}, Evaluated Param Value: {Entity type: Case, id: 5009E00000206zGQAQ}|Param Name: myVariable_old, Param Value: {!old}, Evaluated Param Value: {Entity type: Case, id: 5009E00000206zGQAQ}
+05:44:04.85 (85246268)|FLOW_START_INTERVIEWS_BEGIN|1
+05:44:04.85 (85916201)|FLOW_START_INTERVIEW_BEGIN|439326d1716daf37912c63ae736e15afbc5883d-2c0b|Slack Case Publisher
+05:44:04.85 (85941672)|FLOW_VALUE_ASSIGNMENT|439326d1716daf37912c63ae736e15afbc5883d-2c0b|myVariable_old|moduleapi.interaction.SObjectRowWithSavePoint@385d5b1e
+05:44:04.85 (86470431)|FLOW_VALUE_ASSIGNMENT|439326d1716daf37912c63ae736e15afbc5883d-2c0b|myVariable_current|{Id=5009E00000206zGQAQ, IsDeleted=false, CaseNumber=00001214, ContactId=0039E0000037h4mQAA, AccountId=0019E000006wqt7QAA, AssetId=null, FeedItemId=null, SourceId=null, BusinessHoursId=01m24000000KOgMAAW, ParentId=null, SuppliedName=null, SuppliedEmail=null, SuppliedPhone=null, SuppliedCompany=null, Type=null, RecordTypeId=012240000002nYhAAI, Status=New, Reason=null, Origin=Web, Subject=testing related acc case, Priority=Medium, Description=testing related acc case, IsClosed=false, ClosedDate=null, IsEscalated=false, EscalationDateTime=null, RuleFilterId=null, OwnerId=00524000005uNfKAAU, ClosedOnCreate=false, IsClosedOnCreate=false, CreatedDate=2017-03-23 15:34:57, CreatedById=00524000005uNfKAAU, CreatedByAlias=nnaga, LastModifiedDate=2017-03-23 15:44:04, LastModifiedById=00524000005uNfKAAU, LastModifiedByAlias=nnaga, SystemModstamp=2017-03-23 15:44:04, ContactPhone=07777776, ContactMobile=null, ContactEmail=services@lightful.com, ContactFax=null, Comments=null, LastViewedDate=null, LastReferencedDate=null, ConnectionReceivedDate=null, ConnectionSentDate=null, EventsProcessedDate=2017-03-23 15:34:57, agf__ADM_Work__c=null, Platform_Page__c=null, Lead__c=null, Customer_emoticon__c=null, Customer_emoticon_value__c=null, pkbgeolocalization__Latitude__s=null, pkbgeolocalization__Longitude__s=null, Platform__c=null, Contact_First_Name__c=null, Contact_Last_Name__c=null, Issue_Type__c=null, P1__c=false, Case_Age_In_Business_Hours__c=null, Last_Status_Change__c=2017-03-23 15:34:57, Time_With_Customer__c=0.0, Time_With_Support__c=0.0, Date_Last_Email_Received__c=2017-03-24 00:00:00, Days_Since_No_Response__c=null, No_Days_Since_no_Response__c=0.0, Email_Status__c=null}
+05:44:04.85 (86531378)|FLOW_ELEMENT_BEGIN|439326d1716daf37912c63ae736e15afbc5883d-2c0b|FlowAssignment|myVariable_waitStartTimeAssignment
+05:44:04.85 (86583275)|FLOW_ASSIGNMENT_DETAIL|439326d1716daf37912c63ae736e15afbc5883d-2c0b|myVariable_waitStartTimeVariable|ASSIGN|24/03/2017 05:44
+05:44:04.85 (86593344)|FLOW_VALUE_ASSIGNMENT|439326d1716daf37912c63ae736e15afbc5883d-2c0b|myVariable_waitStartTimeVariable|2017-03-23T15:44:04Z
+05:44:04.85 (86598383)|FLOW_ELEMENT_END|439326d1716daf37912c63ae736e15afbc5883d-2c0b|FlowAssignment|myVariable_waitStartTimeAssignment
+05:44:04.85 (86606333)|FLOW_ELEMENT_BEGIN|439326d1716daf37912c63ae736e15afbc5883d-2c0b|FlowDecision|myDecision
+05:44:04.85 (86705673)|FLOW_RULE_DETAIL|439326d1716daf37912c63ae736e15afbc5883d-2c0b|myRule_1|false
+05:44:04.85 (86710958)|FLOW_VALUE_ASSIGNMENT|439326d1716daf37912c63ae736e15afbc5883d-2c0b|myRule_1|false
+05:44:04.85 (86715153)|FLOW_ELEMENT_END|439326d1716daf37912c63ae736e15afbc5883d-2c0b|FlowDecision|myDecision
+05:44:04.85 (86778923)|FLOW_START_INTERVIEW_END|439326d1716daf37912c63ae736e15afbc5883d-2c0b|Slack Case Publisher
+05:44:04.85 (86783986)|FLOW_START_INTERVIEWS_END|1
+05:44:04.0 (87759975)|WF_FLOW_ACTION_END|09L9E0000008UiO
+05:44:04.0 (87821484)|WF_ACTIONS_END| Flow Trigger: 1;
+05:44:04.0 (87826320)|CODE_UNIT_FINISHED|Workflow:Case
+05:44:04.0 (126064542)|CODE_UNIT_FINISHED|TRIGGERS
+05:44:04.0 (126071577)|EXECUTION_FINISHED
+05:44:04.128 (128814996)|CUMULATIVE_PROFILING_BEGIN
+05:44:04.128 (128814996)|CUMULATIVE_PROFILING|SOQL operations|
+Trigger.CalculateBusinessHoursAges: line 11, column 1: [Select Name From Stop_Status__c]: executed 3 times in 14 ms
+Trigger.CalculateBusinessHoursAges: line 16, column 1: [select Id from BusinessHours where IsDefault=true]: executed 1 time in 4 ms
+Trigger.CalculateBusinessHoursAges: line 20, column 1: [Select MasterLabel From CaseStatus where IsClosed=true]: executed 5 times in 2 ms
+
+05:44:04.128 (128814996)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+05:44:04.128 (128814996)|CUMULATIVE_PROFILING|No profiling information for DML operations
+05:44:04.128 (128814996)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public void invoke(): executed 1 time in 23 ms
+Trigger.CalculateBusinessHoursAges: line 19, column 1: public Set<String>(Integer): executed 1 time in 0 ms
+Trigger.CalculateBusinessHoursAges: line 21, column 1: global public Boolean add(Object): executed 1 time in 0 ms
+Trigger.CalculateBusinessHoursAges: line 25, column 1: global public System.Iterator iterator(): executed 3 times in 0 ms
+Trigger.CalculateBusinessHoursAges: line 10, column 1: public Set<String>(Integer): executed 1 time in 0 ms
+Trigger.CalculateBusinessHoursAges: line 26, column 1: global public Object get(Object): executed 1 time in 0 ms
+
+05:44:04.128 (128814996)|CUMULATIVE_PROFILING_END

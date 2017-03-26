@@ -1,0 +1,182 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINER;WAVE,INFO;WORKFLOW,FINER
+05:44:14.0 (279128)|USER_INFO|[EXTERNAL]|00524000005uNfK|neela@lightful.com.commundev|Line Is. Time|GMT+14:00
+05:44:14.0 (302714)|EXECUTION_STARTED
+05:44:14.0 (306720)|CODE_UNIT_STARTED|[EXTERNAL]|0669E000000Cv0R|VF: /apex/communityCaseMgmt
+05:44:14.0 (404360)|VF_DESERIALIZE_VIEWSTATE_BEGIN|0669E000000Cv0R
+05:44:14.0 (6229721)|HEAP_ALLOCATE|[72]|Bytes:3
+05:44:14.0 (6257063)|HEAP_ALLOCATE|[77]|Bytes:152
+05:44:14.0 (6267174)|HEAP_ALLOCATE|[342]|Bytes:408
+05:44:14.0 (6280425)|HEAP_ALLOCATE|[355]|Bytes:408
+05:44:14.0 (6292959)|HEAP_ALLOCATE|[467]|Bytes:48
+05:44:14.0 (6314343)|HEAP_ALLOCATE|[139]|Bytes:6
+05:44:14.0 (7393231)|HEAP_ALLOCATE|[50]|Bytes:5
+05:44:14.0 (7412783)|HEAP_ALLOCATE|[56]|Bytes:5
+05:44:14.0 (7419796)|HEAP_ALLOCATE|[64]|Bytes:7
+05:44:14.0 (10092070)|VF_DESERIALIZE_VIEWSTATE_END
+05:44:14.12 (12284012)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+05:44:14.12 (12298831)|SYSTEM_MODE_ENTER|true
+05:44:14.12 (12320761)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+05:44:14.12 (12348624)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:38
+05:44:14.12 (12354015)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+05:44:14.12 (12361091)|SYSTEM_METHOD_ENTRY|[1]|PageMessagesComponentController.PageMessagesComponentController()
+05:44:14.12 (12364331)|STATEMENT_EXECUTE|[1]
+05:44:14.13 (13036657)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+05:44:14.13 (13045757)|SYSTEM_MODE_ENTER|true
+05:44:14.13 (13054250)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+05:44:14.13 (13071317)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+05:44:14.13 (13090545)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:14.13 (13095379)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+05:44:14.13 (13124084)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x36c72ea
+05:44:14.13 (13127487)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+05:44:14.13 (13131127)|VARIABLE_ASSIGNMENT|[88]|escape|null
+05:44:14.0 (13281625)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(myCases)
+05:44:14.0 (13287739)|SYSTEM_MODE_ENTER|true
+05:44:14.0 (13298878)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|myCases
+05:44:14.0 (13307403)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:368
+05:44:14.0 (13312942)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:60
+05:44:14.0 (13315216)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:23
+05:44:14.0 (13321441)|METHOD_ENTRY|[1]|01p9E000000Dmpd|communityCaseMgmtController.communityCaseMgmtController()
+05:44:14.0 (13324166)|STATEMENT_EXECUTE|[1]
+05:44:14.0 (13326587)|STATEMENT_EXECUTE|[1]
+05:44:14.0 (13330162)|METHOD_EXIT|[1]|communityCaseMgmtController
+05:44:14.0 (13336342)|VF_APEX_CALL_END|myCases
+05:44:14.0 (13351001)|VF_APEX_CALL_END|communityCaseMgmtController get(myCases)
+05:44:14.0 (13612976)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(relatedAccId)
+05:44:14.0 (13618952)|SYSTEM_MODE_ENTER|true
+05:44:14.0 (13624867)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|relatedAccId
+05:44:14.0 (13632548)|VF_APEX_CALL_END|relatedAccId
+05:44:14.0 (13643111)|VF_APEX_CALL_END|communityCaseMgmtController get(relatedAccId)
+05:44:14.0 (13716077)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:14.0 (13772623)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(myOrgCases)
+05:44:14.0 (13777286)|SYSTEM_MODE_ENTER|true
+05:44:14.0 (13783196)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|myOrgCases
+05:44:14.0 (13790306)|VF_APEX_CALL_END|myOrgCases
+05:44:14.0 (13799894)|VF_APEX_CALL_END|communityCaseMgmtController get(myOrgCases)
+05:44:14.0 (13880020)|VF_EVALUATE_FORMULA_END
+05:44:14.0 (13888689)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:14.0 (13913432)|VF_EVALUATE_FORMULA_END
+05:44:14.0 (13980057)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:14.0 (14013646)|VF_EVALUATE_FORMULA_END
+05:44:14.0 (14019370)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:14.0 (14033437)|VF_EVALUATE_FORMULA_END
+05:44:14.0 (14209374)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(newcaseOwner)
+05:44:14.0 (14215299)|SYSTEM_MODE_ENTER|true
+05:44:14.0 (14221430)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|newcaseOwner
+05:44:14.0 (14229677)|VF_APEX_CALL_END|newcaseOwner
+05:44:14.0 (14240639)|VF_APEX_CALL_END|communityCaseMgmtController get(newcaseOwner)
+05:44:14.0 (17450441)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController get(newCase)
+05:44:14.0 (17457415)|SYSTEM_MODE_ENTER|true
+05:44:14.0 (17464360)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|newCase
+05:44:14.0 (17473194)|VF_APEX_CALL_END|newCase
+05:44:14.0 (17485164)|VF_APEX_CALL_END|communityCaseMgmtController get(newCase)
+05:44:14.0 (19637137)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:14.0 (19667332)|VF_EVALUATE_FORMULA_END
+05:44:14.0 (19672958)|VF_EVALUATE_FORMULA_BEGIN|0669E000000Cv0R|#{myOrgCases[accid]}
+05:44:14.0 (19684640)|VF_EVALUATE_FORMULA_END
+05:44:14.20 (20802363)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+05:44:14.20 (20811929)|SYSTEM_MODE_ENTER|true
+05:44:14.20 (20818864)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+05:44:14.20 (20835113)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+05:44:14.20 (20853636)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:44:14.20 (20859005)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+05:44:14.20 (20876960)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x36c72ea
+05:44:14.20 (20879505)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+05:44:14.20 (20882492)|VARIABLE_ASSIGNMENT|[88]|escape|null
+05:44:14.0 (21635139)|VF_APEX_CALL_START|[EXTERNAL]|communityCaseMgmtController set(viewCaseId,5009E000001w1IMQAY)
+05:44:14.0 (21642438)|SYSTEM_MODE_ENTER|true
+05:44:14.0 (21648438)|VF_APEX_CALL_START|[EXTERNAL]|communityCaseMgmtController set(viewCaseId,5009E000001w1IMQAY)
+05:44:14.0 (21661572)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+05:44:14.0 (21671443)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:60
+05:44:14.0 (21776459)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.viewCaseId|"5009E000001w1IMQAY"|0x5f45e66
+05:44:14.0 (21783824)|VF_APEX_CALL_END|communityCaseMgmtController set(viewCaseId,5009E000001w1IMQAY)
+05:44:14.0 (21796945)|VF_APEX_CALL_END|communityCaseMgmtController set(viewCaseId,5009E000001w1IMQAY)
+05:44:14.0 (22036718)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmpd|communityCaseMgmtController invoke(viewCase)
+05:44:14.0 (22061257)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:60
+05:44:14.0 (22067444)|VARIABLE_SCOPE_BEGIN|[123]|this|communityCaseMgmtController|true|false
+05:44:14.0 (22241418)|VARIABLE_ASSIGNMENT|[123]|this|{"accCaseCount":"0x49f9edcf","accName":"0x5cfc2620","con":"0x712b27ee","conRelatedAccsList":"0x37d61d8f","currentUser":"0x3147092f","currentUserId":"00524000005uNfKAAU","myCases":"0xcb7f401","myOrgCases":"0x147b7d0d","newCase":"0x248ba62e","newCaseOwner":"0x23b6ed55","relatedAccId":"0x7fc05a6d","showCreateCase":false,"viewCaseId":"5009E000001w1IMQAY"}|0x5f45e66
+05:44:14.0 (22251245)|STATEMENT_EXECUTE|[124]
+05:44:14.0 (22252652)|STATEMENT_EXECUTE|[125]
+05:44:14.0 (22255840)|HEAP_ALLOCATE|[125]|Bytes:17
+05:44:14.0 (22268839)|SYSTEM_METHOD_ENTRY|[125]|communityCaseMgmtController.__sfdc_viewCaseId()
+05:44:14.0 (22396823)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x49f9edcf","accName":"0x5cfc2620","con":"0x712b27ee","conRelatedAccsList":"0x37d61d8f","currentUser":"0x3147092f","currentUserId":"00524000005uNfKAAU","myCases":"0xcb7f401","myOrgCases":"0x147b7d0d","newCase":"0x248ba62e","newCaseOwner":"0x23b6ed55","relatedAccId":"0x7fc05a6d","showCreateCase":false,"viewCaseId":"5009E000001w1IMQAY"}|0x5f45e66
+05:44:14.0 (22409733)|SYSTEM_METHOD_EXIT|[125]|communityCaseMgmtController.__sfdc_viewCaseId()
+05:44:14.0 (22440604)|SYSTEM_METHOD_ENTRY|[125]|String.valueOf(Object)
+05:44:14.0 (22446804)|HEAP_ALLOCATE|[125]|Bytes:18
+05:44:14.0 (22455664)|SYSTEM_METHOD_EXIT|[125]|String.valueOf(Object)
+05:44:14.0 (22463745)|HEAP_ALLOCATE|[125]|Bytes:35
+05:44:14.0 (22477289)|SYSTEM_METHOD_ENTRY|[125]|System.debug(ANY)
+05:44:14.0 (22483892)|USER_DEBUG|[125]|DEBUG|current case id: 5009E000001w1IMQAY
+05:44:14.0 (22487747)|SYSTEM_METHOD_EXIT|[125]|System.debug(ANY)
+05:44:14.0 (22490664)|STATEMENT_EXECUTE|[127]
+05:44:14.0 (22496036)|HEAP_ALLOCATE|[127]|Bytes:29
+05:44:14.0 (22501314)|SYSTEM_METHOD_ENTRY|[127]|communityCaseMgmtController.__sfdc_viewCaseId()
+05:44:14.0 (22623846)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"accCaseCount":"0x49f9edcf","accName":"0x5cfc2620","con":"0x712b27ee","conRelatedAccsList":"0x37d61d8f","currentUser":"0x3147092f","currentUserId":"00524000005uNfKAAU","myCases":"0xcb7f401","myOrgCases":"0x147b7d0d","newCase":"0x248ba62e","newCaseOwner":"0x23b6ed55","relatedAccId":"0x7fc05a6d","showCreateCase":false,"viewCaseId":"5009E000001w1IMQAY"}|0x5f45e66
+05:44:14.0 (22633399)|SYSTEM_METHOD_EXIT|[127]|communityCaseMgmtController.__sfdc_viewCaseId()
+05:44:14.0 (22647482)|SYSTEM_METHOD_ENTRY|[127]|String.valueOf(Object)
+05:44:14.0 (22651226)|HEAP_ALLOCATE|[127]|Bytes:18
+05:44:14.0 (22658322)|SYSTEM_METHOD_EXIT|[127]|String.valueOf(Object)
+05:44:14.0 (22662252)|HEAP_ALLOCATE|[127]|Bytes:47
+05:44:14.0 (22695421)|VARIABLE_SCOPE_BEGIN|[127]|p|System.PageReference|true|false
+05:44:14.0 (22763698)|VARIABLE_ASSIGNMENT|[127]|p|"/apex/communityCaseDetail?id=5009E000001w1IMQAY"|0x523af086
+05:44:14.0 (22767804)|STATEMENT_EXECUTE|[128]
+05:44:14.0 (22790652)|VF_APEX_CALL_END|communityCaseMgmtController invoke(viewCase)
+05:44:14.26 (26539440)|CUMULATIVE_LIMIT_USAGE
+05:44:14.26 (26539440)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+05:44:14.26 (26539440)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+05:44:14.26 (26539440)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  long:serialVersionUID:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  String:__sfdcInnerTypes:0
+  String:_sfdcSuppressedCodeLocations:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  String:_sfdcAdditionalCodeLocations:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  int:MAX_EXPONENT:0
+  String:_sfdcAdditionalCodeLocations:0
+  String:__sfdcProperties:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+05:44:14.26 (26539440)|CUMULATIVE_LIMIT_USAGE_END
+
+05:44:14.0 (26644264)|CODE_UNIT_FINISHED|VF: /apex/communityCaseMgmt
+05:44:14.0 (27790898)|EXECUTION_FINISHED
+05:44:14.29 (29535220)|CUMULATIVE_PROFILING_BEGIN
+05:44:14.29 (29535220)|CUMULATIVE_PROFILING|No profiling information for SOQL operations
+05:44:14.29 (29535220)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+05:44:14.29 (29535220)|CUMULATIVE_PROFILING|No profiling information for DML operations
+05:44:14.29 (29535220)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public System.PageReference viewCase(): executed 1 time in 1 ms
+Class.communityCaseMgmtController.viewCase: line 125, column 1: public Id __sfdc_viewCaseId(): executed 3 times in 1 ms
+Class.communityCaseMgmtController.viewCase: line 127, column 1: public Id __sfdc_viewCaseId(): executed 2 times in 0 ms
+
+05:44:14.29 (29535220)|CUMULATIVE_PROFILING_END

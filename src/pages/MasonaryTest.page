@@ -1,0 +1,162 @@
+<apex:page showHeader="false" controller="CommunityHowToGuidesController" cache="false" >
+<apex:pageMessages />
+
+<head>
+
+ <link rel="stylesheet" href="{!URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/css/bootstrap.min.css')}" type="text/css" />
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+ <script src="{!URLFOR($Resource.Bootstrap337, 'bootstrap-3.3.7-dist/js/bootstrap.min.js')}"></script>
+
+ <c:communityHomepageCss />
+
+</head> 
+
+
+<body>
+
+<c:navComponent />
+
+  <!-- component for help content -->
+  <div class="tab-content">
+    <div class="tab-pane fade" id="help">
+     <c:CommunityHowToGuidesComponent />
+   </div>
+
+   <!-- home tab default content -->
+
+   <div id="home" class="tab-pane fade in active">
+    <div class="container">
+     <div class="row">
+
+      <br/><br/> <br/><br/>
+
+      <!--<div style="display: {!if(showingSearchResults==false,"block","none")};">-->
+
+      <div class="homepage-heading">
+        <img class="homepage-heading-logo" src="https://c.cs88.visual.force.com/resource/1490282350000/homepageHeadingLogo"></img>
+        <h1>Welcome to Lightful Community</h1>
+      </div>
+
+      <div class="panel panel-info" >
+        <div class="panel-body text-align: center">
+         <c:ListOfFeaturedArticles />
+       </div>
+     </div>
+
+     <!--</div>-->
+
+   </div>
+ </div>
+</div>
+<!-- profile tab -->
+<div class="tab-pane fade" id="profile">
+  <c:CommunityMyProfileInfo />
+</div>
+
+<!-- articles tool box tab -->
+<div class="tab-pane fade" id="tool">
+  <c:ListOfArticles />
+
+</div>
+
+<div class="tab-pane fade" id="search">
+  <apex:outputPanel id="SearchPane">
+  <div class="container">
+   <div class="col-lg-12 col-sm-8">
+    <div style="display: {!if(showingSearchResults==true,"block","none")};" class="col-md-10">
+     <!-- Display title based toolbox search result -->
+
+     <div class="panel panel-primary" style="display: {!if(searchTListTitleSize != 0 || searchTListSumSize != 0, "block","none")};">
+      <br/> <div class="panel-heading"> <h3> <u> Resources Search : </u></h3> </div><br/><br/>
+      <apex:repeat value="{!searchToolBoxArticlesTitleList}" var="a" >
+      <img src="{!a.Filter_Page_Image__c}" class="img-rounded" alt=""  style="width: 150px; height: 150px" />
+      <br/><div class="panel-body">
+      <h4><a href="#">{!a.Article_Link_Title__c}</a></h4>
+      <br/>
+
+      <!-- <p>{!a.Filter_Page_Summary__c}</p> -->
+    </div>
+  </apex:repeat>
+
+  <br/>
+  <apex:repeat value="{!searchToolBoxArticlesSummaryList}" var="a" >
+  <div class="panel-body">
+    <img src="{!a.Filter_Page_Image__c}" class="img-rounded" alt=""  style="width: 150px; height: 150px" />
+    <br/>
+    <h4><a href="#">{!a.Article_Link_Title__c}</a></h4>
+    <br/>
+
+    <!-- <p>{!a.Filter_Page_Summary__c}</p> -->
+  </div>
+</apex:repeat>
+</div>
+
+<div class="panel panel-primary"  style="display: {!if(searchHListTitleSize != 0 || searchHListSumSize != 0, "block","none")};">
+  <br/><div class="panel-heading"> <h3 > <u> FAQ Search : </u> </h3> </div>
+  <apex:repeat value="{!searchHelpArticlesTitleList}" var="a" >
+  <!-- <div class="panel-body"> -->
+  <div id="accordion1" role="tablist" aria-multiselectable="true">
+   <div class="card">
+    <div class="card-header" role="tab" id="headers{!a.id}">
+      <h4 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#s{!a.id}" aria-expanded="false" aria-controls="s{!a.id}"> {!a.title}</a>
+      </h4>
+    </div>
+
+    <div id="s{!a.id}" class="collapse" role="tabpanel" aria-labelledby="headers{!a.id}" >
+      <div class="card-block">
+       <br/>
+       <apex:outputField value="{!a.Answer__c}" styleClass="card-text"/>
+     </div>
+   </div>&nbsp;
+ </div>
+</div>
+<!-- </div> -->
+</apex:repeat>
+<br/>
+<apex:repeat value="{!searchHelpArticlesSummaryList}" var="a" >
+<!--<div class="panel-body"> -->
+<div id="accordion2" role="tablist" aria-multiselectable="true">
+ <div class="card">
+  <div class="card-header" role="tab" id="header{!a.id}">
+    <h4 class="mb-0">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#s1{!a.id}" aria-expanded="false" aria-controls="s1{!a.id}"> {!a.title}</a>
+    </h4>
+  </div>
+
+  <div id="s1{!a.id}" class="collapse" role="tabpanel" aria-labelledby="header{!a.id}" >
+    <div class="card-block">
+     <br/>
+     <apex:outputField value="{!a.Answer__c}" styleClass="card-text"/>
+   </div>
+ </div>&nbsp;
+</div>
+</div>
+<!--</div>-->
+</apex:repeat>
+</div>
+
+</div>
+
+</div>
+</div></apex:outputPanel>
+</div>
+
+</div>
+
+<c:footerComponent />
+
+</body>
+
+
+<script>
+
+  $(document).ready(function() {
+    function OpenSearchTab() {
+     $('#SearchTab').click();
+   }
+})
+
+ </script>
+</apex:page>
