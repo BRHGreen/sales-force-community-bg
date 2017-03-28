@@ -208,6 +208,7 @@ img {
 /*
 nav-style-start
 */
+
 .navbar, .blog-nav, .navbar-fixed-top {
   background: #8800ff;
 }
@@ -215,6 +216,7 @@ nav-style-start
   background-image: url("https://c.cs88.visual.force.com/resource/1490269860000/navBackground");
   /*background-size: 100%;*/
   background-repeat: no-repeat;
+  background-size: cover;
   height: 80px;
 }
 .nav-logo {
@@ -329,6 +331,11 @@ nav-style-start
   margin-right: 7px;
   }
 }
+@media (max-width: 750px) {
+  .nav-a-page-link {
+    margin-right: 5px;
+  }
+}
 
 @media (max-width: 767px) {
   .navbar-container {
@@ -384,6 +391,14 @@ nav-style-start
   position: absolute;
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+    .nav-page-links {
+  margin-top: 100px;
+  text-align: center;
+}
+}
+
 
 /*
 nav-style-stop

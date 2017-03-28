@@ -1,0 +1,109 @@
+39.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINE;VALIDATION,INFO;VISUALFORCE,FINER;WAVE,INFO;WORKFLOW,FINER
+05:00:54.0 (287796)|USER_INFO|[EXTERNAL]|00524000005uNfK|neela@lightful.com.commundev|Line Is. Time|GMT+14:00
+05:00:54.0 (310579)|EXECUTION_STARTED
+05:00:54.0 (314036)|CODE_UNIT_STARTED|[EXTERNAL]|0669E000000CvHr|VF: /apex/communityCheckout
+05:00:54.0 (428794)|VF_DESERIALIZE_VIEWSTATE_BEGIN|0669E000000CvHr
+05:00:54.0 (6301153)|HEAP_ALLOCATE|[72]|Bytes:3
+05:00:54.0 (6345619)|HEAP_ALLOCATE|[77]|Bytes:152
+05:00:54.0 (6368565)|HEAP_ALLOCATE|[342]|Bytes:408
+05:00:54.0 (6393191)|HEAP_ALLOCATE|[355]|Bytes:408
+05:00:54.0 (6415403)|HEAP_ALLOCATE|[467]|Bytes:48
+05:00:54.0 (6444936)|HEAP_ALLOCATE|[139]|Bytes:6
+05:00:54.0 (9800705)|VF_DESERIALIZE_VIEWSTATE_END
+05:00:54.14 (14392224)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex get(severities)
+05:00:54.14 (14408442)|SYSTEM_MODE_ENTER|true
+05:00:54.14 (14432536)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(getseverities)
+05:00:54.14 (14465966)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:38
+05:00:54.14 (14473857)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+05:00:54.14 (14483516)|SYSTEM_METHOD_ENTRY|[1]|PageMessagesComponentController.PageMessagesComponentController()
+05:00:54.14 (14487460)|STATEMENT_EXECUTE|[1]
+05:00:54.15 (15277993)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+05:00:54.15 (15287006)|SYSTEM_MODE_ENTER|true
+05:00:54.15 (15295887)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+05:00:54.15 (15313310)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+05:00:54.15 (15332951)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:00:54.15 (15338184)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+05:00:54.15 (15371794)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x1c31b5ec
+05:00:54.15 (15374669)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+05:00:54.15 (15379075)|VARIABLE_ASSIGNMENT|[88]|escape|null
+05:00:54.0 (15538364)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController get(getOLI)
+05:00:54.0 (15546099)|SYSTEM_MODE_ENTER|true
+05:00:54.0 (15558379)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|getOLI
+05:00:54.0 (15572269)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:560
+05:00:54.0 (15582674)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:94
+05:00:54.0 (15586600)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:35
+05:00:54.0 (15595338)|METHOD_ENTRY|[1]|01p9E000000Dmea|CommunityProdController.CommunityProdController()
+05:00:54.0 (15598738)|STATEMENT_EXECUTE|[1]
+05:00:54.0 (15602819)|STATEMENT_EXECUTE|[1]
+05:00:54.0 (15606924)|METHOD_EXIT|[1]|CommunityProdController
+05:00:54.0 (15618616)|VF_APEX_CALL_END|getOLI
+05:00:54.0 (15637901)|VF_APEX_CALL_END|CommunityProdController get(getOLI)
+05:00:54.16 (16132789)|VF_APEX_CALL_START|[EXTERNAL]|/apexpage/pagemessagescomponentcontroller.apex set(conEscape,null)
+05:00:54.16 (16145250)|SYSTEM_MODE_ENTER|true
+05:00:54.16 (16155909)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController set(conEscape,null)
+05:00:54.16 (16181445)|VF_APEX_CALL_START|[EXTERNAL]|PageMessagesComponentController invoke(setconEscape)
+05:00:54.16 (16206744)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+05:00:54.16 (16212150)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+05:00:54.16 (16236909)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x1c31b5ec
+05:00:54.16 (16240684)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+05:00:54.16 (16245364)|VARIABLE_ASSIGNMENT|[88]|escape|null
+05:00:54.0 (16674024)|VF_APEX_CALL_START|[EXTERNAL]|01p9E000000Dmea|CommunityProdController invoke(deleteOppProd)
+05:00:54.0 (16714607)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:104
+05:00:54.0 (16723896)|VARIABLE_SCOPE_BEGIN|[145]|this|CommunityProdController|true|false
+05:00:54.0 (17103838)|VARIABLE_ASSIGNMENT|[145]|this|{"con":"0x3a81f47a","currentUser":"0x5a88434e","currentUserId":"00524000005uNfKAAU","getOLI":"0x1c2c16ab","newOpp":"0x25635e6b","oppValueSummary":"0x10744c99","pbEntry":"0x8feffea","prod_pbEntry":"0x741b3910","prodList":"0x4b34b1fe","prodListDisp":"0x79162c85"}|0x2fece796
+05:00:54.0 (17124667)|STATEMENT_EXECUTE|[146]
+05:00:54.0 (17126649)|STATEMENT_EXECUTE|[147]
+05:00:54.0 (17132157)|HEAP_ALLOCATE|[147]|Bytes:18
+05:00:54.0 (17149739)|SYSTEM_METHOD_ENTRY|[147]|CommunityProdController.__sfdc_delOppProdId()
+05:00:54.0 (17356168)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x3a81f47a","currentUser":"0x5a88434e","currentUserId":"00524000005uNfKAAU","getOLI":"0x1c2c16ab","newOpp":"0x25635e6b","oppValueSummary":"0x10744c99","pbEntry":"0x8feffea","prod_pbEntry":"0x741b3910","prodList":"0x4b34b1fe","prodListDisp":"0x79162c85"}|0x2fece796
+05:00:54.0 (17372213)|SYSTEM_METHOD_EXIT|[147]|CommunityProdController.__sfdc_delOppProdId()
+05:00:54.0 (17411853)|SYSTEM_METHOD_ENTRY|[147]|String.valueOf(Object)
+05:00:54.0 (17425369)|SYSTEM_METHOD_EXIT|[147]|String.valueOf(Object)
+05:00:54.0 (17438322)|HEAP_ALLOCATE|[147]|Bytes:22
+05:00:54.0 (17456399)|SYSTEM_METHOD_ENTRY|[147]|System.debug(ANY)
+05:00:54.0 (17465153)|USER_DEBUG|[147]|DEBUG|del opp prod id : null
+05:00:54.0 (17469680)|SYSTEM_METHOD_EXIT|[147]|System.debug(ANY)
+05:00:54.0 (17473082)|STATEMENT_EXECUTE|[148]
+05:00:54.0 (17476832)|HEAP_ALLOCATE|[148]|Bytes:27
+05:00:54.0 (17486522)|SYSTEM_METHOD_ENTRY|[148]|CommunityProdController.__sfdc_getOLI()
+05:00:54.0 (17672355)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x3a81f47a","currentUser":"0x5a88434e","currentUserId":"00524000005uNfKAAU","getOLI":"0x1c2c16ab","newOpp":"0x25635e6b","oppValueSummary":"0x10744c99","pbEntry":"0x8feffea","prod_pbEntry":"0x741b3910","prodList":"0x4b34b1fe","prodListDisp":"0x79162c85"}|0x2fece796
+05:00:54.0 (17684516)|SYSTEM_METHOD_EXIT|[148]|CommunityProdController.__sfdc_getOLI()
+05:00:54.0 (17704002)|SYSTEM_METHOD_ENTRY|[148]|String.valueOf(Object)
+05:00:54.0 (17945342)|HEAP_ALLOCATE|[148]|Bytes:522
+05:00:54.0 (17964491)|SYSTEM_METHOD_EXIT|[148]|String.valueOf(Object)
+05:00:54.0 (17973559)|HEAP_ALLOCATE|[148]|Bytes:549
+05:00:54.0 (17982899)|SYSTEM_METHOD_ENTRY|[148]|System.debug(ANY)
+05:00:54.0 (17988480)|USER_DEBUG|[148]|DEBUG|getOLI values before delete(OpportunityLineItem:{Id=00k9E000003HqfVQAS, ListPrice=1200.00, Name=Opp_null_1490613688425 First Partners - Full Licence, OpportunityId=0069E000002lBcbQAE, Product2Id=01t24000002t6w2AAA, ProductCode=FPFL12000, Quantity=1.00, TotalPrice=1200.00, UnitPrice=1200.00}, OpportunityLineItem:{Id=00k9E000003HqfQQAS, ListPrice=200.00, Name=Opp_null_1490613688425 First Partners - Donor 3D, OpportunityId=0069E000002lBcbQAE, Product2Id=01t24000002t81MAAQ, ProductCode=FPD3D200, Quantity=1.00, TotalPrice=200.00, UnitPrice=200.00})
+05:00:54.0 (17996173)|SYSTEM_METHOD_EXIT|[148]|System.debug(ANY)
+05:00:54.0 (18004631)|STATEMENT_EXECUTE|[150]
+05:00:54.0 (18009057)|HEAP_ALLOCATE|[150]|Bytes:144
+05:00:54.0 (18017719)|HEAP_ALLOCATE|[150]|Bytes:4
+05:00:54.0 (18026316)|HEAP_ALLOCATE|[150]|Bytes:7
+05:00:54.0 (18033089)|SYSTEM_METHOD_ENTRY|[150]|CommunityProdController.__sfdc_delOppProdId()
+05:00:54.0 (18231243)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"con":"0x3a81f47a","currentUser":"0x5a88434e","currentUserId":"00524000005uNfKAAU","getOLI":"0x1c2c16ab","newOpp":"0x25635e6b","oppValueSummary":"0x10744c99","pbEntry":"0x8feffea","prod_pbEntry":"0x741b3910","prodList":"0x4b34b1fe","prodListDisp":"0x79162c85"}|0x2fece796
+05:00:54.0 (18242158)|SYSTEM_METHOD_EXIT|[150]|CommunityProdController.__sfdc_delOppProdId()
+05:00:54.0 (18660450)|SOQL_EXECUTE_BEGIN|[150]|Aggregations:0|SELECT Id, ListPrice, Name, OpportunityId, Product2Id, ProductCode, Quantity, TotalPrice, UnitPrice FROM OpportunityLineItem WHERE id = :tmpVar1
+05:00:54.0 (18675063)|LIMIT_USAGE|[150]|SOQL|1|100
+05:00:54.0 (18687366)|LIMIT_USAGE|[150]|AGGS|0|300
+05:00:54.0 (20987005)|SOQL_EXECUTE_END|[150]|Rows:0
+05:00:54.0 (20993788)|LIMIT_USAGE|[150]|SOQL_ROWS|0|50000
+05:00:54.0 (21006475)|HEAP_ALLOCATE|[150]|Bytes:4
+05:00:54.0 (21016058)|HEAP_ALLOCATE|[150]|Bytes:0
+05:00:54.0 (21039721)|HEAP_ALLOCATE|[150]|Bytes:4
+05:00:54.0 (21048354)|HEAP_ALLOCATE|[150]|Bytes:45
+05:00:54.0 (21116371)|HEAP_ALLOCATE|[150]|Bytes:46
+05:00:54.0 (21190711)|FATAL_ERROR|System.QueryException: List has no rows for assignment to SObject
+
+Class.CommunityProdController.deleteOppProd: line 150, column 1
+05:00:54.0 (21198856)|VF_APEX_CALL_END|CommunityProdController invoke(deleteOppProd)
+05:00:54.34 (34061142)|CUMULATIVE_PROFILING_BEGIN
+05:00:54.34 (34061142)|CUMULATIVE_PROFILING|No profiling information for SOQL operations
+05:00:54.34 (34061142)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+05:00:54.34 (34061142)|CUMULATIVE_PROFILING|No profiling information for DML operations
+05:00:54.34 (34061142)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public void deleteOppProd(): executed 1 time in 5 ms
+Class.CommunityProdController.deleteOppProd: line 150, column 1: public Id __sfdc_delOppProdId(): executed 2 times in 3 ms
+Class.CommunityProdController.deleteOppProd: line 148, column 1: public List<OpportunityLineItem> __sfdc_getOLI(): executed 3 times in 1 ms
+Class.CommunityProdController.deleteOppProd: line 147, column 1: public Id __sfdc_delOppProdId(): executed 3 times in 0 ms
+
+05:00:54.34 (34061142)|CUMULATIVE_PROFILING_END

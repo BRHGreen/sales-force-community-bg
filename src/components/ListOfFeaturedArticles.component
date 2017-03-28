@@ -25,35 +25,36 @@ p {
 .img-rounded {
   margin-bottom: 50px;
 }
+body a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 
 </style>
 
 <br/>
 <br/>
 
-<br/><br/><br/> -->
+<br/><br/><br/>
 
 <div class="col-lg-6">
   <section id="pinBoot" class="center-block">
 
-    <!--first="{!currentFeaturedPage}" rows="{!featuredpageSize}" -->
+
 
     <apex:repeat value="{!toolBoxFeaturedArticlesList1}" var="a">
 
-    <article class="white-panel article-list"><a href="/apex/ViewArticleDetails?id={!a.id}&Type={!a.ArticleType}">
+<a href="/apex/ViewArticleDetails?id={!a.id}&Type={!a.ArticleType}">
+
+    <article class="white-panel article-list">
       <img src="{!a.Filter_Page_Image__c}" class="img-rounded" alt=""/>
       <br/>
-      </a>
       <p>Lightful</p>
-      <a href="/apex/ViewArticleDetails?id={!a.id}&Type={!a.ArticleType}">
       <h4 class="article-title">{!a.Article_Link_Title__c}</h4>
-    </a>
-    <a href="/apex/ViewArticleDetails?id={!a.id}&Type={!a.ArticleType}">
       <p class="learn-more">Learn more</p>
-    </a>
     <br/>
-    <!-- <p>{!a.Filter_Page_Summary__c}</p> -->
   </article>
+</a>
 </apex:repeat>
 </section>
 </div>
@@ -66,7 +67,9 @@ p {
     <article class="white-panel article-list"><a href="/apex/ViewArticleDetails?id={!b.id}&Type={!b.ArticleType}">
       <img src="{!b.Filter_Page_Image__c}" class="img-rounded" alt=""/>
       <br/>
+      <p>Lightful</p>
       <h4>{!b.Article_Link_Title__c}</h4></a>
+      <p class="learn-more">Learn more</p>
       <br/>
       <!-- <p>{!b.Filter_Page_Summary__c}</p> -->
     </article>

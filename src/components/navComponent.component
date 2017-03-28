@@ -5,7 +5,7 @@
 </a>
   <!-- old navbar class: blog-nav. reinstate if needed-->
   <div class="navbar-container">
-    
+
     <div class="collapse navbar-collapse navHeaderCollapse">
     <div class="form-group" >
     <input id="term" placeholder="Search" class="nav-search form-control" type="text" name=""></input>
@@ -19,7 +19,7 @@
           <li class="nav-a-page-link"><a class="nav-a-page-link" data-toggle="pill" href="#profile">My Lightful</a></li>
 
      </ul>
-     
+
         </div> <!-- navbar toggle -->
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" type="button" name="button">
           <div class="burger-stripe"></div>
@@ -30,5 +30,17 @@
 
       </div><!--nav container-->
     </nav>
+
+  </style>
+
+  <script type="text/javascript">
+
+  $( window ).resize(function() {
+  $( ".navbar-collapse").removeClass("in")
+  });
+
+
+
+  </script>
 
 </apex:component>

@@ -1,130 +1,138 @@
 <apex:component controller="CommunityHowToGuidesController" allowDML="true">
 <br/><br/>
- <style>
+<style>
 .kv-avatar .file-preview-frame,.kv-avatar .file-preview-frame:hover {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-shadow: none;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  text-align: center;
 }
 .kv-avatar .file-input {
-    display: table-cell;
-    max-width: 220px;
+  display: table-cell;
+  max-width: 220px;
+}
+.profile-container {
+  margin-top: 100px;
+}
+.info-container {
+  width: 420px;
+  margin: 100px auto;
+}
+.profile-label {
+  font-weight: 600;
+}
+.profile-heading {
+  text-align: center;
+  width: 420px;
+  margin: 0 auto;
+}
+.edit a {
+  font-size: 0.5em;
+  font-weight: 300;
+  margin-left: -30px;
+  color: #8800ff;
 }
 </style>
 
-<div class="container">
- <apex:form styleClass="form-horizontal" id="profileform">
-    <div class="row">
-    	<div class="col-md-2"/> 
-   		<div class="col-md-10">
-   			
-			 <br/><br/>
-			<apex:outputPanel rendered="true" id="MyProfile" styleClass="form-group" >
+<div class="container profile-container">
 
-			<!--<div class="col-md-10">
-			<h3 style="text-align: center; ">Profile Details</h3> <br/><br/>
-				<div class="kv-avatar center-block" style="width:200px">
-					<apex:image url="{!currentUser.fullphotoURL}" /> <br/><br/>
+  <apex:form styleClass="form-horizontal" id="profileform">
 
-					<button type="button" class="btn btn-default btn-sm col-md-2" id="OpenFileAttach">
-	        	<i class="glyphicon glyphicon-folder-open" /> </button>
+  <apex:outputPanel rendered="true" id="MyProfile" styleClass="form-group" >
 
-					<apex:inputFile id="avatar-1" style="display: none;" value="{!profilepicBlob}" contentType="{!profileContentType}" fileName="{!filename}"/> 
-					<apex:commandLink styleClass="btn-link" action="{!updateUserPic}" value="Upload" />
-				</div>
-				
-	   
-			</div> -->
-			<div class="well col-md-10">
-				<div  style="display:{!if(viewProfileFlag == true, "block", "none")};">
-				<h4> <apex:commandlink value="Edit Profile Information" action="{!showEditProfile}" reRender="MyProfile" styleClass="col-md-5" /></h4>
-				</div>
-			
-				<br/><br/>
+  <div class="profile-heading"  style="display:{!if(viewProfileFlag == true, "block", "none")};">
+    <img class="homepage-heading-logo" src="https://c.cs88.visual.force.com/resource/1490282350000/homepageHeadingLogo"></img>
+    <h1>Your Lightful Profile</h1><br></br>
+    <div class="edit">
+    <h4> <apex:commandlink value="Edit Profile Information" action="{!showEditProfile}" reRender="MyProfile"  /></h4>
+  </div>
+  </div>
 
-				<div class="panel panel-default col-md-12"><br/>	
-				 <apex:outputPanel rendered="true" id="MyProfileDetails" styleClass="form-group" >
-					<div class="form-group"  >
-		              <label for="fname" class="col-sm-3 control-label">First Name</label>        
-			           <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
-			              <apex:outputField value="{!con.firstname}" styleClass="form-control" id="fname"/>
-			           </div>
-			           <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
-			             <apex:inputText value="{!con.firstname}" styleClass="form-control" id="fnameedit"/>
-			           </div>
-						
-					</div>	
+  <div class="info-container">
+  <apex:outputPanel rendered="true" id="MyProfileDetails" styleClass="form-group" >
 
-					<div class="form-group">
-		              <label for="lname" class="col-sm-3 control-label">Last Name</label>        
-			              <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
-			                <apex:outputField value="{!con.lastname}" styleClass="form-control" id="lname"/>
-			               </div>
-			               <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
-			             		<apex:inputText value="{!con.lastname}" styleClass="form-control" id="lnameedit"/>
-			           		</div>
-						
-					</div>
 
-					<div class="form-group">
-		              <label for="phone" class="col-sm-3 control-label">Phone</label>        
-			              <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
-			                <apex:outputField value="{!con.phone}" styleClass="form-control" id="phone"/>
-			               </div>
-			               <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
-			             		<apex:inputText value="{!con.phone}" styleClass="form-control" id="phoneEdit"/>
-			           		</div>
-						
-					</div>
+  <div class="form-group"  >
+    <div class="col-sm-6 profile-label">First Name</div>
+    <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
+      <apex:outputField value="{!con.firstname}" styleClass="form-control" id="fname"/>
+    </div>
+    <div class="" style="display:{!if(editProfileFlag == true, "block", "none")};">
+      <apex:inputText value="{!con.firstname}" styleClass="form-control" id="fnameedit"/>
+    </div>
 
-					<div class="form-group">
-		              <label for="org" class="col-sm-3 control-label">Organisation</label>        
-			              <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
-			                <apex:outputField value="{!acc.name}" styleClass="form-control" id="org"/>
-			               </div>
-			               <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
-			             		<apex:inputText value="{!acc.name}" styleClass="form-control" id="orgEdit"/>
-			           		</div>						
-					</div>
+  </div>
 
-					<div class="form-group">
-		              <label for="RegNum" class="col-sm-3 control-label">Charity Registration Number</label>        
-			              <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
-			                <apex:outputField value="{!con.CharityRegNum__c}" styleClass="form-control" id="RegNum"/>
-			               </div>
-			               <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
-			             		<apex:inputText value="{!con.CharityRegNum__c}" styleClass="form-control" id="RegNumEdit"/>
-			           		</div>
-						
-					</div>
-					<div class="well col-md-12">
+  <div class="form-group">
 
-						<div style="display:{!if(EditProfileFlag == true, "block", "none")};" >
-						<div class="col-md-3"></div>
-				<h4> <apex:commandlink value="Update Profile" action="{!UpdateProfile}" reRender="MyProfile" styleClass="col-md-4"/> </h4>&nbsp;
-				<h4> <apex:commandlink value="Cancel" action="{!CancelEdit}" reRender="MyProfile" styleClass="col-md-2"/></h4>
-				</div>
-				</div>
-				 </apex:outputPanel>
-			   </div>
-			   </div>
-			</apex:outputPanel>
-			
-		</div>
-	</div>
- </apex:form>
+    <div class="col-sm-6 profile-label">Last Name</div>
+    <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
+      <apex:outputField value="{!con.lastname}" styleClass="form-control" id="lname"/>
+    </div>
+    <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
+      <apex:inputText value="{!con.lastname}" styleClass="form-control" id="lnameedit"/>
+    </div>
 
- </div> 
+  </div>
 
- <script>
+  <div class="form-group">
+    <div class="col-sm-6 profile-label">Phone</div>
+    <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
+      <apex:outputField value="{!con.phone}" styleClass="form-control" id="phone"/>
+    </div>
+    <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
+      <apex:inputText value="{!con.phone}" styleClass="form-control" id="phoneEdit"/>
+    </div>
 
-	//To attach file on click of attach
-     	$("#OpenFileAttach").click(function(){ 
-     		 $('input[type="file"]').click();
-     		//$("#FileAttach").trigger("click");
-     		 });
-    	
+  </div>
+
+  <div class="form-group">
+    <div  class="col-sm-6 profile-label">Organisation</div>
+    <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
+      <apex:outputField value="{!acc.name}" styleClass="form-control" id="org"/>
+    </div>
+    <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
+      <apex:inputText value="{!acc.name}" styleClass="form-control" id="orgEdit"/>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div  class="col-sm-6 profile-label">Charity Registration Number</div>
+    <div class="col-sm-6" style="display:{!if(viewProfileFlag == true, "block", "none")};">
+      <apex:outputField value="{!con.CharityRegNum__c}" styleClass="form-control" id="RegNum"/>
+    </div>
+    <div class="col-sm-6" style="display:{!if(editProfileFlag == true, "block", "none")};">
+      <apex:inputText value="{!con.CharityRegNum__c}" styleClass="form-control" id="RegNumEdit"/>
+    </div>
+  </div>
+
+  <div class="well col-md-12">
+
+    <div style="display:{!if(EditProfileFlag == true, "block", "none")};" >
+
+      <div class=""></div>
+      <h4> <apex:commandlink value="Update Profile" action="{!UpdateProfile}" reRender="MyProfile" styleClass="col-md-4"/> </h4>&nbsp;
+      <h4> <apex:commandlink value="Cancel" action="{!CancelEdit}" reRender="MyProfile" styleClass=""/></h4>
+    </div>
+  </div>
+</apex:outputPanel>
+
+</div><!--info-container-->
+
+</apex:outputPanel>
+
+</apex:form>
+
+</div> <!--container-->
+
+<script>
+
+//To attach file on click of attach
+$("#OpenFileAttach").click(function(){
+  $('input[type="file"]').click();
+  //$("#FileAttach").trigger("click");
+});
+
 </script>
 </apex:component>
